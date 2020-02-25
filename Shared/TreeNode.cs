@@ -8,6 +8,8 @@ namespace Algorithym.Shared
 {
     public class TreeNode
     {
+        public TreeNode Parent { get; set; }
+
         public TreeNode LeftChild { get; set; }
 
         public TreeNode RightChild { get; set; }
@@ -55,61 +57,46 @@ namespace Algorithym.Shared
             }
         }
 
-        public virtual void InsertTreeNode(TreeNode newNode)
+        public virtual TreeNode InsertTreeNode(TreeNode newNode)
         {
-            if (newNode.Value > Value)
+            if (newNode.Value >= Value)
             {
                 if (RightChild == null)
+                {
                     RightChild = newNode;
+                    newNode.Parent = this;
+                }
                 else
+                {
                     RightChild.InsertTreeNode(newNode);
-            }
-            else if (newNode.Value < Value)
-            {
-                if (LeftChild == null)
-                    LeftChild = newNode;
-                else
-                    LeftChild.InsertTreeNode(newNode);
+                }
             }
             else
             {
-                throw new Exception($"Duplicated node values {newNode.Value} detected!");
+                if (LeftChild == null)
+                {
+                    LeftChild = newNode;
+                    newNode.Parent = this;
+                }
+                else
+                {
+                    LeftChild.InsertTreeNode(newNode);
+                }
             }
+            return newNode;
+        }
+
+        public TreeNode GetLargestLeftChild()
+        {
+            return null;
         }
 
         public int GetHeight()
         {
-            //if (node == null)
-            //    return 0;
-
             int leftHeight = LeftChild == null ? 0 : LeftChild.GetHeight();
             int rightHeight = RightChild == null ? 0 : RightChild.GetHeight();
 
             return (leftHeight > rightHeight ? leftHeight : rightHeight) + 1;
         }
     }
-    //public static class TreeNodeExtention
-    //{
-    //    public static void InsertTreeNode(this TreeNode treeRoot, TreeNode newNode)
-    //    {
-    //        if (newNode.Value > treeRoot.Value)
-    //        {
-    //            if (treeRoot.RightChild == null)
-    //                treeRoot.RightChild = newNode;
-    //            else
-    //                treeRoot.RightChild.InsertTreeNode(newNode);
-    //        }
-    //        else if (newNode.Value < treeRoot.Value)
-    //        {
-    //            if (treeRoot.LeftChild == null)
-    //                treeRoot.LeftChild = newNode;
-    //            else
-    //                treeRoot.LeftChild.InsertTreeNode(newNode);
-    //        }
-    //        else
-    //        {
-    //            throw new Exception($"Duplicated node values {newNode.Value} detected!");
-    //        }
-    //    }
-    //}
 }

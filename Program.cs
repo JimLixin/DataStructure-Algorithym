@@ -14,6 +14,7 @@ namespace Algorithym
         {
             BinaryHeapTest();
             BinarySearchTreeTest();
+            AVLTreeTest();
 
             Console.ReadLine();
         }
@@ -45,6 +46,7 @@ namespace Algorithym
 
         static void BinarySearchTreeTest()
         {
+            Console.WriteLine("<================================================>");
             var arrayData = new int[] { 6, 2, 3, 1, 7, 14, 5, 8, 20 };
             //Binary Search Tree
             //Online visualize demo about how to build Binary Search Tree: https://www.cs.usfca.edu/~galles/visualization/BST.html
@@ -52,7 +54,7 @@ namespace Algorithym
             binarySearchTree.BuildTree(arrayData);
 
             int height = binarySearchTree.GetHeight(binarySearchTree.Root);
-            Console.WriteLine($"Height of current BST is: {height}");
+            Console.WriteLine($"Height of current BST Tree is: {height}");
 
             binarySearchTree.Traval(TravelType.InOrder);
             binarySearchTree.Traval(TravelType.PreOrder);
@@ -67,6 +69,47 @@ namespace Algorithym
             //1 5 3 2 8 20 14 7 6
 
             //Thinking: Inorder of a BST is actually equal to a sorting
+            Console.WriteLine("<================================================>\r\n");
+        }
+
+        static void AVLTreeTest()
+        {
+            Console.WriteLine("<================================================>");
+            var arrayData = new int[] { 5,14,23,38,46,75,98,134,2,18,27,34,41,65,88,92 };
+            //AVL tree
+            //Online visualize demo about how to build Binary Search Tree: https://www.cs.usfca.edu/~galles/visualization/BST.html
+            BinarySearchTree avlTree = new BinarySearchTree(true);
+            
+            //Build tree by input array
+            //avlTree.BuildTree(arrayData);
+
+            //Build tree by insert one by one
+            avlTree.Insert(5);
+            avlTree.Insert(14);
+            avlTree.Insert(23);
+            avlTree.Insert(38);
+            avlTree.Insert(46);
+            avlTree.Insert(75);
+            avlTree.Insert(98);
+            avlTree.Insert(134);
+            avlTree.Insert(2);
+            avlTree.Insert(18);
+            avlTree.Insert(27);
+            avlTree.Insert(34);
+            avlTree.Insert(41);
+            avlTree.Insert(65);
+            avlTree.Insert(88);
+            avlTree.Insert(92);
+
+            int height = avlTree.GetHeight(avlTree.Root);
+            Console.WriteLine($"Height of current AVL Tree is: {height}");
+
+            avlTree.Traval(TravelType.InOrder);
+            avlTree.Traval(TravelType.PreOrder);
+            avlTree.Traval(TravelType.PostOrder);
+
+            //Thinking: InOrder of a BST is actually equal to a sorting
+            Console.WriteLine("<================================================>\r\n");
         }
     }
 }

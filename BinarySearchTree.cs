@@ -4,21 +4,21 @@ using System.Linq;
 
 namespace Algorithym
 {
-    //public enum TravelType
-    //{
-    //    //Depth first travel
-    //    PreOrder = 1,
-    //    InOrder = 2,
-    //    PostOrder = 3,
-    //    BreadthFirstTravel = 4
-    //}
-
     /// <summary>
     /// BST
     /// </summary>
     public class BinarySearchTree
     {
+        public BinarySearchTree() { }
+
+        public BinarySearchTree(bool isAVLTree)
+        {
+            IsAVLTree = isAVLTree;
+        }
+
         public TreeNode Root { get; private set; }
+
+        public bool IsAVLTree { get; private set; }
 
         public TreeNode BuildTree(int[] inputArray)
         {
@@ -30,7 +30,11 @@ namespace Algorithym
             Root = new TreeNode(inputArray[0]);
             for (int i = 1; i < inputArray.Length; i++)
             {
-                Root.InsertTreeNode(new TreeNode(inputArray[i]));
+                var insertedNode = Root.InsertTreeNode(new TreeNode(inputArray[i]));
+                if (IsAVLTree)
+                {
+                    Balance(insertedNode);
+                }
             }
             return Root;
         }
@@ -61,65 +65,109 @@ namespace Algorithym
             return Root.GetHeight();
         }
 
-        //public int GetHeight(TreeNode node)
-        //{
-        //    if (node == null)
-        //        return 0;
+        public virtual TreeNode Insert(int newValue)
+        {
+            TreeNode returnNode = null;
+            if (Root == null)
+            {
+                returnNode = new TreeNode(newValue);
+                Root = returnNode;
+            }
+            else
+            {
+                returnNode = Root.InsertTreeNode(new TreeNode(newValue));
+            }
+            if (IsAVLTree)
+            {
+                Balance(returnNode);
+            }
+            return returnNode;
+        }
 
-        //    int leftHeight = GetHeight(node.LeftChild);
-        //    int rightHeight = GetHeight(node.RightChild);
+        public virtual void Delete(int nodeValue)
+        {
+            var target = Find(nodeValue);
+            if (target == null)
+            {
+                return;
+            }
+            var leftChild = target.GetLargestLeftChild();
+            leftChild.Parent.RightChild = null;
+            target.Value = leftChild.Value;
+        }
 
-        //    return (leftHeight > rightHeight ? leftHeight : rightHeight) + 1;
-        //}
+        public TreeNode Find(int nodeValue)
+        {
+            TreeNode target = null;
+            var currentNode = Root;
+            while (currentNode != null)
+            {
+                if (currentNode.Value == nodeValue)
+                {
+                    target = currentNode;
+                    break;
+                }
+                currentNode = (nodeValue > currentNode.Value ? currentNode.RightChild : currentNode.LeftChild);
+            }
+            return target;
+        }
+
+        private void Balance(TreeNode node)
+        {
+            TreeNode parent = node.Parent;
+            while (parent != null)
+            {
+                int leftHeight = parent.LeftChild == null ? 0 : parent.LeftChild.GetHeight();
+                int rightHeight = parent.RightChild == null ? 0 : parent.RightChild.GetHeight();
+                if (leftHeight - rightHeight > 1)
+                {
+                    var newParent = parent.LeftChild;
+                    if (parent.Parent != null)
+                    {
+                        if (parent.Parent.LeftChild != null)
+                        {
+                            parent.Parent.LeftChild = newParent;
+                            newParent.Parent = parent.Parent;
+                        }
+
+                    }
+                    else
+                    {
+                        //we are currently processing root node
+                        Root = newParent;
+                        newParent.Parent = null;
+                    }
+                    var originalRightTree = newParent.RightChild;
+                    newParent.RightChild = parent;
+                    parent.Parent = newParent;
+                    parent.LeftChild = originalRightTree;
+                }
+                else if (leftHeight - rightHeight < -1)
+                {
+                    var newParent = parent.RightChild;
+                    if (parent.Parent != null)
+                    {
+                        if (parent.Parent.RightChild != null)
+                        {
+                            parent.Parent.RightChild = newParent;
+                            newParent.Parent = parent.Parent;
+                        }
+                    }
+                    else
+                    {
+                        //we are currently processing root node
+                        Root = newParent;
+                        newParent.Parent = null;
+                    }
+                    var originalLeftTree = newParent.LeftChild;
+                    newParent.LeftChild = parent;
+                    parent.Parent = newParent;
+                    parent.RightChild = originalLeftTree;
+                }
+                parent = parent.Parent;
+            }
+        }
+
+        
     }
-
-    //public class TreeNode
-    //{
-    //    public TreeNode LeftChild { get; set; }
-
-    //    public TreeNode RightChild { get; set; }
-
-    //    public int Value { get; set; }
-
-    //    public TreeNode(int nodeValue)
-    //    {
-    //        Value = nodeValue;
-    //    }
-
-    //    private void PrintLeftChild(TravelType travelOrder)
-    //    {
-    //        if(LeftChild != null)
-    //            LeftChild.PrintTreeNode(travelOrder);
-    //    }
-
-    //    private void PrintRightChild(TravelType travelOrder)
-    //    {
-    //        if (RightChild != null)
-    //            RightChild.PrintTreeNode(travelOrder);
-    //    }
-
-    //    public void PrintTreeNode(TravelType travelOrder)
-    //    {
-    //        switch (travelOrder)
-    //        {
-    //            case TravelType.PreOrder:
-    //                Console.Write($"{Value} ");
-    //                PrintLeftChild(travelOrder);
-    //                PrintRightChild(travelOrder);
-    //                break;
-    //            case TravelType.InOrder:
-    //                PrintLeftChild(travelOrder);
-    //                Console.Write($"{Value} ");
-    //                PrintRightChild(travelOrder);
-    //                break;
-    //            case TravelType.PostOrder:
-    //                PrintLeftChild(travelOrder);
-    //                PrintRightChild(travelOrder);
-    //                Console.Write($"{Value} ");
-    //                break;
-    //        }
-    //    }
-    //}
-
-    
 }
