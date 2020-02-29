@@ -47,6 +47,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BinaryHeap.cs" />
+    <Compile Include="Shared\TreeNodeColor.cs" />
+    <Compile Include="Shared\TreeType.cs" />
     <Compile Include="Shared\TravelType.cs" />
     <Compile Include="Shared\TreeNode.cs" />
   </ItemGroup>

@@ -37,22 +37,24 @@ namespace Algorithym.Shared
 
         public void PrintTreeNode(TravelType travelOrder)
         {
+            bool nodeIsRed = (this is RedBlackTreeNode && (this as RedBlackTreeNode).Color == TreeNodeColor.Red);
+            string valueToPrint = (nodeIsRed ? "|" : "") + $"{Value}" + (nodeIsRed ? "|" : "") + " ";
             switch (travelOrder)
             {
                 case TravelType.PreOrder:
-                    Console.Write($"{Value} ");
+                    Console.Write(valueToPrint);
                     PrintLeftChild(travelOrder);
                     PrintRightChild(travelOrder);
                     break;
                 case TravelType.InOrder:
                     PrintLeftChild(travelOrder);
-                    Console.Write($"{Value} ");
+                    Console.Write(valueToPrint);
                     PrintRightChild(travelOrder);
                     break;
                 case TravelType.PostOrder:
                     PrintLeftChild(travelOrder);
                     PrintRightChild(travelOrder);
-                    Console.Write($"{Value} ");
+                    Console.Write(valueToPrint);
                     break;
             }
         }
@@ -98,5 +100,15 @@ namespace Algorithym.Shared
 
             return (leftHeight > rightHeight ? leftHeight : rightHeight) + 1;
         }
+    }
+
+    public class RedBlackTreeNode : TreeNode
+    {
+        public RedBlackTreeNode(TreeNodeColor color, int nodeValue)
+        {
+            Color = color;
+            Value = nodeValue;
+        }
+        public TreeNodeColor Color { get; set; }
     }
 }

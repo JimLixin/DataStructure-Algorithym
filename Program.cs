@@ -15,6 +15,7 @@ namespace Algorithym
             BinaryHeapTest();
             BinarySearchTreeTest();
             AVLTreeTest();
+            RedBlackTreeTest();
 
             Console.ReadLine();
         }
@@ -77,8 +78,8 @@ namespace Algorithym
             Console.WriteLine("<================================================>");
             var arrayData = new int[] { 5,14,23,38,46,75,98,134,2,18,27,34,41,65,88,92 };
             //AVL tree
-            //Online visualize demo about how to build Binary Search Tree: https://www.cs.usfca.edu/~galles/visualization/BST.html
-            BinarySearchTree avlTree = new BinarySearchTree(true);
+            //Online visualize demo about how to build AVL Tree: https://www.cs.usfca.edu/~galles/visualization/AVLtree.html
+            BinarySearchTree avlTree = new BinarySearchTree(TreeType.AVL);
             
             //Build tree by input array
             //avlTree.BuildTree(arrayData);
@@ -107,6 +108,46 @@ namespace Algorithym
             avlTree.Traval(TravelType.InOrder);
             avlTree.Traval(TravelType.PreOrder);
             avlTree.Traval(TravelType.PostOrder);
+
+            //Thinking: InOrder of a BST is actually equal to a sorting
+            Console.WriteLine("<================================================>\r\n");
+        }
+
+        static void RedBlackTreeTest()
+        {
+            Console.WriteLine("<================================================>");
+            var arrayData = new int[] { 65, 32, 98, 11, 46, 75, 120, 5, 99, 18, 27, 57, 102, 83, 88, 92 };
+            //RedBlack tree
+            //Online visualize demo about how to build RedBlack Tree: https://www.cs.usfca.edu/~galles/visualization/RedBlack.html
+            BinarySearchTree rbTree = new BinarySearchTree(TreeType.RedBlack);
+
+            //Build tree by input array
+            rbTree.BuildTree(arrayData);
+
+            //Build tree by insert one by one
+            //rbTree.Insert(5);
+            //rbTree.Insert(14);
+            //rbTree.Insert(23);
+            //rbTree.Insert(38);
+            //rbTree.Insert(46);
+            //rbTree.Insert(75);
+            //rbTree.Insert(98);
+            //rbTree.Insert(134);
+            //rbTree.Insert(2);
+            //rbTree.Insert(18);
+            //rbTree.Insert(27);
+            //rbTree.Insert(34);
+            //rbTree.Insert(41);
+            //rbTree.Insert(65);
+            //rbTree.Insert(88);
+            //rbTree.Insert(92);
+
+            int height = rbTree.GetHeight(rbTree.Root);
+            Console.WriteLine($"Height of current RedBlack Tree is: {height}");
+
+            rbTree.Traval(TravelType.InOrder);
+            rbTree.Traval(TravelType.PreOrder);
+            rbTree.Traval(TravelType.PostOrder);
 
             //Thinking: InOrder of a BST is actually equal to a sorting
             Console.WriteLine("<================================================>\r\n");
