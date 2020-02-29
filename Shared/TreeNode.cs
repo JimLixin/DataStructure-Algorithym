@@ -8,6 +8,13 @@ namespace Algorithym.Shared
 {
     public class TreeNode
     {
+        public TreeNode() { }
+
+        public TreeNode(int nodeValue)
+        {
+            Value = nodeValue;
+        }
+
         public TreeNode Parent { get; set; }
 
         public TreeNode LeftChild { get; set; }
@@ -16,11 +23,17 @@ namespace Algorithym.Shared
 
         public int Value { get; set; }
 
-        public TreeNode(){}
-
-        public TreeNode(int nodeValue)
+        public void DeleteChild(TreeNode node)
         {
-            Value = nodeValue;
+            if (node.Value == LeftChild.Value)
+            {
+                LeftChild = null;
+            }
+            else if (node.Value == RightChild.Value)
+            {
+                RightChild = null;
+            }
+            node = null;
         }
 
         private void PrintLeftChild(TravelType travelOrder)
@@ -86,11 +99,6 @@ namespace Algorithym.Shared
                 }
             }
             return newNode;
-        }
-
-        public TreeNode GetLargestLeftChild()
-        {
-            return null;
         }
 
         public int GetHeight()

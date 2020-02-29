@@ -96,9 +96,28 @@ namespace Algorithym
             {
                 return;
             }
-            var leftChild = target.GetLargestLeftChild();
-            leftChild.Parent.RightChild = null;
-            target.Value = leftChild.Value;
+            if (target.LeftChild == null && target.RightChild == null)
+            {
+                //Delete a leaf node directly
+                target.Parent.DeleteChild(target);
+                return;
+            }
+            var biggestChildInLeftSubTree = GetLargestChild(target.LeftChild);
+            int valueToCopy = biggestChildInLeftSubTree.Value;
+            if (biggestChildInLeftSubTree.Value > biggestChildInLeftSubTree.Parent.Value)
+            {
+                //biggest child is a right child
+                //It must be a right leaf node OR only have a left child
+                biggestChildInLeftSubTree.Parent.RightChild = biggestChildInLeftSubTree.LeftChild;
+            }
+            else
+            {
+                //biggest child is a left child
+                //It must be a left leaf node OR only have a left child
+                biggestChildInLeftSubTree.Parent.LeftChild = biggestChildInLeftSubTree.LeftChild;
+            }
+            target.Value = valueToCopy;
+            biggestChildInLeftSubTree = null;
         }
 
         public TreeNode Find(int nodeValue)
@@ -117,6 +136,14 @@ namespace Algorithym
             return target;
         }
 
+        private TreeNode GetLargestChild(TreeNode node)
+        {
+            if (node == null)
+                return null;
+
+            return node.RightChild == null ? node : GetLargestChild(node.RightChild);
+        }
+
         private void BalanceAVL(TreeNode node)
         {
             TreeNode parent = node.Parent;
@@ -126,48 +153,10 @@ namespace Algorithym
                 int rightHeight = parent.RightChild == null ? 0 : parent.RightChild.GetHeight();
                 if (leftHeight - rightHeight > 1)
                 {
-                    //var newParent = parent.LeftChild;
-                    //if (parent.Parent != null)
-                    //{
-                    //    if (parent.Parent.LeftChild != null)
-                    //    {
-                    //        parent.Parent.LeftChild = newParent;
-                    //        newParent.Parent = parent.Parent;
-                    //    }
-                    //}
-                    //else
-                    //{
-                    //    //we are currently processing root node
-                    //    Root = newParent;
-                    //    newParent.Parent = null;
-                    //}
-                    //var originalRightTree = newParent.RightChild;
-                    //newParent.RightChild = parent;
-                    //parent.Parent = newParent;
-                    //parent.LeftChild = originalRightTree;
                     RotationRight(parent);
                 }
                 else if (leftHeight - rightHeight < -1)
                 {
-                    //var newParent = parent.RightChild;
-                    //if (parent.Parent != null)
-                    //{
-                    //    if (parent.Parent.RightChild != null)
-                    //    {
-                    //        parent.Parent.RightChild = newParent;
-                    //        newParent.Parent = parent.Parent;
-                    //    }
-                    //}
-                    //else
-                    //{
-                    //    //we are currently processing root node
-                    //    Root = newParent;
-                    //    newParent.Parent = null;
-                    //}
-                    //var originalLeftTree = newParent.LeftChild;
-                    //newParent.LeftChild = parent;
-                    //parent.Parent = newParent;
-                    //parent.RightChild = originalLeftTree;
                     RotationLeft(parent);
                 }
                 parent = parent.Parent;
@@ -247,11 +236,6 @@ namespace Algorithym
             var newParent = currentNode.RightChild;
             if (currentNode.Parent != null)
             {
-                //if (currentNode.Parent.LeftChild != null)
-                //{
-                //    currentNode.Parent.LeftChild = newParent;
-                //    newParent.Parent = currentNode.Parent;
-                //}
                 if (currentNode.Value > currentNode.Parent.Value)
                 {
                     //current node is a right child
@@ -281,11 +265,6 @@ namespace Algorithym
             var newParent = currentNode.LeftChild;
             if (currentNode.Parent != null)
             {
-                //if (currentNode.Parent.RightChild != null)
-                //{
-                //    currentNode.Parent.RightChild = newParent;
-                //    newParent.Parent = currentNode.Parent;
-                //}
                 if (currentNode.Value < currentNode.Parent.Value)
                 {
                     //current node is left child

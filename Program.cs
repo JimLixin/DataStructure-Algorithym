@@ -102,6 +102,11 @@ namespace Algorithym
             avlTree.Insert(88);
             avlTree.Insert(92);
 
+            avlTree.Delete(75);
+            avlTree.Delete(38);
+            avlTree.Delete(65);
+            avlTree.Delete(2);
+
             int height = avlTree.GetHeight(avlTree.Root);
             Console.WriteLine($"Height of current AVL Tree is: {height}");
 
@@ -144,6 +149,7 @@ namespace Algorithym
 
             int height = rbTree.GetHeight(rbTree.Root);
             Console.WriteLine($"Height of current RedBlack Tree is: {height}");
+            Console.WriteLine($"|x| stand for Red node.");
 
             rbTree.Traval(TravelType.InOrder);
             rbTree.Traval(TravelType.PreOrder);
