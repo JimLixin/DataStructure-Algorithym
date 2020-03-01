@@ -189,6 +189,8 @@ namespace Algorithym
             //rbTree.Insert(88);
             //rbTree.Insert(92);
 
+            splayTree.Delete(99);
+
             int height = splayTree.GetHeight(splayTree.Root);
             Console.WriteLine($"Height of current Splay Tree is: {height}");
             splayTree.Traval(TravelType.InOrder);

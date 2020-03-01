@@ -99,28 +99,55 @@ namespace Algorithym
             {
                 return;
             }
-            if (target.LeftChild == null && target.RightChild == null)
+            if (TreeType == TreeType.Splay)
             {
-                //Delete a leaf node directly
-                target.Parent.DeleteChild(target);
-                return;
-            }
-            var biggestChildInLeftSubTree = GetLargestChild(target.LeftChild);
-            int valueToCopy = biggestChildInLeftSubTree.Value;
-            if (biggestChildInLeftSubTree.Value > biggestChildInLeftSubTree.Parent.Value)
-            {
-                //biggest child is a right child
-                //It must be a right leaf node OR only have a left child
-                biggestChildInLeftSubTree.Parent.RightChild = biggestChildInLeftSubTree.LeftChild;
+                DeleteSplayNode();
             }
             else
             {
-                //biggest child is a left child
-                //It must be a left leaf node OR only have a left child
-                biggestChildInLeftSubTree.Parent.LeftChild = biggestChildInLeftSubTree.LeftChild;
+                if (target.LeftChild == null && target.RightChild == null)
+                {
+                    //Delete a leaf node directly
+                    target.Parent.DeleteChild(target);
+                    return;
+                }
+                var biggestChildInLeftSubTree = GetLargestChild(target.LeftChild);
+                int valueToCopy = biggestChildInLeftSubTree.Value;
+                if (biggestChildInLeftSubTree.Value > biggestChildInLeftSubTree.Parent.Value)
+                {
+                    //biggest child is a right child
+                    //It must be a right leaf node OR only have a left child
+                    biggestChildInLeftSubTree.Parent.RightChild = biggestChildInLeftSubTree.LeftChild;
+                }
+                else
+                {
+                    //biggest child is a left child
+                    //It must be a left leaf node OR only have a left child
+                    biggestChildInLeftSubTree.Parent.LeftChild = biggestChildInLeftSubTree.LeftChild;
+                }
+                target.Value = valueToCopy;
+                biggestChildInLeftSubTree = null;
             }
-            target.Value = valueToCopy;
-            biggestChildInLeftSubTree = null;
+        }
+
+        private void DeleteSplayNode()
+        {
+            //NOte: by find target, we have already splay it to root node before this step
+            //Removing root(now the target we want), leaving left and right sub trees
+            var originalRightSubTree = Root.RightChild;
+            var originalLeftSubTree = Root.LeftChild;
+
+            Root.LeftChild.Parent = null;
+            Root.RightChild.Parent = null;
+            Root = null;
+            //Splay largest node in left sub stree to root
+            var biggestChildInLeftSubTree = GetLargestChild(originalLeftSubTree);
+            var originalLargestChildLeftSubTree = biggestChildInLeftSubTree.LeftChild;
+            BalanceSplay(biggestChildInLeftSubTree);
+            //Connect right sub tree to new root as right child
+            Root.RightChild = originalRightSubTree;
+            //Connect left sub tree of root(previously largest node) to first node of right sub tree as left sub tree
+            originalRightSubTree.LeftChild = originalLargestChildLeftSubTree;
         }
 
         public TreeNode Find(int nodeValue)
@@ -140,9 +167,9 @@ namespace Algorithym
                 return target;
             else
             {
-                var returnedNode = target.Clone();
+                //var returnedNode = target.Clone();
                 BalanceSplay(target);
-                return returnedNode;
+                return target;
             }
         }
 
@@ -391,8 +418,6 @@ namespace Algorithym
                 rotationNode.RightChild.Parent = newParent;
                 if (isZigZag)
                 {
-                    //rotationNode.RightChild.LeftChild = originalRightTree;
-                    //rotationNode.RightChild = originalLeftTree;
                     newParent.RightChild.LeftChild = originalRightTree;
                     newParent.LeftChild.RightChild = originalLeftTree;
                     if (originalRightTree != null)
@@ -411,7 +436,6 @@ namespace Algorithym
                     {
                         originalLeftTree.Parent = rotationNode.RightChild;
                     }
-                    //rotationNode.RightChild.LeftChild = rotationNode;
                     rotationNode.RightChild = newParent.LeftChild.LeftChild;
                     if (newParent.LeftChild.LeftChild != null)
                     {
@@ -428,8 +452,6 @@ namespace Algorithym
                 rotationNode.LeftChild.Parent = newParent;
                 if (isZigZag)
                 {
-                    //rotationNode.LeftChild.RightChild = originalLeftTree;
-                    //rotationNode.LeftChild = originalRightTree;
                     newParent.LeftChild.RightChild = originalLeftTree;
                     newParent.RightChild.LeftChild = originalRightTree;
                     if (originalLeftTree != null)
@@ -448,7 +470,6 @@ namespace Algorithym
                     {
                         originalRightTree.Parent = rotationNode.LeftChild;
                     }
-                    //rotationNode.LeftChild.RightChild = rotationNode;
                     rotationNode.LeftChild = newParent.RightChild.RightChild;
                     if (newParent.RightChild.RightChild != null)
                     {
