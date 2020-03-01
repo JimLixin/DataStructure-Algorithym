@@ -39,6 +39,9 @@ namespace Algorithym
                     case TreeType.RedBlack:
                         BalanceRedBlack(insertedNode as RedBlackTreeNode);
                         break;
+                    case TreeType.Splay:
+                        BalanceSplay(insertedNode);
+                        break;
                 }
             }
             return Root;
@@ -133,7 +136,14 @@ namespace Algorithym
                 }
                 currentNode = (nodeValue > currentNode.Value ? currentNode.RightChild : currentNode.LeftChild);
             }
-            return target;
+            if (TreeType != TreeType.Splay)
+                return target;
+            else
+            {
+                var returnedNode = target.Clone();
+                BalanceSplay(target);
+                return returnedNode;
+            }
         }
 
         private TreeNode GetLargestChild(TreeNode node)
@@ -231,6 +241,54 @@ namespace Algorithym
             }
         }
 
+        private void BalanceSplay(TreeNode node)
+        {
+            if (node.Parent == null)
+                return;
+
+            while (Root != node)
+            {
+                var parent = node.Parent;
+                if (parent.Parent == null)
+                {
+                    if (node.Value > parent.Value)
+                        RotationLeft(parent);
+                    else
+                        RotationRight(parent);
+                }
+                else
+                {
+                    var grandParent = parent.Parent;
+                    if (parent.Value < grandParent.Value)
+                    {
+                        if (node.Value < parent.Value)
+                        {
+                            //Zig zig right
+                            ZigZag(grandParent, Direction.Right, ZigZagType.ZigZig);
+                        }
+                        else
+                        {
+                            //Zig zag right
+                            ZigZag(grandParent, Direction.Right, ZigZagType.ZigZag);
+                        }
+                    }
+                    else
+                    {
+                        if (node.Value > parent.Value)
+                        {
+                            //zig zig left
+                            ZigZag(grandParent, Direction.Left, ZigZagType.ZigZig);
+                        }
+                        else
+                        {
+                            //zig zag left
+                            ZigZag(grandParent, Direction.Left, ZigZagType.ZigZag);
+                        }
+                    }
+                }
+            }
+        }
+
         private void RotationLeft(TreeNode currentNode)
         {
             var newParent = currentNode.RightChild;
@@ -258,6 +316,10 @@ namespace Algorithym
             newParent.LeftChild = currentNode;
             currentNode.Parent = newParent;
             currentNode.RightChild = originalLeftTree;
+            if (originalLeftTree != null)
+            {
+                originalLeftTree.Parent = currentNode;
+            }
         }
 
         private void RotationRight(TreeNode currentNode)
@@ -287,6 +349,114 @@ namespace Algorithym
             newParent.RightChild = currentNode;
             currentNode.Parent = newParent;
             currentNode.LeftChild = originalRightTree;
+            if (originalRightTree != null)
+            {
+                originalRightTree.Parent = currentNode;
+            }
+        }
+
+        private void ZigZag(TreeNode rotationNode, Direction direction, ZigZagType zigZagType)
+        {
+            var isZigZag = (zigZagType == ZigZagType.ZigZag);
+            var newParent = rotationNode
+                .GetChild((Direction)((1 ^ (int)direction)))
+                .GetChild((Direction)(zigZagType == ZigZagType.ZigZag ? (int)direction : (1 ^ (int)direction)));
+            if (rotationNode.Parent != null)
+            {
+                if (rotationNode.Value > rotationNode.Parent.Value)
+                {
+                    //rotation node is a right child
+                    rotationNode.Parent.RightChild = newParent;
+                }
+                else
+                {
+                    rotationNode.Parent.LeftChild = newParent;
+                    
+                }
+                newParent.Parent = rotationNode.Parent;
+            }
+            else
+            {
+                //we are currently processing root node
+                Root = newParent;
+                newParent.Parent = null;
+            }
+            var originalLeftTree = newParent.LeftChild;
+            var originalRightTree = newParent.RightChild;
+            if (direction == Direction.Left)
+            {
+                newParent.LeftChild = (isZigZag ? rotationNode : rotationNode.RightChild);
+                newParent.RightChild = isZigZag ? rotationNode.RightChild : newParent.RightChild;
+                rotationNode.Parent = (isZigZag ? newParent : newParent.LeftChild);
+                rotationNode.RightChild.Parent = newParent;
+                if (isZigZag)
+                {
+                    //rotationNode.RightChild.LeftChild = originalRightTree;
+                    //rotationNode.RightChild = originalLeftTree;
+                    newParent.RightChild.LeftChild = originalRightTree;
+                    newParent.LeftChild.RightChild = originalLeftTree;
+                    if (originalRightTree != null)
+                    {
+                        originalRightTree.Parent = newParent.RightChild;
+                    }
+                    if (originalLeftTree != null)
+                    {
+                        originalLeftTree.Parent = newParent.LeftChild;
+                    }
+                }
+                else
+                {
+                    rotationNode.RightChild.RightChild = originalLeftTree;
+                    if (originalLeftTree != null)
+                    {
+                        originalLeftTree.Parent = rotationNode.RightChild;
+                    }
+                    //rotationNode.RightChild.LeftChild = rotationNode;
+                    rotationNode.RightChild = newParent.LeftChild.LeftChild;
+                    if (newParent.LeftChild.LeftChild != null)
+                    {
+                        newParent.LeftChild.LeftChild.Parent = rotationNode;
+                    }
+                    newParent.LeftChild.LeftChild = rotationNode;
+                }
+            }
+            else
+            {
+                newParent.RightChild = (isZigZag ? rotationNode : rotationNode.LeftChild);
+                newParent.LeftChild = isZigZag ? rotationNode.LeftChild : newParent.LeftChild;
+                rotationNode.Parent = (isZigZag ? newParent : newParent.RightChild);
+                rotationNode.LeftChild.Parent = newParent;
+                if (isZigZag)
+                {
+                    //rotationNode.LeftChild.RightChild = originalLeftTree;
+                    //rotationNode.LeftChild = originalRightTree;
+                    newParent.LeftChild.RightChild = originalLeftTree;
+                    newParent.RightChild.LeftChild = originalRightTree;
+                    if (originalLeftTree != null)
+                    {
+                        originalLeftTree.Parent = newParent.LeftChild;
+                    }
+                    if (originalRightTree != null)
+                    {
+                        originalRightTree.Parent = newParent.RightChild;
+                    }
+                }
+                else
+                {
+                    rotationNode.LeftChild.LeftChild = originalRightTree;
+                    if (originalRightTree != null)
+                    {
+                        originalRightTree.Parent = rotationNode.LeftChild;
+                    }
+                    //rotationNode.LeftChild.RightChild = rotationNode;
+                    rotationNode.LeftChild = newParent.RightChild.RightChild;
+                    if (newParent.RightChild.RightChild != null)
+                    {
+                        newParent.RightChild.RightChild.Parent = rotationNode;
+                    }
+                    newParent.RightChild.RightChild = rotationNode;
+                }
+            }
         }
 
         private TreeNode GetUncleTreeNode(TreeNode node)

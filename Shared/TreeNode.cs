@@ -23,6 +23,21 @@ namespace Algorithym.Shared
 
         public int Value { get; set; }
 
+        public TreeNode Clone()
+        {
+            return new TreeNode {
+                Value = Value,
+                Parent = Parent == null ? null : Parent.Clone(),
+                LeftChild = LeftChild == null ? null : LeftChild.Clone(),
+                RightChild = RightChild == null ? null : RightChild.Clone()
+            };
+        }
+
+        public TreeNode GetChild(Direction direction)
+        {
+            return direction == Direction.Left ? LeftChild : RightChild;
+        }
+
         public void DeleteChild(TreeNode node)
         {
             if (node.Value == LeftChild.Value)

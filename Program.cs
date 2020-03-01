@@ -16,6 +16,7 @@ namespace Algorithym
             BinarySearchTreeTest();
             AVLTreeTest();
             RedBlackTreeTest();
+            SplayTreeTest();
 
             Console.ReadLine();
         }
@@ -154,6 +155,45 @@ namespace Algorithym
             rbTree.Traval(TravelType.InOrder);
             rbTree.Traval(TravelType.PreOrder);
             rbTree.Traval(TravelType.PostOrder);
+
+            //Thinking: InOrder of a BST is actually equal to a sorting
+            Console.WriteLine("<================================================>\r\n");
+        }
+
+        static void SplayTreeTest()
+        {
+            Console.WriteLine("<================================================>");
+            var arrayData = new int[] { 65, 32, 98, 11, 46, 75, 120, 5, 99, 18, 27, 57, 102, 83, 88, 92 };
+            //Splay tree
+            //Online visualize demo about how to build Splay Tree: https://www.cs.usfca.edu/~galles/visualization/SplayTree.html
+            BinarySearchTree splayTree = new BinarySearchTree(TreeType.Splay);
+
+            //Build tree by input array
+            splayTree.BuildTree(arrayData);
+
+            //Build tree by insert one by one
+            //rbTree.Insert(5);
+            //rbTree.Insert(14);
+            //rbTree.Insert(23);
+            //rbTree.Insert(38);
+            //rbTree.Insert(46);
+            //rbTree.Insert(75);
+            //rbTree.Insert(98);
+            //rbTree.Insert(134);
+            //rbTree.Insert(2);
+            //rbTree.Insert(18);
+            //rbTree.Insert(27);
+            //rbTree.Insert(34);
+            //rbTree.Insert(41);
+            //rbTree.Insert(65);
+            //rbTree.Insert(88);
+            //rbTree.Insert(92);
+
+            int height = splayTree.GetHeight(splayTree.Root);
+            Console.WriteLine($"Height of current Splay Tree is: {height}");
+            splayTree.Traval(TravelType.InOrder);
+            splayTree.Traval(TravelType.PreOrder);
+            splayTree.Traval(TravelType.PostOrder);
 
             //Thinking: InOrder of a BST is actually equal to a sorting
             Console.WriteLine("<================================================>\r\n");

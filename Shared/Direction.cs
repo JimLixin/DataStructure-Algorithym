@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algorithym.Shared
 {
-    public enum TreeType
+    public enum Direction
     {
-        BST = 1,
-        AVL = 2,
-        RedBlack = 3,
-        Splay = 4
+        Left = 0,
+        Right = 1
     }
 }
