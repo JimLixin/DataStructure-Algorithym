@@ -5,4 +5,5 @@ Practices for various Data structures and Algorithym implementation in C#.
 - AVL tree
 - Red black tree
 - Splay tree
+- Segment tree(implemented by both array and list)
 - Keep updating...
