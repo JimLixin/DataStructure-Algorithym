@@ -207,29 +207,39 @@ namespace Algorithym
         static void SegmentTreeTest_Max()
         {
             Console.WriteLine("<================================================>");
-            var arrayData = new int[] { 65, 32, 98, 11, 46, 75, 120, 5, 99, 18, 27, 57, 102, 83, 88, 92 };
+            //var arrayData = new int[] { 65, 32, 98, 11, 46, 75, 120, 5, 99, 18, 27, 57, 102, 83, 88, 92 };
+            var arrayData = new int[] { 65, 32, 98, 11, 46, 75, 55, 5, 99, 82 };
             //Segment tree
             //Online visualize demo about how to build Segment Tree: https://visualgo.net/zh/segmenttree
-            SegmentTree tree = new SegmentTree(SegmentTreeType.Max);
+            SegmentTree_List tree1 = new SegmentTree_List(SegmentTreeType.Max);
+            SegmentTree_Array tree2 = new SegmentTree_Array(SegmentTreeType.Max);
 
             //Build tree by input array
-            tree.BuildTree(arrayData);
+            tree1.BuildTree(arrayData);
+            tree2.BuildTree(arrayData);
 
             //Update Nth element to new value
-            tree.Update(3, 123);
+            tree1.Update(3, 23);
+            tree2.Update(3, 23);
 
             //Find max value in [N,M] section
             int start = 4, end = 7;
-            int target1 = tree.Query(start, end);
-            Console.WriteLine($"{tree.SegmentTreeType.ToString()} value of [{start}, {end}] is {target1}");
+            int target1 = tree1.Query(start, end);
+            int target1_2 = tree2.Query(start, end);
+            Console.WriteLine($"{tree1.SegmentTreeType.ToString()} value of [{start}, {end}] is {target1}");
+            Console.WriteLine($"{tree1.SegmentTreeType.ToString()} value of [{start}, {end}] is {target1_2}");
 
             start = 2; end = 6;
-            int target2 = tree.Query(start, end);
-            Console.WriteLine($"{tree.SegmentTreeType.ToString()} value of [{start}, {end}] is {target2}");
+            int target2 = tree1.Query(start, end);
+            int target2_2 = tree1.Query(start, end);
+            Console.WriteLine($"{tree1.SegmentTreeType.ToString()} value of [{start}, {end}] is {target2}");
+            Console.WriteLine($"{tree1.SegmentTreeType.ToString()} value of [{start}, {end}] is {target2_2}");
 
             start = 1; end = 5;
-            int target3 = tree.Query(start, end);
-            Console.WriteLine($"{tree.SegmentTreeType.ToString()} value of [{start}, {end}] is {target3}");
+            int target3 = tree1.Query(start, end);
+            int target3_2 = tree1.Query(start, end);
+            Console.WriteLine($"{tree1.SegmentTreeType.ToString()} value of [{start}, {end}] is {target3}");
+            Console.WriteLine($"{tree1.SegmentTreeType.ToString()} value of [{start}, {end}] is {target3_2}");
             Console.WriteLine("<================================================>\r\n");
         }
 
@@ -239,26 +249,35 @@ namespace Algorithym
             var arrayData = new int[] { 65, 32, 98, 11, 46, 75, 120, 5, 99, 18, 27, 57, 102, 83, 88, 92 };
             //Segment tree
             //Online visualize demo about how to build Segment Tree: https://visualgo.net/zh/segmenttree
-            SegmentTree tree = new SegmentTree(SegmentTreeType.Min);
+            SegmentTree_List tree1 = new SegmentTree_List(SegmentTreeType.Min);
+            SegmentTree_Array tree2 = new SegmentTree_Array(SegmentTreeType.Min);
 
             //Build tree by input array
-            tree.BuildTree(arrayData);
+            tree1.BuildTree(arrayData);
+            tree2.BuildTree(arrayData);
 
             //Update Nth element to new value
-            tree.Update(3, 123);
+            tree1.Update(3, 123);
+            tree2.Update(3, 123);
 
             //Find min value in [N,M] section
             int start = 4, end = 7;
-            int target1 = tree.Query(start, end);
-            Console.WriteLine($"{tree.SegmentTreeType.ToString()} value of [{start}, {end}] is {target1}");
+            int target1 = tree1.Query(start, end);
+            int target1_2 = tree2.Query(start, end);
+            Console.WriteLine($"{tree1.SegmentTreeType.ToString()} value of [{start}, {end}] is {target1}");
+            Console.WriteLine($"{tree2.SegmentTreeType.ToString()} value of [{start}, {end}] is {target1_2}");
 
             start = 2; end = 6;
-            int target2 = tree.Query(start, end);
-            Console.WriteLine($"{tree.SegmentTreeType.ToString()} value of [{start}, {end}] is {target2}");
+            int target2 = tree1.Query(start, end);
+            int target2_2 = tree2.Query(start, end);
+            Console.WriteLine($"{tree1.SegmentTreeType.ToString()} value of [{start}, {end}] is {target2}");
+            Console.WriteLine($"{tree2.SegmentTreeType.ToString()} value of [{start}, {end}] is {target2_2}");
 
             start = 1; end = 5;
-            int target3 = tree.Query(start, end);
-            Console.WriteLine($"{tree.SegmentTreeType.ToString()} value of [{start}, {end}] is {target3}");
+            int target3 = tree1.Query(start, end);
+            int target3_2 = tree2.Query(start, end);
+            Console.WriteLine($"{tree1.SegmentTreeType.ToString()} value of [{start}, {end}] is {target3}");
+            Console.WriteLine($"{tree2.SegmentTreeType.ToString()} value of [{start}, {end}] is {target3_2}");
             Console.WriteLine("<================================================>\r\n");
         }
 
@@ -268,26 +287,35 @@ namespace Algorithym
             var arrayData = new int[] { 65, 32, 98, 11, 46, 75, 120, 5, 99, 18, 27, 57, 102, 83, 88, 92 };
             //Segment tree
             //Online visualize demo about how to build Segment Tree: https://visualgo.net/zh/segmenttree
-            SegmentTree tree = new SegmentTree(SegmentTreeType.Sum);
+            SegmentTree_List tree1 = new SegmentTree_List(SegmentTreeType.Sum);
+            SegmentTree_Array tree2 = new SegmentTree_Array(SegmentTreeType.Sum);
 
             //Build tree by input array
-            tree.BuildTree(arrayData);
+            tree1.BuildTree(arrayData);
+            tree2.BuildTree(arrayData);
 
             //Find SUM value in [N,M] section
             int start = 4, end = 7;
-            int target1 = tree.Query(start, end);
-            Console.WriteLine($"{tree.SegmentTreeType.ToString()} value of [{start}, {end}] is {target1}");
+            int target1 = tree1.Query(start, end);
+            int target1_2 = tree2.Query(start, end);
+            Console.WriteLine($"{tree1.SegmentTreeType.ToString()} value of [{start}, {end}] is {target1}");
+            Console.WriteLine($"{tree2.SegmentTreeType.ToString()} value of [{start}, {end}] is {target1_2}");
 
             //Update Nth element to new value
-            tree.Update(3, 123);
+            tree1.Update(3, 123);
+            tree2.Update(3, 123);
 
             start = 2; end = 6;
-            int target2 = tree.Query(start, end);
-            Console.WriteLine($"{tree.SegmentTreeType.ToString()} value of [{start}, {end}] is {target2}");
+            int target2 = tree1.Query(start, end);
+            int target2_2 = tree2.Query(start, end);
+            Console.WriteLine($"{tree1.SegmentTreeType.ToString()} value of [{start}, {end}] is {target2}");
+            Console.WriteLine($"{tree2.SegmentTreeType.ToString()} value of [{start}, {end}] is {target2_2}");
 
             start = 1; end = 5;
-            int target3 = tree.Query(start, end);
-            Console.WriteLine($"{tree.SegmentTreeType.ToString()} value of [{start}, {end}] is {target3}");
+            int target3 = tree1.Query(start, end);
+            int target3_2 = tree2.Query(start, end);
+            Console.WriteLine($"{tree1.SegmentTreeType.ToString()} value of [{start}, {end}] is {target3}");
+            Console.WriteLine($"{tree2.SegmentTreeType.ToString()} value of [{start}, {end}] is {target3_2}");
             Console.WriteLine("<================================================>\r\n");
         }
     }

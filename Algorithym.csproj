@@ -48,6 +48,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BinaryHeap.cs" />
     <Compile Include="SegmentTree.cs" />
+    <Compile Include="Shared\Tools.cs" />
     <Compile Include="Shared\TreeNodeColor.cs" />
     <Compile Include="Shared\Direction.cs" />
     <Compile Include="Shared\ZigZagType.cs" />
