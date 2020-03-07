@@ -26,6 +26,7 @@ namespace Algorithym
 
         static void BinaryHeapTest()
         {
+            Console.WriteLine("<================================================>");
             int tmpData, i = 0;
             var random = new Random();
             var arrayList = new List<int>();
@@ -39,14 +40,17 @@ namespace Algorithym
                 }
             }
             var inputData = arrayList.ToArray();
-            BinaryHeap heap = new BinaryHeap(inputData, HeapType.MaxHeap);
-            int top = heap.PopulateTop();
-            top = heap.PopulateTop();
-            top = heap.PopulateTop();
-            top = heap.PopulateTop();
-            heap.Insert(200);
+            Console.WriteLine($"Input data is: {string.Join(", ", inputData)}");
+            BinaryHeap heap = new BinaryHeap(inputData, HeapType.MinHeap);
+            //int top = heap.PopulateTop();
+            //top = heap.PopulateTop();
+            //top = heap.PopulateTop();
+            //top = heap.PopulateTop();
+            //heap.Insert(200);
 
             int[] sortedArray = heap.Sort();
+            Console.WriteLine($"After {HeapType.MaxHeap.ToString()} sort: {string.Join(",", sortedArray)}");
+            Console.WriteLine("<================================================>");
         }
 
         static void BinarySearchTreeTest()
