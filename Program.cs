@@ -17,6 +17,9 @@ namespace Algorithym
             AVLTreeTest();
             RedBlackTreeTest();
             SplayTreeTest();
+            SegmentTreeTest_Max();
+            SegmentTreeTest_Min();
+            SegmentTreeTest_Sum();
 
             Console.ReadLine();
         }
@@ -198,6 +201,93 @@ namespace Algorithym
             splayTree.Traval(TravelType.PostOrder);
 
             //Thinking: InOrder of a BST is actually equal to a sorting
+            Console.WriteLine("<================================================>\r\n");
+        }
+
+        static void SegmentTreeTest_Max()
+        {
+            Console.WriteLine("<================================================>");
+            var arrayData = new int[] { 65, 32, 98, 11, 46, 75, 120, 5, 99, 18, 27, 57, 102, 83, 88, 92 };
+            //Segment tree
+            //Online visualize demo about how to build Segment Tree: https://visualgo.net/zh/segmenttree
+            SegmentTree tree = new SegmentTree(SegmentTreeType.Max);
+
+            //Build tree by input array
+            tree.BuildTree(arrayData);
+
+            //Update Nth element to new value
+            tree.Update(3, 123);
+
+            //Find max value in [N,M] section
+            int start = 4, end = 7;
+            int target1 = tree.Query(start, end);
+            Console.WriteLine($"{tree.SegmentTreeType.ToString()} value of [{start}, {end}] is {target1}");
+
+            start = 2; end = 6;
+            int target2 = tree.Query(start, end);
+            Console.WriteLine($"{tree.SegmentTreeType.ToString()} value of [{start}, {end}] is {target2}");
+
+            start = 1; end = 5;
+            int target3 = tree.Query(start, end);
+            Console.WriteLine($"{tree.SegmentTreeType.ToString()} value of [{start}, {end}] is {target3}");
+            Console.WriteLine("<================================================>\r\n");
+        }
+
+        static void SegmentTreeTest_Min()
+        {
+            Console.WriteLine("<================================================>");
+            var arrayData = new int[] { 65, 32, 98, 11, 46, 75, 120, 5, 99, 18, 27, 57, 102, 83, 88, 92 };
+            //Segment tree
+            //Online visualize demo about how to build Segment Tree: https://visualgo.net/zh/segmenttree
+            SegmentTree tree = new SegmentTree(SegmentTreeType.Min);
+
+            //Build tree by input array
+            tree.BuildTree(arrayData);
+
+            //Update Nth element to new value
+            tree.Update(3, 123);
+
+            //Find min value in [N,M] section
+            int start = 4, end = 7;
+            int target1 = tree.Query(start, end);
+            Console.WriteLine($"{tree.SegmentTreeType.ToString()} value of [{start}, {end}] is {target1}");
+
+            start = 2; end = 6;
+            int target2 = tree.Query(start, end);
+            Console.WriteLine($"{tree.SegmentTreeType.ToString()} value of [{start}, {end}] is {target2}");
+
+            start = 1; end = 5;
+            int target3 = tree.Query(start, end);
+            Console.WriteLine($"{tree.SegmentTreeType.ToString()} value of [{start}, {end}] is {target3}");
+            Console.WriteLine("<================================================>\r\n");
+        }
+
+        static void SegmentTreeTest_Sum()
+        {
+            Console.WriteLine("<================================================>");
+            var arrayData = new int[] { 65, 32, 98, 11, 46, 75, 120, 5, 99, 18, 27, 57, 102, 83, 88, 92 };
+            //Segment tree
+            //Online visualize demo about how to build Segment Tree: https://visualgo.net/zh/segmenttree
+            SegmentTree tree = new SegmentTree(SegmentTreeType.Sum);
+
+            //Build tree by input array
+            tree.BuildTree(arrayData);
+
+            //Find SUM value in [N,M] section
+            int start = 4, end = 7;
+            int target1 = tree.Query(start, end);
+            Console.WriteLine($"{tree.SegmentTreeType.ToString()} value of [{start}, {end}] is {target1}");
+
+            //Update Nth element to new value
+            tree.Update(3, 123);
+
+            start = 2; end = 6;
+            int target2 = tree.Query(start, end);
+            Console.WriteLine($"{tree.SegmentTreeType.ToString()} value of [{start}, {end}] is {target2}");
+
+            start = 1; end = 5;
+            int target3 = tree.Query(start, end);
+            Console.WriteLine($"{tree.SegmentTreeType.ToString()} value of [{start}, {end}] is {target3}");
             Console.WriteLine("<================================================>\r\n");
         }
     }
