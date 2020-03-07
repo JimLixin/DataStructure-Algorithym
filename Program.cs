@@ -208,7 +208,7 @@ namespace Algorithym
         {
             Console.WriteLine("<================================================>");
             //var arrayData = new int[] { 65, 32, 98, 11, 46, 75, 120, 5, 99, 18, 27, 57, 102, 83, 88, 92 };
-            var arrayData = new int[] { 65, 32, 98, 11, 46, 75, 55, 5, 99, 82 };
+            var arrayData = new int[] { 65, 32, 98, 11, 46, 75, 55, 5, 99 };
             //Segment tree
             //Online visualize demo about how to build Segment Tree: https://visualgo.net/zh/segmenttree
             SegmentTree_List tree1 = new SegmentTree_List(SegmentTreeType.Max);
@@ -219,8 +219,8 @@ namespace Algorithym
             tree2.BuildTree(arrayData);
 
             //Update Nth element to new value
-            tree1.Update(3, 23);
-            tree2.Update(3, 23);
+            tree1.Update(3, 123);
+            tree2.Update(3, 123);
 
             //Find max value in [N,M] section
             int start = 4, end = 7;

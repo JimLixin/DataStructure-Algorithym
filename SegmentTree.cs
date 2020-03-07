@@ -210,7 +210,7 @@ namespace Algorithym
             {
                 _update(mid + 1, end, i, val, 2 * idx + 2);
             }
-            _internalData[idx] = _internalData[2 * idx + 1] + _internalData[2 * idx + 2];
+            _internalData[idx] = _merge(_internalData[2 * idx + 1] ,_internalData[2 * idx + 2]);
         }
 
         public int Query(int start, int end)
