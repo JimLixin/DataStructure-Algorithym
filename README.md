@@ -6,4 +6,5 @@ Practices for various Data structures and Algorithym implementation in C#.
 - Red black tree
 - Splay tree
 - Segment tree(implemented by both array and list)
+- B Tree (insert and bulk build). Delete ???
 - Keep updating...
