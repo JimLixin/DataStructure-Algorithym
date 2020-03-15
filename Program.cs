@@ -20,6 +20,7 @@ namespace Algorithym
             SegmentTreeTest_Max();
             SegmentTreeTest_Min();
             SegmentTreeTest_Sum();
+            BTreeTest();
 
             Console.ReadLine();
         }
@@ -320,6 +321,32 @@ namespace Algorithym
             int target3_2 = tree2.Query(start, end);
             Console.WriteLine($"{tree1.SegmentTreeType.ToString()} value of [{start}, {end}] is {target3}");
             Console.WriteLine($"{tree2.SegmentTreeType.ToString()} value of [{start}, {end}] is {target3_2}");
+            Console.WriteLine("<================================================>\r\n");
+        }
+
+        static void BTreeTest()
+        {
+            Console.WriteLine("<================================================>");
+            var arrayData = new int[] { 6, 2, 3, 1, 7, 14, 5, 8, 20,35,19,44,27 };
+            //BTree
+            //Online visualize demo about how to build BTree: https://www.cs.usfca.edu/~galles/visualization/BTree.html
+            BTree bTree = new BTree(4);
+            //bTree.Insert(6);
+            //bTree.Insert(2);
+            //bTree.Insert(3);
+            //bTree.Insert(1);
+            //bTree.Insert(7);
+            //bTree.Insert(14);
+            //bTree.Insert(5);
+            //bTree.Insert(8);
+            //bTree.Insert(20);
+            //bTree.Insert(35);
+            //bTree.Insert(19);
+            //bTree.Insert(44);
+            //bTree.Insert(27);
+            bTree.BuildTree(arrayData);
+            bTree.Travel();
+
             Console.WriteLine("<================================================>\r\n");
         }
     }
