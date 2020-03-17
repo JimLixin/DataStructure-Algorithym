@@ -7,4 +7,5 @@ Practices for various Data structures and Algorithym implementation in C#.
 - Splay tree
 - Segment tree(implemented by both array and list)
 - B Tree (insert and bulk build). Delete ???
+- Quick sorting
 - Keep updating...
