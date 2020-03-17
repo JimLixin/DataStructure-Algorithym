@@ -12,8 +12,7 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
-            int[] array = new int[] { 42, 13, 22, 6, 74, 18, 27, 10, 31, 88, 2, 20, 98, 36, 6, 47, 112, 10, 51};
-            QuickSort.Sort(array, 0, array.Length - 1);
+            QuickSortTest();
             BinaryHeapTest();
             BinarySearchTreeTest();
             BinarySearchTreeMirrorTest();
@@ -26,6 +25,17 @@ namespace Algorithym
             BTreeTest();
 
             Console.ReadLine();
+        }
+
+        static void QuickSortTest()
+        {
+            Console.WriteLine("<=================== Quick sort start =======================>");
+            int[] array = new int[] { 66, 20, 98, 36, 188, 6, 47, 18, 150, 10, 27, 31, 6, 88, 2, 112, 10, 51, 42, 79, 13, 22, 74 };
+            Console.WriteLine(string.Join("  ", array));
+            Console.WriteLine("Sorting...");
+            QuickSort.Sort(array, 0, array.Length - 1, randonPivot: true);
+            Console.WriteLine(string.Join("  ", array));
+            Console.WriteLine("<=================== Quick sort end =======================>");
         }
 
         static void BinaryHeapTest()
