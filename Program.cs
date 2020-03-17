@@ -30,10 +30,10 @@ namespace Algorithym
         static void QuickSortTest()
         {
             Console.WriteLine("<=================== Quick sort start =======================>");
-            int[] array = new int[] { 66, 20, 98, 36, 188, 6, 47, 18, 150, 10, 27, 31, 6, 88, 2, 112, 10, 51, 42, 79, 13, 22, 74 };
+            int[] array = new int[] { 47, 18, 150, 10, 27, 31, 6, 88, 2, 112, 10, 66, 20, 98, 36, 188, 6, 51, 42, 79, 13, 22, 6, 74, 47, 79, 13, 22, 6, 74, 47 };
             Console.WriteLine(string.Join("  ", array));
             Console.WriteLine("Sorting...");
-            QuickSort.Sort(array, 0, array.Length - 1, randonPivot: true);
+            QuickSort.Sort(array, 0, array.Length - 1, randonPivot: false);
             Console.WriteLine(string.Join("  ", array));
             Console.WriteLine("<=================== Quick sort end =======================>");
         }

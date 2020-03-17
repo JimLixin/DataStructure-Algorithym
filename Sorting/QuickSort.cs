@@ -26,40 +26,31 @@ namespace Algorithym
                 {
                     hi--;
                 }
-                if (hi <= low)
+                if (hi > low)
                 {
-                    break;
+                    array[low] = array[hi];
+                    low++;
                 }
-                FillInElement(array, hi, low);
-                low++;
-
+                
                 while (low != hi && array[low] < pivot)
                 {
                     low++;
                 }
-                if (low >= hi)
+                if (low < hi)
                 {
-                    break;
+                    array[hi] = array[low];
+                    hi--;
                 }
-                FillInElement(array, low, hi);
-                hi--;
             }
             array[low] = pivot;
-            if (low - 1 - start > 0)
+            if (low - start > 1)
             {
                 Sort(array, start, low - 1);
             }
             if (end - low > 0)
             {
                 Sort(array, low + 1, end);
-            }
-            
-        }
-
-        private static void FillInElement(int[] array, int source, int target)
-        {
-            array[target] = array[source];
-            array[source] = int.MinValue;
+            }   
         }
     }
 }
