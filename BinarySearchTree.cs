@@ -47,6 +47,23 @@ namespace Algorithym
             return Root;
         }
 
+        public void Mirror()
+        {
+            SwapChilds(Root);
+        }
+
+        private void SwapChilds(TreeNode node)
+        {
+            if (node == null)
+                return;
+            TreeNode tmpNode = null;
+            tmpNode = node.LeftChild;
+            node.LeftChild = node.RightChild;
+            node.RightChild = tmpNode;
+            SwapChilds(node.LeftChild);
+            SwapChilds(node.RightChild);
+        }
+
         public void Traval(TravelType type)
         {
             if (Root != null)

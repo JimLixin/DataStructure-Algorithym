@@ -14,6 +14,7 @@ namespace Algorithym
         {
             BinaryHeapTest();
             BinarySearchTreeTest();
+            BinarySearchTreeMirrorTest();
             AVLTreeTest();
             RedBlackTreeTest();
             SplayTreeTest();
@@ -79,6 +80,28 @@ namespace Algorithym
             //1 5 3 2 8 20 14 7 6
 
             //Thinking: Inorder of a BST is actually equal to a sorting
+            Console.WriteLine("<================================================>\r\n");
+        }
+
+        /// <summary>
+        /// Answer for this question: https://practice.geeksforgeeks.org/problems/mirror-tree/1
+        /// </summary>
+        static void BinarySearchTreeMirrorTest()
+        {
+            Console.WriteLine("<================================================>");
+            var arrayData = new int[] { 6, 2, 3, 1, 7, 14, 5, 8, 20 };
+            
+            BinarySearchTree binarySearchTree = new BinarySearchTree();
+            binarySearchTree.BuildTree(arrayData);
+
+            Console.WriteLine("Inorder travel before mirror is:");
+            binarySearchTree.Traval(TravelType.InOrder);
+
+            binarySearchTree.Mirror();
+
+            Console.WriteLine("Inorder travel before mirror is:");
+            binarySearchTree.Traval(TravelType.InOrder);
+
             Console.WriteLine("<================================================>\r\n");
         }
 
