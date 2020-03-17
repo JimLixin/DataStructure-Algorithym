@@ -12,6 +12,8 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
+            int[] array = new int[] { 42, 13, 22, 6, 74, 18, 27, 10, 31, 88, 2, 20, 98, 36, 6, 47, 112, 10, 51};
+            QuickSort.Sort(array, 0, array.Length - 1);
             BinaryHeapTest();
             BinarySearchTreeTest();
             BinarySearchTreeMirrorTest();
