@@ -10,7 +10,7 @@ namespace Algorithym
     {
         public static void Sort(int[] array, int start, int end, bool randonPivot = false)
         {
-             int hi = end, low = start, pivot;
+            int hi = end, low = start, pivot;
             if (randonPivot)
             {
                 int pivotIndex = new Random().Next(low, hi);
