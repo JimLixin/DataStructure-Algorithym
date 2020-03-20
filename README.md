@@ -9,3 +9,9 @@ Practices for various Data structures and Algorithym implementation in C#.
 - B Tree (insert and bulk build). Delete ???
 - Quick sorting
 - Keep updating...
+
+# LeetCode practices
+Practices for LeetCode problems in C#.
+- 3.Longest Substring Without Repeating Characters
+- 5.Longest Palindromic Substring
+- 6.ZigZag Conversion
