@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
+    /// <summary>
+    /// https://leetcode.com/problems/longest-substring-without-repeating-characters/
+    /// </summary>
     public static class LengthOfLongestSubstringHelper
     {
         static int LengthOfLongestSubstring(string s)

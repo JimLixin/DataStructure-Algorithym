@@ -1,4 +1,5 @@
-﻿using Algorithym.Shared;
+﻿using Algorithym.LeetCode;
+using Algorithym.Shared;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -12,6 +13,8 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
+            LeetCodeTesting();
+
             QuickSortTest();
             BinaryHeapTest();
             BinarySearchTreeTest();
@@ -27,8 +30,11 @@ namespace Algorithym
             Console.ReadLine();
         }
 
-        
-    
+        public static void LeetCodeTesting()
+        {
+            string data = ZigZagConvertHelper.ZigZagConvert("PAYPALISHIRING", 2);
+        }
+
         static void QuickSortTest()
         {
             Console.WriteLine("<=================== Quick sort start =======================>");
