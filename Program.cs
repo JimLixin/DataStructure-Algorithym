@@ -13,6 +13,7 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
+            StringtoInteger.Answer("-91283472332");
             LeetCodeTesting();
 
             QuickSortTest();

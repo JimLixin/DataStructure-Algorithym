@@ -48,6 +48,8 @@
     <Compile Include="LeetCode\3_LengthOfLongestSubstring.cs" />
     <Compile Include="LeetCode\5_LongestPalindrome.cs" />
     <Compile Include="LeetCode\6_ZigZagConvertcs.cs" />
+    <Compile Include="LeetCode\7_ReverseInteger.cs" />
+    <Compile Include="LeetCode\8_StringtoInteger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BinaryHeap.cs" />
