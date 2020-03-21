@@ -57,7 +57,7 @@ namespace Algorithym.LeetCode
             int m = s.Length;
             int blockSize = 2 * (numRows - 1);
             int blockCount = (int)Math.Ceiling((decimal)m / blockSize);
-            string output = "";
+            StringBuilder output = new StringBuilder();
             int index = 0;
             for (int i = 0; i < numRows; i++)
             {
@@ -70,7 +70,7 @@ namespace Algorithym.LeetCode
                         {
                             break;
                         }
-                        output += new string(new char[] { s[index] });
+                        output.Append(s[index]);
                     }
                     else if (i == numRows - 1)
                     {
@@ -79,7 +79,7 @@ namespace Algorithym.LeetCode
                         {
                             break;
                         }
-                        output += new string(new char[] { s[index] });
+                        output.Append(s[index]);
                     }
                     else
                     {
@@ -88,17 +88,17 @@ namespace Algorithym.LeetCode
                         {
                             break;
                         }
-                        output += new string(new char[] { s[index] });
+                        output.Append(s[index]);
                         index = blockSize * (j + 1) - i;
                         if (index > m - 1)
                         {
                             break;
                         }
-                        output += new string(new char[] { s[index] });
+                        output.Append(s[index]);
                     }
                 }
             }
-            return output;
+            return output.ToString();
         }
     }
 }
