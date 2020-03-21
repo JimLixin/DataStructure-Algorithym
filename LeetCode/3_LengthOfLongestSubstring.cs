@@ -9,9 +9,9 @@ namespace Algorithym.LeetCode
     /// <summary>
     /// https://leetcode.com/problems/longest-substring-without-repeating-characters/
     /// </summary>
-    public static class LengthOfLongestSubstringHelper
+    public static class LengthOfLongestSubstring
     {
-        static int LengthOfLongestSubstring(string s)
+        static int Answer(string s)
         {
             int[] strArray = new int[s.Length];
             int counter = 0, tmpCounter = 0, start = 0;

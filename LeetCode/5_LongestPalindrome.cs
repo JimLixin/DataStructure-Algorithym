@@ -9,9 +9,9 @@ namespace Algorithym.LeetCode
     /// <summary>
     /// https://leetcode.com/problems/longest-palindromic-substring/
     /// </summary>
-    public static class LongestPalindromeHelper
+    public static class LongestPalindrome
     {
-        public static string LongestPalindrome(string s)
+        public static string Answer(string s)
         {
             if (s == null || String.IsNullOrEmpty(s))
                 return "";

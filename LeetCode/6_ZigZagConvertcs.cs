@@ -9,9 +9,9 @@ namespace Algorithym.LeetCode
     /// <summary>
     /// https://leetcode.com/problems/zigzag-conversion/
     /// </summary>
-    public static class ZigZagConvertHelper
+    public static class ZigZagConvert
     {
-        public static string ZigZagConvert(string s, int numRows)
+        public static string Answer1(string s, int numRows)
         {
             if (numRows <= 1)
                 return s;
@@ -48,6 +48,57 @@ namespace Algorithym.LeetCode
                 Console.Write("\r\n");
             }
             return new String(output);
+        }
+
+        public static string Answer2(string s, int numRows)
+        {
+            if (numRows <= 1)
+                return s;
+            int m = s.Length;
+            int blockSize = 2 * (numRows - 1);
+            int blockCount = (int)Math.Ceiling((decimal)m / blockSize);
+            string output = "";
+            int index = 0;
+            for (int i = 0; i < numRows; i++)
+            {
+                for (int j = 0; j < blockCount; j++)
+                {
+                    if (i == 0)
+                    {
+                        index = j * blockSize;
+                        if (index > m - 1)
+                        {
+                            break;
+                        }
+                        output += new string(new char[] { s[index] });
+                    }
+                    else if (i == numRows - 1)
+                    {
+                        index = j * blockSize + (numRows - 1);
+                        if (index > m - 1)
+                        {
+                            break;
+                        }
+                        output += new string(new char[] { s[index] });
+                    }
+                    else
+                    {
+                        index = j * blockSize + i;
+                        if (index > m - 1)
+                        {
+                            break;
+                        }
+                        output += new string(new char[] { s[index] });
+                        index = blockSize * (j + 1) - i;
+                        if (index > m - 1)
+                        {
+                            break;
+                        }
+                        output += new string(new char[] { s[index] });
+                    }
+                }
+            }
+            return output;
         }
     }
 }

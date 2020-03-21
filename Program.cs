@@ -32,7 +32,7 @@ namespace Algorithym
 
         public static void LeetCodeTesting()
         {
-            string data = ZigZagConvertHelper.ZigZagConvert("PAYPALISHIRING", 2);
+            string data = ZigZagConvert.Answer2("PAYPALISHIRING", 4);
         }
 
         static void QuickSortTest()

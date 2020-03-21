@@ -45,9 +45,9 @@
   <ItemGroup>
     <Compile Include="BinarySearchTree.cs" />
     <Compile Include="BTree.cs" />
-    <Compile Include="LeetCode\LengthOfLongestSubstring.cs" />
-    <Compile Include="LeetCode\LongestPalindrome.cs" />
-    <Compile Include="LeetCode\ZigZagConvertcs.cs" />
+    <Compile Include="LeetCode\3_LengthOfLongestSubstring.cs" />
+    <Compile Include="LeetCode\5_LongestPalindrome.cs" />
+    <Compile Include="LeetCode\6_ZigZagConvertcs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BinaryHeap.cs" />
