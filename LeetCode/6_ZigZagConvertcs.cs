@@ -63,18 +63,9 @@ namespace Algorithym.LeetCode
             {
                 for (int j = 0; j < blockCount; j++)
                 {
-                    if (i == 0)
+                    if (i% (numRows - 1) == 0)
                     {
-                        index = j * blockSize;
-                        if (index > m - 1)
-                        {
-                            break;
-                        }
-                        output.Append(s[index]);
-                    }
-                    else if (i == numRows - 1)
-                    {
-                        index = j * blockSize + (numRows - 1);
+                        index = j * blockSize + i;
                         if (index > m - 1)
                         {
                             break;
