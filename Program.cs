@@ -30,7 +30,6 @@ namespace Algorithym
 
             Console.ReadLine();
         }
-
         public static void LeetCodeTesting()
         {
             string data = ZigZagConvert.Answer2("PAYPALISHIRING", 4);
