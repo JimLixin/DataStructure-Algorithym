@@ -53,6 +53,7 @@
     <Compile Include="LeetCode\00009_PalindromeNumber.cs" />
     <Compile Include="LeetCode\00011_ContainerWithMostWater.cs" />
     <Compile Include="LeetCode\00012_IntegerToRoman.cs" />
+    <Compile Include="LeetCode\00013_RomanToInteger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BinaryHeap.cs" />

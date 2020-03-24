@@ -13,7 +13,9 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
+            RomanToInteger.RomanToInt("MCMXCIV");
             StringtoInteger.Answer("-91283472332");
+
             LeetCodeTesting();
 
             QuickSortTest();
