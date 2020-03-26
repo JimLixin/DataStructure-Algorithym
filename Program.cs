@@ -13,12 +13,17 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
-            var result = LetterCombinationsOfAPhoneNumber.Answer("789");
+            var result = ThreeSum.Answer(new int[] { -1, 0, 1, 2, -1, -4, 3, 4, -5, 6 });
             foreach (var s in result)
             {
-                Console.WriteLine(s);
+                Console.WriteLine(string.Join(" ", s));
             }
 
+            //var result = LetterCombinationsOfAPhoneNumber.Answer("789");
+            //foreach (var s in result)
+            //{
+            //    Console.WriteLine(s);
+            //}
 
             //var result = DfsPermutation.Make(new int[] { 1,3,6,2});
 
