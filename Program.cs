@@ -13,6 +13,19 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
+            var result = LetterCombinationsOfAPhoneNumber.Answer("789");
+            foreach (var s in result)
+            {
+                Console.WriteLine(s);
+            }
+
+
+            //var result = DfsPermutation.Make(new int[] { 1,3,6,2});
+
+            //DfsPermutationGenerator dfs = new DfsPermutationGenerator(9);
+            //dfs.Make();
+
+            //DfsSolution.subsets(new int[] { 1,2,3});
             RomanToInteger.RomanToInt("MCMXCIV");
             StringtoInteger.Answer("-91283472332");
 
@@ -32,6 +45,12 @@ namespace Algorithym
 
             Console.ReadLine();
         }
+
+        public static void dfs(int step)
+        {
+
+        }
+
         public static void LeetCodeTesting()
         {
             string data = ZigZagConvert.Answer2("PAYPALISHIRING", 4);

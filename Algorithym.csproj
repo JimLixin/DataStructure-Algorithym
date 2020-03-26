@@ -54,6 +54,9 @@
     <Compile Include="LeetCode\00011_ContainerWithMostWater.cs" />
     <Compile Include="LeetCode\00012_IntegerToRoman.cs" />
     <Compile Include="LeetCode\00013_RomanToInteger.cs" />
+    <Compile Include="LeetCode\00014_LongestCommonPrefix.cs" />
+    <Compile Include="LeetCode\00017_LetterCombinationsOfAPhoneNumber.cs" />
+    <Compile Include="LeetCode\DFS.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BinaryHeap.cs" />
