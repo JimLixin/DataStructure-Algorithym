@@ -13,11 +13,15 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
-            var result = ThreeSum.Answer(new int[] { -1, 0, 1, 2, -1, -4, 3, 4, -5, 6 });
-            foreach (var s in result)
-            {
-                Console.WriteLine(string.Join(" ", s));
-            }
+            //ThreeSumClosestHelper threeSumClostest = new ThreeSumClosestHelper();
+            //var result = threeSumClostest.ThreeSumClosest(new int[] { -1, 2, 1, 4 }, 1);
+
+            //var result = ThreeSum.Answer(new int[] { -1, 0, 1, 2, -1, -4, 3, 4, -5, 6 });
+            //var result = ThreeSum.Answer(new int[] { 0,0,0,0,0});
+            //foreach (var s in result)
+            //{
+            //    Console.WriteLine(string.Join(" ", s));
+            //}
 
             //var result = LetterCombinationsOfAPhoneNumber.Answer("789");
             //foreach (var s in result)
@@ -31,6 +35,7 @@ namespace Algorithym
             //dfs.Make();
 
             //DfsSolution.subsets(new int[] { 1,2,3});
+
             RomanToInteger.RomanToInt("MCMXCIV");
             StringtoInteger.Answer("-91283472332");
 
@@ -417,6 +422,60 @@ namespace Algorithym
             bTree.Travel();
 
             Console.WriteLine("<================================================>\r\n");
+        }
+    }
+
+    public class ThreeSumClosestHelper
+    {
+        private bool[] vis;
+        private int[] data;
+        private int tmp;
+        private int result;
+        private bool match = false;
+        private readonly int NSUM = 3;
+        public int ThreeSumClosest(int[] nums, int target)
+        {
+            if (nums == null || nums.Length < NSUM)
+                return 0;
+
+            vis = new bool[NSUM + 1];
+            data = new int[NSUM];
+            for (int i = 0; i < NSUM; i++)
+            {
+                data[i] = -1;
+            }
+            _answer(0, 0, nums, target);
+            return result;
+        }
+
+        public void _answer(int step, int index, int[] nums, int target)
+        {
+            if (step >= NSUM)
+            {
+                int total = data[0] + data[1] + data[2];
+                int diff = total > target ? (total - target) : (target - total);
+                if (diff == 0)
+                {
+                    match = true;
+                    result = total;
+                }
+                else if (diff < tmp)
+                {
+                    tmp = diff;
+                    result = total;
+                }
+                return;
+            }
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (!vis[step])
+                {
+                    vis[step] = true;
+                    data[step] = i;
+                    _answer(step + 1, i, nums, target);
+                    vis[step] = false;
+                }
+            }
         }
     }
 }

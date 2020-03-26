@@ -57,6 +57,7 @@
     <Compile Include="LeetCode\00014_LongestCommonPrefix.cs" />
     <Compile Include="LeetCode\00015_ThreeSum.cs" />
     <Compile Include="LeetCode\00017_LetterCombinationsOfAPhoneNumber.cs" />
+    <Compile Include="LeetCode\00019_remove-nth-node-from-end-of-list.cs" />
     <Compile Include="LeetCode\DFS.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -34,11 +34,11 @@ namespace Algorithym.LeetCode
             }
             tmp = new int[NSUM];
 
-            _answer(0, nums);
+            _answer(0,0, nums);
             return result.Values.ToList();
         }
 
-        private static void _answer(int step, int[] nums)
+        private static void _answer(int step, int index, int[] nums)
         {
             if (step >= NSUM)
             {
@@ -54,13 +54,13 @@ namespace Algorithym.LeetCode
                 }
                 return;
             }
-            for (int i = 0; i < nums.Length; i++)
+            for (int i = ((index >= 2 && index < nums.Length - 2) ? index + 1 : 0); i < nums.Length; i++)
             {
                 if (!vis[step] && !data.Contains(i))
                 {
                     vis[step] = true;
                     data[step] = i;
-                    _answer(step + 1, nums);
+                    _answer(step + 1, i, nums);
                     vis[step] = false;
                 }
             }
