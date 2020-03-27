@@ -59,6 +59,7 @@
     <Compile Include="LeetCode\00017_LetterCombinationsOfAPhoneNumber.cs" />
     <Compile Include="LeetCode\00019_remove-nth-node-from-end-of-list.cs" />
     <Compile Include="LeetCode\00020_valid-parentheses.cs" />
+    <Compile Include="LeetCode\00021_merge-two-sorted-lists.cs" />
     <Compile Include="LeetCode\DFS.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,6 +78,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="LeetCode\00021_merge-two-sorted-lists.cpp" />
     <Content Include="readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
