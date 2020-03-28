@@ -13,6 +13,12 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
+            var result = generate_parentheses.GenerateParenthesis(4);
+            foreach (var s in result)
+            {
+                Console.WriteLine(s);
+            }
+
             //ThreeSumClosestHelper threeSumClostest = new ThreeSumClosestHelper();
             //var result = threeSumClostest.ThreeSumClosest(new int[] { -1, 2, 1, 4 }, 1);
 
