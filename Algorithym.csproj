@@ -60,6 +60,7 @@
     <Compile Include="LeetCode\00019_remove-nth-node-from-end-of-list.cs" />
     <Compile Include="LeetCode\00020_valid-parentheses.cs" />
     <Compile Include="LeetCode\00021_merge-two-sorted-lists.cs" />
+    <Content Include="LeetCode\00024_swap-nodes-in-pairs.cpp" />
     <Compile Include="LeetCode\22_generate-parentheses.cs" />
     <Compile Include="LeetCode\DFS.cs" />
     <Compile Include="Program.cs" />
