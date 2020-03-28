@@ -61,8 +61,10 @@
     <Compile Include="LeetCode\00020_valid-parentheses.cs" />
     <Compile Include="LeetCode\00021_merge-two-sorted-lists.cs" />
     <Content Include="LeetCode\00024_swap-nodes-in-pairs.cpp" />
-    <Compile Include="LeetCode\22_generate-parentheses.cs" />
+    <Compile Include="LeetCode\00025_reverse-nodes-in-k-group.cs" />
+    <Compile Include="LeetCode\00022_generate-parentheses.cs" />
     <Compile Include="LeetCode\DFS.cs" />
+    <Compile Include="LeetCode\Shared\ListNode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BinaryHeap.cs" />

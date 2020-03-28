@@ -484,14 +484,4 @@ namespace Algorithym
             }
         }
     }
-
-    public class ListNode
-    {
-        public ListNode(int x)
-        {
-            val = x;
-        }
-        public int val { get; set; }
-        public ListNode next { get; set; }
-    }
 }
