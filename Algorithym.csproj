@@ -63,6 +63,7 @@
     <Content Include="LeetCode\00024_swap-nodes-in-pairs.cpp" />
     <Compile Include="LeetCode\00025_reverse-nodes-in-k-group.cs" />
     <Compile Include="LeetCode\00022_generate-parentheses.cs" />
+    <Compile Include="LeetCode\00026_remove-duplicates-from-sorted-array.cs" />
     <Compile Include="LeetCode\DFS.cs" />
     <Compile Include="LeetCode\Shared\ListNode.cs" />
     <Compile Include="Program.cs" />
