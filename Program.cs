@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Algorithym.LeetCode.Dynamic_Progamming;
 
 namespace Algorithym
 {
@@ -13,6 +14,15 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
+            var ans3 = Problem3.Answer(new int[,] { { 1, 3, 1, 2, 9, 4 }, { 1, 5, 1, 2, 6, 1 }, { 4, 2, 1, 2, 8, 3 }, { 6, 1, 4, 3, 1, 1 } });
+            var ans32 = Problem3.ImporvedAnswer(new int[,] { { 1, 3, 1, 2, 9, 4 }, { 1, 5, 1, 2, 6, 1 }, { 4, 2, 1, 2, 8, 3 }, { 6, 1, 4, 3, 1, 1 } });
+            var ans = Problem2.Answer(4,6);
+            var ans2 = Problem2.ImporvedAnswer(4, 6);
+
+
+            var answer1 = Problem1.Answer1(10);
+            var answer11 = Problem1.ImprovedAnswer1(10);
+            var answer2 = Problem1.Answer2(10);
             var result = generate_parentheses.GenerateParenthesis(4);
             foreach (var s in result)
             {

@@ -64,7 +64,12 @@
     <Compile Include="LeetCode\00025_reverse-nodes-in-k-group.cs" />
     <Compile Include="LeetCode\00022_generate-parentheses.cs" />
     <Compile Include="LeetCode\00026_remove-duplicates-from-sorted-array.cs" />
+    <Compile Include="LeetCode\51_n-queens.cs" />
     <Compile Include="LeetCode\DFS.cs" />
+    <Compile Include="LeetCode\Dynamic Progamming\Problem1.cs" />
+    <Compile Include="LeetCode\Dynamic Progamming\Problem2.cs" />
+    <Compile Include="LeetCode\Dynamic Progamming\Problem3.cs" />
+    <Compile Include="LeetCode\Dynamic Progamming\Problem4.cs" />
     <Compile Include="LeetCode\Shared\ListNode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -86,5 +91,6 @@
     <Content Include="LeetCode\00021_merge-two-sorted-lists.cpp" />
     <Content Include="readme.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
