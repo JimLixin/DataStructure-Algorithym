@@ -64,6 +64,8 @@
     <Compile Include="LeetCode\00025_reverse-nodes-in-k-group.cs" />
     <Compile Include="LeetCode\00022_generate-parentheses.cs" />
     <Compile Include="LeetCode\00026_remove-duplicates-from-sorted-array.cs" />
+    <Compile Include="LeetCode\00027_remove-element.cs" />
+    <Compile Include="LeetCode\00053_maximum-subarray.cs" />
     <Compile Include="LeetCode\51_n-queens.cs" />
     <Compile Include="LeetCode\DFS.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\Problem1.cs" />
@@ -89,6 +91,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="LeetCode\00021_merge-two-sorted-lists.cpp" />
+    <Content Include="LeetCode\Dynamic Progamming\readme.txt" />
+    <Content Include="LeetCode\Greedy\readme.txt" />
     <Content Include="readme.txt" />
   </ItemGroup>
   <ItemGroup />

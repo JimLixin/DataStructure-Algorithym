@@ -14,6 +14,8 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
+            Solution sol = new Solution();
+            int answer = sol.MaxSubArray(new int[]{ -2,1,-3,4,-1,2,1,-5,4});
             var ans3 = Problem3.Answer(new int[,] { { 1, 3, 1, 2, 9, 4 }, { 1, 5, 1, 2, 6, 1 }, { 4, 2, 1, 2, 8, 3 }, { 6, 1, 4, 3, 1, 1 } });
             var ans32 = Problem3.ImporvedAnswer(new int[,] { { 1, 3, 1, 2, 9, 4 }, { 1, 5, 1, 2, 6, 1 }, { 4, 2, 1, 2, 8, 3 }, { 6, 1, 4, 3, 1, 1 } });
             var ans = Problem2.Answer(4,6);
@@ -492,6 +494,39 @@ namespace Algorithym
                     vis[step] = false;
                 }
             }
+        }
+    }
+
+    public class Solution
+    {
+        public int MaxSubArray(int[] nums)
+        {
+            if (nums == null || nums.Length <= 0)
+                return int.MinValue;
+            if (nums.Length == 1)
+                return nums[0];
+            int len = nums.Length;
+            int[,] dp = new int[len, len];
+            int maxSum = int.MinValue;
+
+            for (int i = len - 1; i >= 0; i--)
+            {
+                for (int j = i; j < len; j++)
+                {
+                    if (i == j)
+                        dp[i, j] = nums[i];
+                    else if (i == j - 1)
+                        dp[i, j] = nums[i] + nums[j];
+                    else
+                        dp[i, j] = Math.Max(dp[i + 1, j] + nums[i], dp[i, j - 1] + nums[j]);
+
+                    if (dp[i, j] > maxSum)
+                    {
+                        maxSum = dp[i, j];
+                    }
+                }
+            }
+            return maxSum;
         }
     }
 }
