@@ -65,6 +65,7 @@
     <Compile Include="LeetCode\00022_generate-parentheses.cs" />
     <Compile Include="LeetCode\00026_remove-duplicates-from-sorted-array.cs" />
     <Compile Include="LeetCode\00027_remove-element.cs" />
+    <Compile Include="LeetCode\00028_implement-strstr.cs" />
     <Compile Include="LeetCode\00053_maximum-subarray.cs" />
     <Compile Include="LeetCode\51_n-queens.cs" />
     <Compile Include="LeetCode\DFS.cs" />
