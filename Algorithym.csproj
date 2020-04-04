@@ -66,7 +66,11 @@
     <Compile Include="LeetCode\00026_remove-duplicates-from-sorted-array.cs" />
     <Compile Include="LeetCode\00027_remove-element.cs" />
     <Compile Include="LeetCode\00028_implement-strstr.cs" />
+    <Compile Include="LeetCode\00035_search-insert-position.cs" />
     <Compile Include="LeetCode\00053_maximum-subarray.cs" />
+    <Compile Include="LeetCode\00070_climbing-stairs.cs" />
+    <Compile Include="LeetCode\00509_fibonacci-number.cs" />
+    <Compile Include="LeetCode\01137_n-th-tribonacci-number.cs" />
     <Compile Include="LeetCode\51_n-queens.cs" />
     <Compile Include="LeetCode\DFS.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\Problem1.cs" />
