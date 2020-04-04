@@ -66,10 +66,14 @@
     <Compile Include="LeetCode\00026_remove-duplicates-from-sorted-array.cs" />
     <Compile Include="LeetCode\00027_remove-element.cs" />
     <Compile Include="LeetCode\00028_implement-strstr.cs" />
+    <Compile Include="LeetCode\00034_find-first-and-last-position-of-element-in-sorted-array.cs" />
     <Compile Include="LeetCode\00035_search-insert-position.cs" />
     <Compile Include="LeetCode\00053_maximum-subarray.cs" />
     <Compile Include="LeetCode\00070_climbing-stairs.cs" />
+    <Compile Include="LeetCode\00121_best-time-to-buy-and-sell-stock.cs" />
+    <Compile Include="LeetCode\00122_best-time-to-buy-and-sell-stock-ii.cs" />
     <Compile Include="LeetCode\00509_fibonacci-number.cs" />
+    <Compile Include="LeetCode\00746_min-cost-climbing-stairs.cs" />
     <Compile Include="LeetCode\01137_n-th-tribonacci-number.cs" />
     <Compile Include="LeetCode\51_n-queens.cs" />
     <Compile Include="LeetCode\DFS.cs" />

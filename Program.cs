@@ -14,6 +14,8 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
+            var answer = find_first_and_last_position_of_element_in_sorted_array.Answer(new int[] { 1,2,3,4,5,6,7,8}, 9);
+
             var ans3 = Problem3.Answer(new int[,] { { 1, 3, 1, 2, 9, 4 }, { 1, 5, 1, 2, 6, 1 }, { 4, 2, 1, 2, 8, 3 }, { 6, 1, 4, 3, 1, 1 } });
             var ans32 = Problem3.ImporvedAnswer(new int[,] { { 1, 3, 1, 2, 9, 4 }, { 1, 5, 1, 2, 6, 1 }, { 4, 2, 1, 2, 8, 3 }, { 6, 1, 4, 3, 1, 1 } });
             var ans = Problem2.Answer(4,6);

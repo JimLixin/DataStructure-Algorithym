@@ -8,7 +8,7 @@ namespace Algorithym.LeetCode
 {
     public static class fibonacci_number
     {
-        public static int Answer()
+        public static int Answer(int N)
         {
             int tmp1 = 0, tmp2 = 1, result = 0;
             for (int i = 2; i <= N; i++)
