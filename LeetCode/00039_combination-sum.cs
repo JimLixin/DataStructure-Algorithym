@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
+    /// <summary>
+    /// https://leetcode.com/problems/combination-sum/
+    /// </summary>
     public static class combination_sum
     {
         private static IList<IList<int>> result;
