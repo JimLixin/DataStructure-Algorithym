@@ -14,6 +14,9 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
+            
+            var res = combination_sum.Answer(new int[] { 2, 3, 4 }, 24);
+
             List<char[]> board = new List<char[]>();
             board.Add(new char[] { '5', '3', '.', '.', '7', '.', '.', '.', '.' });
             board.Add(new char[] { '6', '.', '.', '1', '9', '5', '.', '.', '.' });
