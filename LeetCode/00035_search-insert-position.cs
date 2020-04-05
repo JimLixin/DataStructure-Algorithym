@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
+    /// <summary>
+    /// https://leetcode.com/problems/search-insert-position/
+    /// </summary>
     public static class search_insert_position
     {
         public static int Answer(int[] nums, int target)

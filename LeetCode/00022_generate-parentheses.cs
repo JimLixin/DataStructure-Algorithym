@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
+    /// <summary>
+    /// https://leetcode.com/problems/generate-parentheses/
+    /// </summary>
     public static class generate_parentheses
     {
         private static char[] data;

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
+    /// <summary>
+    /// https://leetcode.com/problems/string-to-integer-atoi/
+    /// </summary>
     public static class StringtoInteger
     {
         public static int Answer(string str)

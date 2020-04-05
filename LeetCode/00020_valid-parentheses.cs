@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
+    /// <summary>
+    /// https://leetcode.com/problems/valid-parentheses/
+    /// </summary>
     public static class valid_parentheses
     {
         public static bool IsValid(string s)

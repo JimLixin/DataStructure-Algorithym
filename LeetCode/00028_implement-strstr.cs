@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
+    /// <summary>
+    /// https://leetcode.com/problems/implement-strstr/
+    /// </summary>
     public static class implement_strstr
     {
         public static int Answer(string haystack, string needle)

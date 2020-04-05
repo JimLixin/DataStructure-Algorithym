@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
+    /// <summary>
+    /// https://leetcode.com/problems/reverse-integer/
+    /// </summary>
     public static class ReverseInteger
     {
         public static int Answer(int x)

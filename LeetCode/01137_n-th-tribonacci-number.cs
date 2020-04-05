@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
+    /// <summary>
+    /// https://leetcode.com/problems/n-th-tribonacci-number/
+    /// </summary>
     public static class n_th_tribonacci_number
     {
         /// <summary>

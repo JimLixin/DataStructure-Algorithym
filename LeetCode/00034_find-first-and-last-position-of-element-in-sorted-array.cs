@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
+    /// <summary>
+    /// https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+    /// </summary>
     public static class find_first_and_last_position_of_element_in_sorted_array
     {
         public static int[] Answer(int[] nums, int target)

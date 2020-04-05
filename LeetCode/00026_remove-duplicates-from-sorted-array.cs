@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
+    /// <summary>
+    /// https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+    /// </summary>
     public static class remove_duplicates_from_sorted_array
     {
         public static int RemoveDuplicates(int[] nums)

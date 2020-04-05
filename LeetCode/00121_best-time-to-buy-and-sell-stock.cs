@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
+    /// <summary>
+    /// https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+    /// </summary>
     public static class best_time_to_buy_and_sell_stock
     {
         public static int Answer(int[] prices)

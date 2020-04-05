@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
+    /// <summary>
+    /// https://leetcode.com/problems/min-cost-climbing-stairs/
+    /// </summary>
     public static class min_cost_climbing_stairs
     {
         public static int Answer(int[] cost)

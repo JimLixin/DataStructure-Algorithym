@@ -14,6 +14,20 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
+            List<char[]> board = new List<char[]>();
+            board.Add(new char[] { '5', '3', '.', '.', '7', '.', '.', '.', '.' });
+            board.Add(new char[] { '6', '.', '.', '1', '9', '5', '.', '.', '.' });
+            board.Add(new char[] { '.', '9', '8', '.', '.', '.', '.', '6', '.' });
+            board.Add(new char[] { '8', '.', '.', '.', '6', '.', '.', '.', '3' });
+            board.Add(new char[] { '4', '.', '.', '8', '.', '3', '.', '.', '1' });
+            board.Add(new char[] { '7', '.', '.', '.', '2', '.', '.', '.', '6' });
+            board.Add(new char[] { '.', '6', '.', '.', '.', '.', '2', '8', '.' });
+            board.Add(new char[] { '.', '.', '.', '4', '1', '9', '.', '.', '5' });
+            board.Add(new char[] { '.', '.', '.', '.', '8', '.', '.', '7', '9' });
+
+            var valid = valid_sudoku.Answer(board.ToArray());
+
+
             var answer = find_first_and_last_position_of_element_in_sorted_array.Answer(new int[] { 1,2,3,4,5,6,7,8}, 9);
 
             var ans3 = Problem3.Answer(new int[,] { { 1, 3, 1, 2, 9, 4 }, { 1, 5, 1, 2, 6, 1 }, { 4, 2, 1, 2, 8, 3 }, { 6, 1, 4, 3, 1, 1 } });

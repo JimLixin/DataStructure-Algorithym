@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
+    /// <summary>
+    /// https://leetcode.com/problems/reverse-nodes-in-k-group/
+    /// </summary>
     public static class reverse_nodes_in_k_group
     {
         public static ListNode ReverseKGroup(ListNode head, int k)

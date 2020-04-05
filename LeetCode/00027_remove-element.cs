@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
+    /// <summary>
+    /// https://leetcode.com/problems/remove-element/
+    /// </summary>
     public static class remove_element
     {
         public static int Answer(int[] nums, int val)

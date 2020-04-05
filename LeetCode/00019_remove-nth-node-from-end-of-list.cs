@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
-
+    /// <summary>
+    /// https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+    /// </summary>
     public static class remove_nth_node_from_end_of_list
     {
         public static ListNode RemoveNthFromEnd(ListNode head, int n)

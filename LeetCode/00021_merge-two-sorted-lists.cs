@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
+    /// <summary>
+    /// https://leetcode.com/problems/merge-two-sorted-lists/
+    /// </summary>
     public static class merge_two_sorted_lists
     {
         public static ListNode MergeTwoSortedList(ListNode l1, ListNode l2)

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
+    /// <summary>
+    /// https://leetcode.com/problems/maximum-subarray/
+    /// </summary>
     public static class maximum_subarray
     {
         /// <summary>
