@@ -14,7 +14,9 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
-            
+            Dictionary<string, IList<int>> res3 = new Dictionary<string, IList<int>>();
+            var res4 = res3.Values.ToList();
+
             var res = combination_sum.Answer(new int[] { 2, 3, 4 }, 24);
 
             List<char[]> board = new List<char[]>();
