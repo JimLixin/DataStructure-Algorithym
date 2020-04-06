@@ -14,6 +14,7 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
+            int rob = (new house_robber_ii()).Rob(new int[] { 1,2,1,1});
             int[] arr = Enumerable.Repeat(int.MinValue, 4).ToArray();
             var perm = (new permutations()).Permute(new int[] { 1,1,2});
             var solutions = (new n_queens()).SolveNQueens(4);
