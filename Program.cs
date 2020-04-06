@@ -14,6 +14,20 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
+            var solutions = (new n_queens()).SolveNQueens(4);
+
+            int[] test = new int[] { -1,2,3,4,5};
+            var bol = test.Contains(-1);
+
+
+            IList<IList<string>> list2 = new List<IList<string>>();
+            for (int i = 0; i < 8; i++)
+            {
+                list2.Add(Enumerable.Repeat<string>(".", 8).ToList());
+            }
+            list2[0][0] = "change";
+            
+
             Dictionary<string, IList<int>> res3 = new Dictionary<string, IList<int>>();
             var res4 = res3.Values.ToList();
 
