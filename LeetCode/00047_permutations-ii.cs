@@ -6,30 +6,29 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
-    /// <summary>
-    /// https://leetcode.com/problems/permutations/
-    /// </summary>
-    public class permutations
+    public class permutations_ii
     {
-        private IList<IList<int>> result;
+        private Dictionary<string, IList<int>> result;
         private bool[] vis;
         private int len;
         private int[] data;
-        public IList<IList<int>> Permute(int[] nums)
+        public IList<IList<int>> PermuteUnique(int[] nums)
         {
             len = nums.Length;
-            result = new List<IList<int>>();
+            result = new Dictionary<string, IList<int>>();
             vis = new bool[len];
             data = new int[len];
             dfs(0, nums);
-            return result;
+            return result.Values.ToList();
         }
 
         private void dfs(int step, int[] nums)
         {
             if (step >= len)
             {
-                result.Add(new List<int>(data));
+                string key = string.Join("", data);
+                if (!result.ContainsKey(key))
+                    result.Add(key, new List<int>(data));
                 return;
             }
             for (int i = 0; i < len; i++)
@@ -37,7 +36,7 @@ namespace Algorithym.LeetCode
                 if (!vis[i])
                 {
                     vis[i] = true;
-                    data[step] = nums[i];   
+                    data[step] = nums[i];
                     dfs(step + 1, nums);
                     vis[i] = false;
                 }

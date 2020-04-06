@@ -14,11 +14,9 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
+            int[] arr = Enumerable.Repeat(int.MinValue, 4).ToArray();
+            var perm = (new permutations()).Permute(new int[] { 1,1,2});
             var solutions = (new n_queens()).SolveNQueens(4);
-
-            int[] test = new int[] { -1,2,3,4,5};
-            var bol = test.Contains(-1);
-
 
             IList<IList<string>> list2 = new List<IList<string>>();
             for (int i = 0; i < 8; i++)

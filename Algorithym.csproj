@@ -71,6 +71,8 @@
     <Compile Include="LeetCode\00036_valid-sudoku.cs" />
     <Compile Include="LeetCode\00039_combination-sum.cs" />
     <Compile Include="LeetCode\00040_combination-sum-ii.cs" />
+    <Compile Include="LeetCode\00046_permutations.cs" />
+    <Compile Include="LeetCode\00047_permutations-ii.cs" />
     <Compile Include="LeetCode\00053_maximum-subarray.cs" />
     <Compile Include="LeetCode\00070_climbing-stairs.cs" />
     <Compile Include="LeetCode\00121_best-time-to-buy-and-sell-stock.cs" />
