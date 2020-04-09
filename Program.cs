@@ -14,7 +14,8 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
-            int rob = (new house_robber_ii()).Rob(new int[] { 1,2,1,1});
+            var car = (new CarPlateNumber()).Generate();
+            int rob = (new house_robber_ii()).Rob(new int[] { 1, 2, 1, 1 });
             int[] arr = Enumerable.Repeat(int.MinValue, 4).ToArray();
             var perm = (new permutations()).Permute(new int[] { 1,1,2});
             var solutions = (new n_queens()).SolveNQueens(4);
@@ -523,6 +524,46 @@ namespace Algorithym
                     vis[step] = true;
                     data[step] = i;
                     _answer(step + 1, i, nums, target);
+                    vis[step] = false;
+                }
+            }
+        }
+    }
+
+    public class CarPlateNumber
+    {
+        int len = 5;
+        char[] alpha = new char[] { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S' };
+        char[] digit = new char[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
+        char[] alphaDigit = new char[] { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
+        char[] data;
+        bool[] vis;
+        private IList<string> result;
+        public IList<string> Generate()
+        {
+            result = new List<string>();
+            data = new char[5];
+            vis = new bool[5];
+            _dfs(0);
+            return result;
+        }
+
+        private void _dfs(int step)
+        {
+            if (step >= len)
+            {
+                result.Add(new string(data));
+                return;
+            }
+            int n = (step == 1 ? alpha.Length : digit.Length);
+            char[] target = (step == 1 ? alpha : digit);
+            for (int i = 0; i < n; i++)
+            {
+                if (!vis[step])
+                {
+                    vis[step] = true;
+                    data[step] = target[i];
+                    _dfs(step + 1);
                     vis[step] = false;
                 }
             }
