@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
+    /// <summary>
+    /// https://leetcode.com/problems/minimum-path-sum/
+    /// </summary>
     public class minimum_path_sumcs
     {
         public int MinPathSum(int[][] grid)
