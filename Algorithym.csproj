@@ -74,6 +74,7 @@
     <Compile Include="LeetCode\00046_permutations.cs" />
     <Compile Include="LeetCode\00047_permutations-ii.cs" />
     <Compile Include="LeetCode\00053_maximum-subarray.cs" />
+    <Compile Include="LeetCode\00058_length-of-last-word.cs" />
     <Compile Include="LeetCode\00066_plus-one.cs" />
     <Compile Include="LeetCode\00070_climbing-stairs.cs" />
     <Compile Include="LeetCode\00121_best-time-to-buy-and-sell-stock.cs" />
