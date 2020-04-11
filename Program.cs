@@ -14,6 +14,19 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
+            ListNode head = new ListNode(1);
+            ListNode node1 = new ListNode(4);
+            ListNode node2 = new ListNode(3);
+            ListNode node3 = new ListNode(2);
+            ListNode node4 = new ListNode(5);
+            ListNode node5 = new ListNode(2);
+            head.next = node1;
+            node1.next = node2;
+            node2.next = node3;
+            node3.next = node4;
+            node4.next = node5;
+
+            var head2 = (new partition_list()).Partition(head, 3);
             var data1 = (new permutation_sequenceV2()).GetPermutation(4, 10);
             int[] arr1 = new int[] { 0,0,3,0,0,0,0,0,0};
             int[] arr2 = new int[] { -1,1,1,1,2,3 };
