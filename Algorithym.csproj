@@ -79,6 +79,8 @@
     <Compile Include="LeetCode\00066_plus-one.cs" />
     <Compile Include="LeetCode\00069_sqrtx.cs" />
     <Compile Include="LeetCode\00070_climbing-stairs.cs" />
+    <Content Include="LeetCode\00083_remove-duplicates-from-sorted-list.cpp" />
+    <Compile Include="LeetCode\00088_merge-sorted-array.cs" />
     <Compile Include="LeetCode\00121_best-time-to-buy-and-sell-stock.cs" />
     <Compile Include="LeetCode\00122_best-time-to-buy-and-sell-stock-ii.cs" />
     <Compile Include="LeetCode\00198_house-robber.cs" />
