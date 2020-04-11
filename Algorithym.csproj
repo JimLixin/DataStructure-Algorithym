@@ -75,6 +75,7 @@
     <Compile Include="LeetCode\00047_permutations-ii.cs" />
     <Compile Include="LeetCode\00053_maximum-subarray.cs" />
     <Compile Include="LeetCode\00058_length-of-last-word.cs" />
+    <Compile Include="LeetCode\00060_permutation-sequence.cs" />
     <Compile Include="LeetCode\00064_minimum-path-sumcs.cs" />
     <Compile Include="LeetCode\00066_plus-one.cs" />
     <Compile Include="LeetCode\00069_sqrtx.cs" />

@@ -14,8 +14,10 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
+            var data1 = (new permutation_sequenceV2()).GetPermutation(4, 10);
             int[] arr1 = new int[] { 0,0,3,0,0,0,0,0,0};
             int[] arr2 = new int[] { -1,1,1,1,2,3 };
+
             (new merge_sorted_array()).MergeV2(arr1, 3, arr2, 6);
             var car = (new CarPlateNumber()).Generate();
             int rob = (new house_robber_ii()).Rob(new int[] { 1, 2, 1, 1 });
@@ -108,11 +110,6 @@ namespace Algorithym
             BTreeTest();
 
             Console.ReadLine();
-        }
-
-        public static void dfs(int step)
-        {
-
         }
 
         public static void LeetCodeTesting()
