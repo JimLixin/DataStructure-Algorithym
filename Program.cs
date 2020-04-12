@@ -14,14 +14,45 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
-            int[][] matrix = new int[2][];
-            IList<int[]> resti = new List<int[]>();
-            int width =3, height = 3, top = 1, left = 1;
-            (resti as List<int[]>).AddRange(Enumerable.Range(left, width - 1).Select(i => new int[] { top, i }).ToArray());
-            (resti as List<int[]>).AddRange(Enumerable.Range(top, height - 1).Select(i => new int[] { i, (left + width - 1) }).ToArray());
-            (resti as List<int[]>).AddRange(Enumerable.Range(left + 1, width - 1).Reverse().Select(i => new int[] { (top + height - 1), i }).ToArray());
-            (resti as List<int[]>).AddRange(Enumerable.Range(top + 1, height - 1).Reverse().Select(i => new int[] { i, left }).ToArray());
-            var qwe = resti.Select(i => matrix[i[0]][i[1]]).ToList();
+            //int n = 3;
+            //int[][] matrix = new int[n][];
+            //for (int i = 0; i < n; i++)
+            //{
+            //    matrix[i] = new int[n];
+            //}
+            //List<int[]> positions = new List<int[]>();
+            //int top = 0, left = 0, count = 1;
+            //while (n > 0)
+            //{
+            //    if (n == 1)
+            //    {
+            //        (positions as List<int[]>).Add(new int[] { top, left });
+            //        break;
+            //    }
+            //    (positions as List<int[]>).AddRange(Enumerable.Range(left, n - 1).Select(i => new int[] { top, i }));
+            //    (positions as List<int[]>).AddRange(Enumerable.Range(top, n - 1).Select(i => new int[] { i, (left + n - 1) }));
+            //    (positions as List<int[]>).AddRange(Enumerable.Range(left + 1, n - 1).Reverse().Select(i => new int[] { (top + n - 1), i }));
+            //    (positions as List<int[]>).AddRange(Enumerable.Range(top + 1, n - 1).Reverse().Select(i => new int[] { i, left }));
+            //    top++;
+            //    left++;
+            //    n -= 2;
+            //}
+
+            //Array.ForEach(positions.ToArray(), i => {
+            //    matrix[i[0]][i[1]] = count;
+            //    count++;
+            //    Console.WriteLine($"[{i[0]},{i[1]}] - {matrix[i[0]][i[1]]}");
+            //});
+
+
+            //int[][] matrix2 = new int[2][];
+            //IList<int[]> resti = new List<int[]>();
+            //int width =3, height = 3, top = 1, left = 1;
+            //(resti as List<int[]>).AddRange(Enumerable.Range(left, width - 1).Select(i => new int[] { top, i }).ToArray());
+            //(resti as List<int[]>).AddRange(Enumerable.Range(top, height - 1).Select(i => new int[] { i, (left + width - 1) }).ToArray());
+            //(resti as List<int[]>).AddRange(Enumerable.Range(left + 1, width - 1).Reverse().Select(i => new int[] { (top + height - 1), i }).ToArray());
+            //(resti as List<int[]>).AddRange(Enumerable.Range(top + 1, height - 1).Reverse().Select(i => new int[] { i, left }).ToArray());
+            //var qwe = resti.Select(i => matrix2[i[0]][i[1]]).ToList();
 
             ListNode head = new ListNode(1);
             ListNode node1 = new ListNode(4);

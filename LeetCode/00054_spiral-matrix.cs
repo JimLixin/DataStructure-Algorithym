@@ -44,6 +44,10 @@ namespace Algorithym.LeetCode
                 width -= 2;
                 height -= 2;
             }
+            int count = 0;
+            Array.ForEach(result.ToArray(), i => {
+                matrix[i[0]][i[1]] = count++;
+            });
             return result.Select(i => matrix[i[0]][i[1]]).ToList();
         }
     }
