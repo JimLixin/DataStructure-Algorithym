@@ -85,6 +85,7 @@
     <Content Include="LeetCode\00083_remove-duplicates-from-sorted-list.cpp" />
     <Compile Include="LeetCode\00086_partition-list.cs" />
     <Compile Include="LeetCode\00088_merge-sorted-array.cs" />
+    <Compile Include="LeetCode\00094_binary-tree-inorder-traversal.cs" />
     <Compile Include="LeetCode\00121_best-time-to-buy-and-sell-stock.cs" />
     <Compile Include="LeetCode\00122_best-time-to-buy-and-sell-stock-ii.cs" />
     <Compile Include="LeetCode\00198_house-robber.cs" />
@@ -118,6 +119,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="LeetCode\00021_merge-two-sorted-lists.cpp" />
+    <Content Include="LeetCode\00203_remove-linked-list-elements.cpp" />
+    <Content Include="LeetCode\00237_delete-node-in-a-linked-list.cpp" />
     <Content Include="LeetCode\Dynamic Progamming\readme.txt" />
     <Content Include="LeetCode\Greedy\readme.txt" />
     <Content Include="readme.txt" />
