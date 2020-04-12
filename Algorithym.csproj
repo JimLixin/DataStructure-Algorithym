@@ -73,6 +73,7 @@
     <Compile Include="LeetCode\00040_combination-sum-ii.cs" />
     <Compile Include="LeetCode\00046_permutations.cs" />
     <Compile Include="LeetCode\00047_permutations-ii.cs" />
+    <Compile Include="LeetCode\00049_group-anagrams.cs" />
     <Compile Include="LeetCode\00053_maximum-subarray.cs" />
     <Compile Include="LeetCode\00054_spiral-matrix.cs" />
     <Compile Include="LeetCode\00058_length-of-last-word.cs" />
