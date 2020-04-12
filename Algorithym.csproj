@@ -93,6 +93,7 @@
     <Compile Include="LeetCode\00122_best-time-to-buy-and-sell-stock-ii.cs" />
     <Compile Include="LeetCode\00198_house-robber.cs" />
     <Compile Include="LeetCode\00213_house-robber-ii.cs" />
+    <Compile Include="LeetCode\00242_valid-anagram.cs" />
     <Compile Include="LeetCode\00509_fibonacci-number.cs" />
     <Compile Include="LeetCode\00746_min-cost-climbing-stairs.cs" />
     <Compile Include="LeetCode\01137_n-th-tribonacci-number.cs" />
