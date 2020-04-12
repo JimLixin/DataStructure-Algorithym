@@ -14,6 +14,15 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
+            int[][] matrix = new int[2][];
+            IList<int[]> resti = new List<int[]>();
+            int width =3, height = 3, top = 1, left = 1;
+            (resti as List<int[]>).AddRange(Enumerable.Range(left, width - 1).Select(i => new int[] { top, i }).ToArray());
+            (resti as List<int[]>).AddRange(Enumerable.Range(top, height - 1).Select(i => new int[] { i, (left + width - 1) }).ToArray());
+            (resti as List<int[]>).AddRange(Enumerable.Range(left + 1, width - 1).Reverse().Select(i => new int[] { (top + height - 1), i }).ToArray());
+            (resti as List<int[]>).AddRange(Enumerable.Range(top + 1, height - 1).Reverse().Select(i => new int[] { i, left }).ToArray());
+            var qwe = resti.Select(i => matrix[i[0]][i[1]]).ToList();
+
             ListNode head = new ListNode(1);
             ListNode node1 = new ListNode(4);
             ListNode node2 = new ListNode(3);
