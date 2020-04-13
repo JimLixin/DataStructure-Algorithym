@@ -14,49 +14,6 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
-            string s1 = "tae",s2 = "ate", s3 = "tea";
-
-            var as1 = s1.ToCharArray();
-            Array.Sort(as1);
-
-            var as2= s2.ToCharArray();
-            Array.Sort(as2);
-
-            var as3 = s3.ToCharArray();
-            Array.Sort(as3);
-
-            Dictionary<string, IList<string>> dic = new Dictionary<string, IList<string>>();
-            string key = new string(as1);
-            if (!dic.ContainsKey(key))
-            {
-                dic.Add(key, new List<string>() { s1});
-            }
-            else
-            {
-                dic[key].Add(s1);
-            }
-
-            key = new string(as2);
-            if (!dic.ContainsKey(key))
-            {
-                dic.Add(key, new List<string>() { s2 });
-            }
-            else
-            {
-                dic[key].Add(s2);
-            }
-
-            key = new string(as3);
-            if (!dic.ContainsKey(key))
-            {
-                dic.Add(key, new List<string>() { s3 });
-            }
-            else
-            {
-                dic[key].Add(s3);
-            }
-           
-
             //int n = 3;
             //int[][] matrix = new int[n][];
             //for (int i = 0; i < n; i++)
