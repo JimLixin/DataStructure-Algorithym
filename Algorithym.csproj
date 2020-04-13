@@ -76,6 +76,7 @@
     <Compile Include="LeetCode\00049_group-anagrams.cs" />
     <Compile Include="LeetCode\00053_maximum-subarray.cs" />
     <Compile Include="LeetCode\00054_spiral-matrix.cs" />
+    <Compile Include="LeetCode\00055_jump-game.cs" />
     <Compile Include="LeetCode\00058_length-of-last-word.cs" />
     <Compile Include="LeetCode\00059_spiral-matrix-ii.cs" />
     <Compile Include="LeetCode\00060_permutation-sequence.cs" />

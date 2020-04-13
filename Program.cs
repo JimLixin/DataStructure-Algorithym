@@ -14,6 +14,20 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
+            List<int[]> _matrix = new List<int[]>();
+            _matrix.Add(new int[] { 1, 2, 0, 4});
+            _matrix.Add(new int[] { 5, 6, 7, 8});
+            _matrix.Add(new int[] { 9, 10, 11, 12 });
+
+            var matrix = _matrix.ToArray();
+
+            var row1 = matrix[0];
+            var bol = Enumerable.Any(row1, i => i == 0);
+            for (int i = 0; i < 4; i++)
+            {
+                matrix[0][i] = 0;
+            }
+
             //int n = 3;
             //int[][] matrix = new int[n][];
             //for (int i = 0; i < n; i++)
