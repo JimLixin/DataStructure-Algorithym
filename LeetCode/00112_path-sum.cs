@@ -21,19 +21,19 @@ namespace Algorithym.LeetCode
         {
             if (result == true || node == null)
                 return;
-            tmp += node.Value;
+            tmp += node.val;
             //Console.WriteLine($"Current node is {node.Value}.tmp is {tmp}");
-            if (node.LeftChild == null && node.RightChild == null)
+            if (node.left == null && node.right == null)
             {
                 if (tmp == sum)
                     result = true;
 
-                tmp -= node.Value;
+                tmp -= node.val;
                 return;
             }
-            dfs(node.LeftChild, sum);
-            dfs(node.RightChild, sum);
-            tmp -= node.Value;
+            dfs(node.left, sum);
+            dfs(node.right, sum);
+            tmp -= node.val;
         }
     }
 }

@@ -24,9 +24,9 @@ namespace Algorithym.LeetCode
         {
             if (node != null)
             {
-                travel(node.LeftChild);
-                result.Add(node.Value);
-                travel(node.RightChild);
+                travel(node.left);
+                result.Add(node.val);
+                travel(node.right);
             }
         }
     }
