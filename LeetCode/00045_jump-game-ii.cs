@@ -34,7 +34,21 @@ namespace Algorithym.LeetCode
 
         public int JumpV2(int[] nums)
         {
-            return 0;
+            if (nums == null || nums.Length == 0)
+                return 0;
+            int max = -1, count = 0, target = 0;
+            for (int i = 0; i < nums.Length - 1; i++)
+            {
+                max = Math.Max(max, (i + nums[i]));
+                if (target == i)
+                {
+                    count++;
+                    target = max;
+                }
+
+
+            }
+            return count;
         }
     }
 }
