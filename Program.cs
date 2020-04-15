@@ -14,6 +14,10 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
+            Queue<int> queue = new Queue<int>();
+            
+            IList<IList<int>> result2 = new List<IList<int>>();
+            result2.Add(new int[] { 1,2,3}.Concat(new int[] { 4,5,6}).ToArray());
             List<int[]> _matrix = new List<int[]>();
             _matrix.Add(new int[] { 1, 2, 0, 4});
             _matrix.Add(new int[] { 5, 6, 7, 8});

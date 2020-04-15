@@ -71,6 +71,7 @@
     <Compile Include="LeetCode\00036_valid-sudoku.cs" />
     <Compile Include="LeetCode\00039_combination-sum.cs" />
     <Compile Include="LeetCode\00040_combination-sum-ii.cs" />
+    <Compile Include="LeetCode\00045_jump-game-ii.cs" />
     <Compile Include="LeetCode\00046_permutations.cs" />
     <Compile Include="LeetCode\00047_permutations-ii.cs" />
     <Compile Include="LeetCode\00049_group-anagrams.cs" />
@@ -90,6 +91,9 @@
     <Compile Include="LeetCode\00086_partition-list.cs" />
     <Compile Include="LeetCode\00088_merge-sorted-array.cs" />
     <Compile Include="LeetCode\00094_binary-tree-inorder-traversal.cs" />
+    <Compile Include="LeetCode\00100_same-tree.cs" />
+    <Compile Include="LeetCode\00101_symmetric-tree.cs" />
+    <Compile Include="LeetCode\00102_binary-tree-level-order-traversal.cs" />
     <Compile Include="LeetCode\00112_path-sum.cs" />
     <Compile Include="LeetCode\00113_path-sum-ii.cs" />
     <Compile Include="LeetCode\00121_best-time-to-buy-and-sell-stock.cs" />
