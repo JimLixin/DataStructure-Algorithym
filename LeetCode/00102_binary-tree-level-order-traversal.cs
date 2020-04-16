@@ -26,7 +26,7 @@ namespace Algorithym.LeetCode
         }
 
         /// <summary>
-        /// Imrpoved answer by using Queue and iterative
+        /// Imrpoved answer by using Queue and iterative    
         /// </summary>
         /// <param name="root"></param>
         /// <returns></returns>

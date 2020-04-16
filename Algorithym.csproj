@@ -94,6 +94,10 @@
     <Compile Include="LeetCode\00100_same-tree.cs" />
     <Compile Include="LeetCode\00101_symmetric-tree.cs" />
     <Compile Include="LeetCode\00102_binary-tree-level-order-traversal.cs" />
+    <Compile Include="LeetCode\00103_binary-tree-zigzag-level-order-traversal.cs" />
+    <Compile Include="LeetCode\00104_maximum-depth-of-binary-tree.cs" />
+    <Compile Include="LeetCode\00105_construct-binary-tree-from-preorder-and-inorder-traversal.cs" />
+    <Compile Include="LeetCode\00107_binary-tree-level-order-traversal-ii.cs" />
     <Compile Include="LeetCode\00112_path-sum.cs" />
     <Compile Include="LeetCode\00113_path-sum-ii.cs" />
     <Compile Include="LeetCode\00121_best-time-to-buy-and-sell-stock.cs" />
