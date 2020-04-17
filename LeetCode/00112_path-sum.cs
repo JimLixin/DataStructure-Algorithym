@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
+    /// <summary>
+    /// https://leetcode.com/problems/path-sum/
+    /// </summary>
     public class path_sum
     {
         private int tmp = 0;

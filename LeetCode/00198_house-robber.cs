@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
+    /// <summary>
+    /// https://leetcode.com/problems/house-robber/
+    /// </summary>
     public class house_robber
     {
         public int Rob(int[] nums)

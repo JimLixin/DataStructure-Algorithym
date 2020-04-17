@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
+    /// <summary>
+    /// https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+    /// </summary>
     public class construct_binary_tree_from_inorder_and_postorder_traversal
     {
         Dictionary<int, int> dic = null;
