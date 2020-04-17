@@ -14,6 +14,20 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
+            LeetCode.TreeNode node = new LeetCode.TreeNode(1);
+            LeetCode.TreeNode node1 = new LeetCode.TreeNode(2);
+            LeetCode.TreeNode node12 = new LeetCode.TreeNode(5);
+            node.left = node1;
+            node.right = node12;
+            LeetCode.TreeNode node21 = new LeetCode.TreeNode(3);
+            LeetCode.TreeNode node22 = new LeetCode.TreeNode(4);
+            node1.left = node21;
+            node1.right = node22;
+            LeetCode.TreeNode node31 = new LeetCode.TreeNode(6);
+            node12.right = node31;
+
+            (new flatten_binary_tree_to_linked_list()).Flatten(node);
+
             (new construct_binary_tree_from_preorder_and_inorder_traversalV2()).BuildTree(
                     new int[] { 3, 9, 20, 15, 7 },
                     new int[] { 9, 3, 15, 20, 7 }
@@ -75,19 +89,19 @@ namespace Algorithym
             //(resti as List<int[]>).AddRange(Enumerable.Range(top + 1, height - 1).Reverse().Select(i => new int[] { i, left }).ToArray());
             //var qwe = resti.Select(i => matrix2[i[0]][i[1]]).ToList();
 
-            ListNode head = new ListNode(1);
-            ListNode node1 = new ListNode(4);
-            ListNode node2 = new ListNode(3);
-            ListNode node3 = new ListNode(2);
-            ListNode node4 = new ListNode(5);
-            ListNode node5 = new ListNode(2);
-            head.next = node1;
-            node1.next = node2;
-            node2.next = node3;
-            node3.next = node4;
-            node4.next = node5;
+            //ListNode head = new ListNode(1);
+            //ListNode node1 = new ListNode(4);
+            //ListNode node2 = new ListNode(3);
+            //ListNode node3 = new ListNode(2);
+            //ListNode node4 = new ListNode(5);
+            //ListNode node5 = new ListNode(2);
+            //head.next = node1;
+            //node1.next = node2;
+            //node2.next = node3;
+            //node3.next = node4;
+            //node4.next = node5;
 
-            var head2 = (new partition_list()).Partition(head, 3);
+            //var head2 = (new partition_list()).Partition(head, 3);
             var data1 = (new permutation_sequenceV2()).GetPermutation(4, 10);
             int[] arr1 = new int[] { 0,0,3,0,0,0,0,0,0};
             int[] arr2 = new int[] { -1,1,1,1,2,3 };
