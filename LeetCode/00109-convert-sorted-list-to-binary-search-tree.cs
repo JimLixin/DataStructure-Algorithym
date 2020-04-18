@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace Algorithym.LeetCode
 {
+  //    public class ListNode
+  //  {
+  //    public int val;
+  //    public ListNode next;
+  //    public ListNode(int x) { val = x; }
+  //}
     /// <summary>
     /// https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
     /// </summary>

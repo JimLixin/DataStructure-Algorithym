@@ -14,6 +14,16 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
+            ListNode head = new ListNode(0);
+            ListNode pre = head;
+            for (int i = 1; i < 10; i++)
+            {
+                ListNode tmp = new ListNode(i);
+                pre.next = tmp;
+                pre = pre.next;
+            }
+            var bst = (new convert_sorted_list_to_binary_search_treeV2()).SortedListToBST(head);
+
             LeetCode.TreeNode node = new LeetCode.TreeNode(1);
             LeetCode.TreeNode node1 = new LeetCode.TreeNode(2);
             LeetCode.TreeNode node12 = new LeetCode.TreeNode(5);
