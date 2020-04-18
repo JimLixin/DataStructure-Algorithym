@@ -106,6 +106,7 @@
     <Compile Include="LeetCode\00113_path-sum-ii.cs" />
     <Compile Include="LeetCode\00114_flatten-binary-tree-to-linked-list.cs" />
     <Compile Include="LeetCode\00116_populating-next-right-pointers-in-each-node.cs" />
+    <Compile Include="LeetCode\00117_populating-next-right-pointers-in-each-node-ii.cs" />
     <Compile Include="LeetCode\00121_best-time-to-buy-and-sell-stock.cs" />
     <Compile Include="LeetCode\00122_best-time-to-buy-and-sell-stock-ii.cs" />
     <Compile Include="LeetCode\00198_house-robber.cs" />
