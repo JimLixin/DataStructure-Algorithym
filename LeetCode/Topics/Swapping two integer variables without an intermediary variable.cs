@@ -14,5 +14,12 @@ namespace Algorithym.LeetCode.Topics
             B = A ^ B; // B is now the original A
             A = A ^ B; // A is now the original B
         }
+
+        public void swapArray(int[] nums, int p1, int p2)
+        {
+            nums[p1] = nums[p1] ^ nums[p2];
+            nums[p2] = nums[p1] ^ nums[p2];
+            nums[p1] = nums[p1] ^ nums[p2];
+        }
     }
 }

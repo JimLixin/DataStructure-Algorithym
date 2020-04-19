@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Algorithym.LeetCode.Dynamic_Progamming;
+using Algorithym.LeetCode.Topics;
 
 namespace Algorithym
 {
@@ -14,6 +15,11 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
+            int[] nums = new int[] { 1,0,3};
+            int seed = 0;
+            var xor = nums.Aggregate(seed++, (x, y) => x ^ y);
+
+            (new Swapping_two_integer_variables_without_an_intermediary_variable()).swapArray(nums, 0, 2);
             ListNode head = new ListNode(0);
             ListNode pre = head;
             for (int i = 1; i < 10; i++)

@@ -115,9 +115,11 @@
     <Compile Include="LeetCode\00125_valid-palindrome.cs" />
     <Compile Include="LeetCode\00126_word-ladder-ii.cs" />
     <Compile Include="LeetCode\00127_word-ladder.cs" />
+    <Compile Include="LeetCode\00136_single-number.cs" />
     <Compile Include="LeetCode\00198_house-robber.cs" />
     <Compile Include="LeetCode\00213_house-robber-ii.cs" />
     <Compile Include="LeetCode\00242_valid-anagram.cs" />
+    <Compile Include="LeetCode\00268_missing-number.cs" />
     <Compile Include="LeetCode\00437_path-sum-iii.cs" />
     <Compile Include="LeetCode\00509_fibonacci-number.cs" />
     <Compile Include="LeetCode\00746_min-cost-climbing-stairs.cs" />
@@ -130,10 +132,12 @@
     <Compile Include="LeetCode\Dynamic Progamming\Problem3.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\Problem4.cs" />
     <Compile Include="LeetCode\Shared\ListNode.cs" />
+    <Compile Include="LeetCode\Topics\Bit Twiddling Hacks.cs" />
     <Compile Include="LeetCode\Topics\Counts the number of times a given int occurs in a Linked List.cs" />
     <Compile Include="LeetCode\Topics\Find the middle of a given linked list .cs" />
     <Compile Include="LeetCode\Topics\N’th node from the end of a Linked List.cs" />
     <Compile Include="LeetCode\Topics\Reverse a linked list.cs" />
+    <Compile Include="LeetCode\Topics\Swapping two integer variables without an intermediary variable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BinaryHeap.cs" />
