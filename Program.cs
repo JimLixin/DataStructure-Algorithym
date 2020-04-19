@@ -15,8 +15,8 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
-            int[] nums = new int[] { 4,1,2,3,5,6,8,2,7};
-            (new find_the_duplicate_number()).FindDuplicateV2(nums);
+            int[] nums = new int[] {3,0,1};
+            (new missing_number()).MissingNumber(nums);
 
 
             int seed = 0;
