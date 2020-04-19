@@ -40,4 +40,26 @@ namespace Algorithym.LeetCode
             data = (data - node.val) / 10;
         }
     }
+
+    public class BestSolution
+    {
+        public int SumNumbers(TreeNode root)
+        {
+
+            return dfs(root, 0);
+        }
+        private int dfs(TreeNode node, int pathNum)
+        {
+            if (node == null)
+            {
+                return 0;
+            }
+            if (node.right == null && node.left == null)
+            {
+                pathNum = pathNum * 10 + node.val;
+                return pathNum;
+            }
+            return dfs(node.left, pathNum * 10 + node.val) + dfs(node.right, pathNum * 10 + node.val);
+        }
+    }
 }
