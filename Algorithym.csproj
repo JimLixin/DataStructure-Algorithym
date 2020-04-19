@@ -120,6 +120,7 @@
     <Compile Include="LeetCode\00213_house-robber-ii.cs" />
     <Compile Include="LeetCode\00242_valid-anagram.cs" />
     <Compile Include="LeetCode\00268_missing-number.cs" />
+    <Compile Include="LeetCode\00287_find-the-duplicate-number.cs" />
     <Compile Include="LeetCode\00437_path-sum-iii.cs" />
     <Compile Include="LeetCode\00509_fibonacci-number.cs" />
     <Compile Include="LeetCode\00746_min-cost-climbing-stairs.cs" />

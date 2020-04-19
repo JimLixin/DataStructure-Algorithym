@@ -19,6 +19,8 @@ namespace Algorithym
             int seed = 0;
             var xor = nums.Aggregate(seed++, (x, y) => x ^ y);
 
+            xor = Enumerable.Range(1, 4).Aggregate((x, y) => x ^ y);
+
             (new Swapping_two_integer_variables_without_an_intermediary_variable()).swapArray(nums, 0, 2);
             ListNode head = new ListNode(0);
             ListNode pre = head;
