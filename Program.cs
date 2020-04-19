@@ -15,7 +15,10 @@ namespace Algorithym
     {
         static void Main(string[] args)
         {
-            int[] nums = new int[] { 1,0,3};
+            int[] nums = new int[] { 4,1,2,3,5,6,8,2,7};
+            (new find_the_duplicate_number()).FindDuplicateV2(nums);
+
+
             int seed = 0;
             var xor = nums.Aggregate(seed++, (x, y) => x ^ y);
 

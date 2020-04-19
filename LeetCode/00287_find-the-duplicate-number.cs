@@ -21,5 +21,35 @@ namespace Algorithym.LeetCode
             }
             return -1;
         }
+
+        /// <summary>
+        /// Fast solution !!! need to understanding.
+        /// Note: So, here is an approach that is based on Floyd’s cycle finding algorithm. We use this to detect loop in a linked list.
+        ///https://www.geeksforgeeks.org/find-duplicates-constant-array-elements-0-n-1-o1-space/
+        /// https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <returns></returns>
+        public int FindDuplicateV2(int[] nums)
+        {
+            int fast = nums[0];
+            int slow = nums[0];
+
+            do
+            {
+                slow = nums[slow];
+                fast = nums[nums[fast]];
+            }
+            while (slow != fast);
+
+            fast = nums[0];
+            while (slow != fast)
+            {
+                slow = nums[slow];
+                fast = nums[fast];
+            }
+
+            return slow;
+        }
     }
 }

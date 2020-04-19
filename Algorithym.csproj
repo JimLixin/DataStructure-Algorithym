@@ -135,6 +135,8 @@
     <Compile Include="LeetCode\Shared\ListNode.cs" />
     <Compile Include="LeetCode\Topics\Bit Twiddling Hacks.cs" />
     <Compile Include="LeetCode\Topics\Counts the number of times a given int occurs in a Linked List.cs" />
+    <Compile Include="LeetCode\Topics\Detect loop in a linked list.cs" />
+    <Compile Include="LeetCode\Topics\Find duplicates in constant array with elements 0 to N-1 in O%281%29 space.cs" />
     <Compile Include="LeetCode\Topics\Find the middle of a given linked list .cs" />
     <Compile Include="LeetCode\Topics\N’th node from the end of a Linked List.cs" />
     <Compile Include="LeetCode\Topics\Reverse a linked list.cs" />
