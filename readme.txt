@@ -16,3 +16,10 @@ C++和java 9 实现hashmap的神器红黑树等，都可以算作是查找树。
 About DFS - 
 https://zhuanlan.zhihu.com/p/27112937
 http://chen-tao.github.io/2017/01/26/about-dfs/
+
+
+Microsoft Online Assessment Questions
+https://leetcode.com/discuss/interview-question/398023/Microsoft-Online-Assessment-Questions
+
+
+https://www.lintcode.com/problem/?tag=microsoft
