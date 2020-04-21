@@ -89,8 +89,10 @@
     <Compile Include="LeetCode\00070_climbing-stairs.cs" />
     <Content Include="LeetCode\00083_remove-duplicates-from-sorted-list.cpp" />
     <Compile Include="LeetCode\00077_combinations.cs" />
+    <Compile Include="LeetCode\00078_subsets.cs" />
     <Compile Include="LeetCode\00086_partition-list.cs" />
     <Compile Include="LeetCode\00088_merge-sorted-array.cs" />
+    <Compile Include="LeetCode\00090_subsets-ii.cs" />
     <Compile Include="LeetCode\00094_binary-tree-inorder-traversal.cs" />
     <Compile Include="LeetCode\00100_same-tree.cs" />
     <Compile Include="LeetCode\00101_symmetric-tree.cs" />
