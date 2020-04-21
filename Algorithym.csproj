@@ -90,6 +90,7 @@
     <Content Include="LeetCode\00083_remove-duplicates-from-sorted-list.cpp" />
     <Compile Include="LeetCode\00077_combinations.cs" />
     <Compile Include="LeetCode\00078_subsets.cs" />
+    <Compile Include="LeetCode\00082_remove-duplicates-from-sorted-list-ii.cs" />
     <Compile Include="LeetCode\00086_partition-list.cs" />
     <Compile Include="LeetCode\00088_merge-sorted-array.cs" />
     <Compile Include="LeetCode\00090_subsets-ii.cs" />
