@@ -9,7 +9,7 @@ namespace Algorithym.LeetCode.LCOF
     /// <summary>
     /// https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/
     /// </summary>
-    public class shu_zu_zhong_zhong_fu_de_shu_zi_lcof
+    public class shu_zu_zhong_chong_fu_de_shu_zi_lcof
     {
         /// <summary>
         /// Good at space complexity
