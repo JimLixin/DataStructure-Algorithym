@@ -145,6 +145,7 @@
     <Compile Include="LeetCode\LCOF\qing-wa-tiao-tai-jie-wen-ti-lcof.cs" />
     <Compile Include="LeetCode\LCOF\shu_zu_zhong_chong_fu_de_shu_zi_lcof.cs" />
     <Compile Include="LeetCode\LCOF\successor-lcci.cs" />
+    <Compile Include="LeetCode\LCOF\yong-liang-ge-zhan-shi-xian-dui-lie-lcof.cs" />
     <Compile Include="LeetCode\Shared\ListNode.cs" />
     <Compile Include="LeetCode\Topics\Bit Twiddling Hacks.cs" />
     <Compile Include="LeetCode\Topics\Counts the number of times a given int occurs in a Linked List.cs" />
