@@ -146,6 +146,7 @@
     <Compile Include="LeetCode\LCOF\er-cha-shu-de-jing-xiang-lcof.cs" />
     <Compile Include="LeetCode\LCOF\er-jin-zhi-zhong-1de-ge-shu-lcof.cs" />
     <Compile Include="LeetCode\LCOF\er-wei-shu-zu-zhong-de-cha-zhao-lcof.cs" />
+    <Compile Include="LeetCode\LCOF\fan-zhuan-lian-biao-lcof.cs" />
     <Compile Include="LeetCode\LCOF\fei-bo-na-qi-shu-lie-lcof.cs" />
     <Compile Include="LeetCode\LCOF\ji-qi-ren-de-yun-dong-fan-wei-lcof.cs" />
     <Compile Include="LeetCode\LCOF\jian-sheng-zi-lcof.cs" />
