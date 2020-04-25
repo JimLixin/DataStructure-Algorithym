@@ -157,6 +157,7 @@
     <Compile Include="LeetCode\LCOF\jian-sheng-zi-lcof.cs" />
     <Compile Include="LeetCode\LCOF\ju-zhen-zhong-de-lu-jing-lcof.cs" />
     <Compile Include="LeetCode\LCOF\lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.cs" />
+    <Compile Include="LeetCode\LCOF\ping-heng-er-cha-shu-lcof.cs" />
     <Compile Include="LeetCode\LCOF\qing-wa-tiao-tai-jie-wen-ti-lcof.cs" />
     <Compile Include="LeetCode\LCOF\shan-chu-lian-biao-de-jie-dian-lcof.cs" />
     <Compile Include="LeetCode\LCOF\shu_zu_zhong_chong_fu_de_shu_zi_lcof.cs" />
