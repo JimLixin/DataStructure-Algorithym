@@ -141,6 +141,7 @@
     <Compile Include="LeetCode\LCOF\00985_sum-of-even-numbers-after-queries.cs" />
     <Compile Include="LeetCode\LCOF\cong-wei-dao-tou-da-yin-lian-biao-lcof.cs" />
     <Compile Include="LeetCode\LCOF\da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.cs" />
+    <Compile Include="LeetCode\LCOF\dui-cheng-de-er-cha-shu-lcof.cs" />
     <Compile Include="LeetCode\LCOF\er-cha-shu-de-jing-xiang-lcof.cs" />
     <Compile Include="LeetCode\LCOF\er-jin-zhi-zhong-1de-ge-shu-lcof.cs" />
     <Compile Include="LeetCode\LCOF\er-wei-shu-zu-zhong-de-cha-zhao-lcof.cs" />
