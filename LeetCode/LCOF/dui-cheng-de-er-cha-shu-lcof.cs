@@ -21,6 +21,9 @@ namespace Algorithym.LeetCode.LCOF
 
         public bool isSymmetric(TreeNode left, TreeNode right)
         {
+            ///Another better way to check if both are null or not
+            ///if (left == null) return right == null;
+            ///if (right == null) return left == null;
             if (left == null && right == null)
                 return true;
             if (left == null || right == null)
