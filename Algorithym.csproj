@@ -140,6 +140,7 @@
     <Compile Include="LeetCode\Dynamic Progamming\Problem4.cs" />
     <Compile Include="LeetCode\LCOF\00985_sum-of-even-numbers-after-queries.cs" />
     <Compile Include="LeetCode\LCOF\bao-han-minhan-shu-de-zhan-lcof.cs" />
+    <Compile Include="LeetCode\LCOF\cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.cs" />
     <Compile Include="LeetCode\LCOF\cong-shang-dao-xia-da-yin-er-cha-shu-lcof.cs" />
     <Compile Include="LeetCode\LCOF\cong-wei-dao-tou-da-yin-lian-biao-lcof.cs" />
     <Compile Include="LeetCode\LCOF\da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.cs" />
