@@ -50,12 +50,57 @@ namespace Algorithym.LeetCode.LCOF
         }
     }
 
-    /**
-     * Your MinStack object will be instantiated and called as such:
-     * MinStack obj = new MinStack();
-     * obj.Push(x);
-     * obj.Pop();
-     * int param_3 = obj.Top();
-     * int param_4 = obj.Min();
-     */
+    /// <summary>
+    /// A better solution need to undetstanding!!!!
+    /// </summary>
+    public class MinStackV2
+    {
+
+        private int size = 0;
+        private int[] arrayIdx = new int[20000];
+        private int[] data = new int[20000];
+
+        /** initialize your data structure here. */
+        public MinStackV2()
+        {
+
+        }
+
+        public void Push(int x)
+        {
+            if (size == 0)
+            {
+                arrayIdx[0] = 0;
+            }
+            else
+            {
+                if (data[arrayIdx[size - 1]] > x)
+                {
+                    arrayIdx[size] = size;
+                }
+                else
+                {
+                    arrayIdx[size] = arrayIdx[size - 1];
+                }
+            }
+            data[size++] = x;
+        }
+
+        public void Pop()
+        {
+            data[--size] = 0;
+            arrayIdx[size] = 0;
+        }
+
+        public int Top()
+        {
+            return data[size - 1];
+        }
+
+        public int Min()
+        {
+            return data[arrayIdx[size - 1]];
+        }
+    }
+
 }
