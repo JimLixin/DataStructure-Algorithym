@@ -161,6 +161,7 @@
     <Compile Include="LeetCode\LCOF\qing-wa-tiao-tai-jie-wen-ti-lcof.cs" />
     <Compile Include="LeetCode\LCOF\que-shi-de-shu-zi-lcof.cs" />
     <Compile Include="LeetCode\LCOF\shan-chu-lian-biao-de-jie-dian-lcof.cs" />
+    <Compile Include="LeetCode\LCOF\shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof.cs" />
     <Compile Include="LeetCode\LCOF\shu_zu_zhong_chong_fu_de_shu_zi_lcof.cs" />
     <Compile Include="LeetCode\LCOF\successor-lcci.cs" />
     <Compile Include="LeetCode\LCOF\xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.cs" />
