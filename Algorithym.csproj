@@ -173,6 +173,7 @@
     <Compile Include="LeetCode\LCOF\er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof.cs" />
     <Compile Include="LeetCode\LCOF\zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.cs" />
     <Compile Include="LeetCode\LCOF\zi-fu-chuan-de-pai-lie-lcof.cs" />
+    <Compile Include="LeetCode\LCOF\数组中数字出现的次数 II.cs" />
     <Compile Include="LeetCode\LCOF\数组中数字出现的次数.cs" />
     <Compile Include="LeetCode\LCOF\重建二叉树.cs" />
     <Compile Include="LeetCode\Shared\ListNode.cs" />
