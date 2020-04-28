@@ -178,6 +178,7 @@
     <Compile Include="LeetCode\LCOF\把字符串转换成整数.cs" />
     <Compile Include="LeetCode\LCOF\数组中数字出现的次数 II.cs" />
     <Compile Include="LeetCode\LCOF\数组中数字出现的次数.cs" />
+    <Compile Include="LeetCode\LCOF\求1+2+…+n.cs" />
     <Compile Include="LeetCode\LCOF\重建二叉树.cs" />
     <Compile Include="LeetCode\Shared\ListNode.cs" />
     <Compile Include="LeetCode\Topics\Bit Twiddling Hacks.cs" />
