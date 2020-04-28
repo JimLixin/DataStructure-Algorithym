@@ -23,6 +23,23 @@ namespace Algorithym.LeetCode.Topics
             return sum;
         }
 
+        /// <summary>
+        /// 更简单的写法
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
+        public static int AddV2(int a, int b)
+        {
+            while (b != 0)
+            {
+                int tmp = a ^ b;
+                b = (a & b) << 1;
+                a = tmp;
+            }
+            return a;
+        }
+
         public static int Substract(int x, int y)
         {
             int _y = Add(~y, 1);
