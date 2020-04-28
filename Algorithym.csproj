@@ -178,6 +178,7 @@
     <Compile Include="LeetCode\LCOF\把字符串转换成整数.cs" />
     <Compile Include="LeetCode\LCOF\数组中数字出现的次数 II.cs" />
     <Compile Include="LeetCode\LCOF\数组中数字出现的次数.cs" />
+    <Compile Include="LeetCode\LCOF\构建乘积数组.cs" />
     <Compile Include="LeetCode\LCOF\求1+2+…+n.cs" />
     <Compile Include="LeetCode\LCOF\重建二叉树.cs" />
     <Compile Include="LeetCode\Shared\ListNode.cs" />
@@ -189,6 +190,7 @@
     <Compile Include="LeetCode\Topics\N’th node from the end of a Linked List.cs" />
     <Compile Include="LeetCode\Topics\Reverse a linked list.cs" />
     <Compile Include="LeetCode\Topics\Swapping two integer variables without an intermediary variable.cs" />
+    <Compile Include="LeetCode\Topics\位运算实现整数加减乘除.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BinaryHeap.cs" />
