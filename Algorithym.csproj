@@ -178,6 +178,7 @@
     <Compile Include="LeetCode\LCOF\zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.cs" />
     <Compile Include="LeetCode\LCOF\zi-fu-chuan-de-pai-lie-lcof.cs" />
     <Compile Include="LeetCode\LCOF\圆圈中最后剩下的数字.cs" />
+    <Compile Include="LeetCode\LCOF\左旋转字符串.cs" />
     <Compile Include="LeetCode\LCOF\把字符串转换成整数.cs" />
     <Compile Include="LeetCode\LCOF\数组中数字出现的次数 II.cs" />
     <Compile Include="LeetCode\LCOF\数组中数字出现的次数.cs" />
