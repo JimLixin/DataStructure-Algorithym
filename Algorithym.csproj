@@ -177,11 +177,13 @@
     <Compile Include="LeetCode\LCOF\er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof.cs" />
     <Compile Include="LeetCode\LCOF\zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.cs" />
     <Compile Include="LeetCode\LCOF\zi-fu-chuan-de-pai-lie-lcof.cs" />
+    <Compile Include="LeetCode\LCOF\圆圈中最后剩下的数字.cs" />
     <Compile Include="LeetCode\LCOF\把字符串转换成整数.cs" />
     <Compile Include="LeetCode\LCOF\数组中数字出现的次数 II.cs" />
     <Compile Include="LeetCode\LCOF\数组中数字出现的次数.cs" />
     <Compile Include="LeetCode\LCOF\构建乘积数组.cs" />
     <Compile Include="LeetCode\LCOF\求1+2+…+n.cs" />
+    <Compile Include="LeetCode\LCOF\翻转单词顺序.cs" />
     <Compile Include="LeetCode\LCOF\股票的最大利润.cs" />
     <Compile Include="LeetCode\LCOF\重建二叉树.cs" />
     <Compile Include="LeetCode\Shared\ListNode.cs" />
