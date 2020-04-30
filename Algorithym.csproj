@@ -185,6 +185,7 @@
     <Compile Include="LeetCode\LCOF\数组中数字出现的次数.cs" />
     <Compile Include="LeetCode\LCOF\构建乘积数组.cs" />
     <Compile Include="LeetCode\LCOF\求1+2+…+n.cs" />
+    <Compile Include="LeetCode\LCOF\礼物的最大价值.cs" />
     <Compile Include="LeetCode\LCOF\翻转单词顺序.cs" />
     <Compile Include="LeetCode\LCOF\股票的最大利润.cs" />
     <Compile Include="LeetCode\LCOF\重建二叉树.cs" />
