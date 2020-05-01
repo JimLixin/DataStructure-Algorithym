@@ -142,6 +142,7 @@
     <Compile Include="LeetCode\LCCI\三步问题.cs" />
     <Compile Include="LeetCode\LCCI\不用加号的加法.cs" />
     <Compile Include="LeetCode\LCCI\按摩师.cs" />
+    <Compile Include="LeetCode\LCCI\连续数列.cs" />
     <Compile Include="LeetCode\LCOF\00985_sum-of-even-numbers-after-queries.cs" />
     <Compile Include="LeetCode\LCOF\bao-han-minhan-shu-de-zhan-lcof.cs" />
     <Compile Include="LeetCode\LCOF\cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.cs" />
