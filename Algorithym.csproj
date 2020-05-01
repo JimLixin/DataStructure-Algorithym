@@ -139,6 +139,7 @@
     <Compile Include="LeetCode\Dynamic Progamming\Problem3.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\Problem4.cs" />
     <Compile Include="LeetCode\LCCI\三步问题.cs" />
+    <Compile Include="LeetCode\LCCI\按摩师.cs" />
     <Compile Include="LeetCode\LCOF\00985_sum-of-even-numbers-after-queries.cs" />
     <Compile Include="LeetCode\LCOF\bao-han-minhan-shu-de-zhan-lcof.cs" />
     <Compile Include="LeetCode\LCOF\cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.cs" />
@@ -159,6 +160,7 @@
     <Content Include="LeetCode\LCOF\二叉树的最近公共祖先.cpp" />
     <Compile Include="LeetCode\LCOF\不用加减乘除做加法.cs" />
     <Compile Include="LeetCode\LCOF\两个链表的第一个公共节点.cs" />
+    <Compile Include="LeetCode\LCOF\二叉搜索树与双向链表.cs" />
     <Compile Include="LeetCode\LCOF\二叉搜索树的第k大节点.cs" />
     <Compile Include="LeetCode\LCOF\合并两个排序的链表.cs" />
     <Compile Include="LeetCode\LCOF\和为s的连续正数序列.cs" />
