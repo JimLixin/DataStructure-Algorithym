@@ -138,6 +138,7 @@
     <Compile Include="LeetCode\Dynamic Progamming\Problem2.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\Problem3.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\Problem4.cs" />
+    <Compile Include="LeetCode\LCCI\T9键盘.cs" />
     <Compile Include="LeetCode\LCCI\三步问题.cs" />
     <Compile Include="LeetCode\LCCI\按摩师.cs" />
     <Compile Include="LeetCode\LCOF\00985_sum-of-even-numbers-after-queries.cs" />
