@@ -139,6 +139,7 @@
     <Compile Include="LeetCode\00509_fibonacci-number.cs" />
     <Compile Include="LeetCode\00645_set-mismatch.cs" />
     <Compile Include="LeetCode\00746_min-cost-climbing-stairs.cs" />
+    <Compile Include="LeetCode\00844_backspace-string-compare.cs" />
     <Compile Include="LeetCode\01137_n-th-tribonacci-number.cs" />
     <Compile Include="LeetCode\00051_n-queens.cs" />
     <Compile Include="LeetCode\00052_n-queens-ii.cs" />
