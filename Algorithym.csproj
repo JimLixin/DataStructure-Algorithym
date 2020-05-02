@@ -123,6 +123,7 @@
     <Compile Include="LeetCode\00129_sum-root-to-leaf-numbers.cs" />
     <Compile Include="LeetCode\00136_single-number.cs" />
     <Compile Include="LeetCode\00141_linked-list-cycle.cs" />
+    <Compile Include="LeetCode\00167_two-sum-ii-input-array-is-sorted.cs" />
     <Compile Include="LeetCode\00198_house-robber.cs" />
     <Compile Include="LeetCode\00213_house-robber-ii.cs" />
     <Compile Include="LeetCode\00242_valid-anagram.cs" />

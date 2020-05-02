@@ -105,4 +105,28 @@ namespace Algorithym.LeetCode.Topics
             return false;
         }
     }
+
+    /// <summary>
+    /// 167. 两数之和 II - 输入有序数组
+    /// https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/
+    /// </summary>
+    public class two_sum_ii_input_array_is_sorted
+    {
+        public int[] TwoSum(int[] numbers, int target)
+        {
+            if (numbers == null || numbers.Length == 0)
+                return new int[0];
+            int left = 0, right = numbers.Length - 1;
+            while (left < right)
+            {
+                if (target == numbers[left] + numbers[right])
+                    return new int[] { left + 1, right + 1 };
+                if (target > numbers[left] + numbers[right])
+                    left++;
+                else
+                    right--;
+            }
+            return new int[0];
+        }
+    }
 }
