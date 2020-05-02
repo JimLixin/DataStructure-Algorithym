@@ -42,5 +42,21 @@ namespace Algorithym.LeetCode
 
             return tmpCounter > counter ? tmpCounter : counter;
         }
+
+        static int AnswerV2(string s)
+        {
+            int max = 0;
+            List<char> list = new List<char>();
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (list.Contains(s[i]))
+                {
+                    max = Math.Max(max, list.Count);
+                    list.RemoveRange(0, list.IndexOf(s[i]) + 1);
+                }
+                list.Add(s[i]);
+            }
+            return Math.Max(max, list.Count);
+        }
     }
 }

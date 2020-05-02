@@ -90,6 +90,7 @@
     <Content Include="LeetCode\00083_remove-duplicates-from-sorted-list.cpp" />
     <Compile Include="LeetCode\00077_combinations.cs" />
     <Compile Include="LeetCode\00078_subsets.cs" />
+    <Compile Include="LeetCode\00080_remove-duplicates-from-sorted-array-ii.cs" />
     <Compile Include="LeetCode\00082_remove-duplicates-from-sorted-list-ii.cs" />
     <Compile Include="LeetCode\00086_partition-list.cs" />
     <Compile Include="LeetCode\00088_merge-sorted-array.cs" />
@@ -125,6 +126,7 @@
     <Compile Include="LeetCode\00213_house-robber-ii.cs" />
     <Compile Include="LeetCode\00242_valid-anagram.cs" />
     <Compile Include="LeetCode\00268_missing-number.cs" />
+    <Compile Include="LeetCode\00283_move-zeroes.cs" />
     <Compile Include="LeetCode\00287_find-the-duplicate-number.cs" />
     <Compile Include="LeetCode\00437_path-sum-iii.cs" />
     <Compile Include="LeetCode\00509_fibonacci-number.cs" />
@@ -208,6 +210,7 @@
     <Compile Include="LeetCode\Topics\Reverse a linked list.cs" />
     <Compile Include="LeetCode\Topics\Swapping two integer variables without an intermediary variable.cs" />
     <Compile Include="LeetCode\Topics\位运算实现整数加减乘除.cs" />
+    <Compile Include="LeetCode\Topics\双指针.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BinaryHeap.cs" />
