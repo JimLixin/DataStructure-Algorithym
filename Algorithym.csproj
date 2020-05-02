@@ -126,6 +126,7 @@
     <Compile Include="LeetCode\00167_two-sum-ii-input-array-is-sorted.cs" />
     <Compile Include="LeetCode\00198_house-robber.cs" />
     <Compile Include="LeetCode\00213_house-robber-ii.cs" />
+    <Compile Include="LeetCode\00234_palindrome-linked-list.cs" />
     <Compile Include="LeetCode\00242_valid-anagram.cs" />
     <Compile Include="LeetCode\00268_missing-number.cs" />
     <Compile Include="LeetCode\00283_move-zeroes.cs" />
