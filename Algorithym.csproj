@@ -149,6 +149,7 @@
     <Compile Include="LeetCode\Dynamic Progamming\Problem2.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\Problem3.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\Problem4.cs" />
+    <Compile Include="LeetCode\LCCI\kth-node-from-end-of-list-lcci.cs" />
     <Compile Include="LeetCode\LCCI\T9键盘.cs" />
     <Compile Include="LeetCode\LCCI\三步问题.cs" />
     <Compile Include="LeetCode\LCCI\不用加号的加法.cs" />

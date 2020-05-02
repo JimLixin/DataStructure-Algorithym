@@ -268,24 +268,59 @@ namespace Algorithym.LeetCode.Topics
             }
             if (left == 0) return A.Select(a => a * a).ToArray();
             if (right == A.Length - 1) return A.Reverse().Select(a => a * a).ToArray();
-            int p1 = left - 1, p2 = left, ind = 0;
-            while (p1 >= 0 || p2 < A.Length)
+            int p1 = right, p2 = left, ind = 0;
+            while (p2 < A.Length && p1 >= 0)
             {
-                if (p2 >= A.Length || (p1 >= 0 && A[p1] * A[p1] <= A[p2] * A[p2]))
+                if (A[p1] * A[p1] <= A[p2] * A[p2])
                 {
                     data[ind] = A[p1] * A[p1];
                     p1--;
-                    ind++;
-                    continue;
                 }
-                if (p1 < 0 || (p2 < A.Length && A[p1] * A[p1] > A[p2] * A[p2]))
+                else
                 {
                     data[ind] = A[p2] * A[p2];
                     p2++;
-                    ind++;
                 }
+                ind++;
+            }
+            while (p1 >= 0)
+            {
+                data[ind] = A[p1] * A[p1];
+                ind++;
+                p1--;
+            }
+            while (p2 < A.Length)
+            {
+                data[ind] = A[p2] * A[p2];
+                ind++;
+                p2++;
             }
             return data;
+        }
+    }
+
+    /// <summary>
+    /// 面试题 02.02. 返回倒数第 k 个节点
+    /// https://leetcode-cn.com/problems/kth-node-from-end-of-list-lcci/
+    /// </summary>
+    public class kth_node_from_end_of_list_lcci
+    {
+        public int KthToLast(ListNode head, int k)
+        {
+            if (head == null) return -1;
+            ListNode dumHead = new ListNode(0), slow = dumHead, fast = dumHead;
+            dumHead.next = head;
+            while (k > 0)
+            {
+                fast = fast.next;
+                k--;
+            }
+            while (fast != null)
+            {
+                fast = fast.next;
+                slow = slow.next;
+            }
+            return slow.val;
         }
     }
 }

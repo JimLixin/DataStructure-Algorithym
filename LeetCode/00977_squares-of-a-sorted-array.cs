@@ -23,22 +23,32 @@ namespace Algorithym.LeetCode
             }
             if (left == 0) return A.Select(a => a * a).ToArray();
             if (right == A.Length - 1) return A.Reverse().Select(a => a * a).ToArray();
-            int p1 = left - 1, p2 = left, ind = 0;
-            while (p1 >= 0 || p2 < A.Length)
+            int p1 = right, p2 = left, ind = 0;
+            while (p2 < A.Length && p1 >= 0)
             {
-                if (p2 >= A.Length || (p1 >= 0 && A[p1] * A[p1] <= A[p2] * A[p2]))
+                if (A[p1] * A[p1] <= A[p2] * A[p2])
                 {
                     data[ind] = A[p1] * A[p1];
                     p1--;
-                    ind++;
-                    continue;
                 }
-                if (p1 < 0 || (p2 < A.Length && A[p1] * A[p1] > A[p2] * A[p2]))
+                else
                 {
                     data[ind] = A[p2] * A[p2];
                     p2++;
-                    ind++;
                 }
+                ind++;
+            }
+            while (p1 >= 0)
+            {
+                data[ind] = A[p1] * A[p1];
+                ind++;
+                p1--;
+            }
+            while (p2 < A.Length)
+            {
+                data[ind] = A[p2] * A[p2];
+                ind++;
+                p2++;
             }
             return data;
         }
