@@ -217,4 +217,37 @@ namespace Algorithym.LeetCode.Topics
             return new String(str);
         }
     }
+
+    /// <summary>
+    /// 350. 两个数组的交集 II
+    /// https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/
+    /// </summary>
+    public class intersection_of_two_arrays_ii
+    {
+        /// <summary>
+        /// 此方法对于输入数组为已排序的情况比较适合
+        /// </summary>
+        /// <param name="nums1"></param>
+        /// <param name="nums2"></param>
+        /// <returns></returns>
+        public int[] Intersect(int[] nums1, int[] nums2)
+        {
+            if (nums1 == null || nums1.Length == 0 || nums2 == null || nums2.Length == 0) return new int[0];
+            List<int> data = new List<int>();
+            int i = 0, j = 0;
+            while (i < nums1.Length && j < nums2.Length)
+            {
+                if (nums1[i] == nums2[j])
+                {
+                    data.Add(nums1[i]);
+                    i++;
+                    j++;
+                    continue;
+                }
+                if (nums1[i] > nums2[j]) j++;
+                else if (nums1[i] < nums2[j]) i++;
+            }
+            return data.ToArray();
+        }
+    }
 }
