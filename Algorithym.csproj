@@ -146,6 +146,7 @@
     <Compile Include="LeetCode\00051_n-queens.cs" />
     <Compile Include="LeetCode\00052_n-queens-ii.cs" />
     <Compile Include="LeetCode\DFS.cs" />
+    <Compile Include="LeetCode\Dynamic Progamming\00091_解码方法.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\00152_乘积最大子数组.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\Problem1.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\Problem2.cs" />
