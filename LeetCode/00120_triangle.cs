@@ -35,9 +35,7 @@ namespace Algorithym.LeetCode
                 {
                     dp[i][j] = Math.Min(dp[i - 1][j], dp[i - 1][j - 1]) + triangle[i][j];
                     min = Math.Min(min, dp[i][j]);
-                    //Console.WriteLine($"{min}");
                 }
-                //Console.WriteLine(string.Join(",", dp[i]));
             }
             return min;
         }
@@ -69,9 +67,7 @@ namespace Algorithym.LeetCode
                         dp[steps - dpCount + j] = Math.Min(dp[steps - dpCount + j], dp[steps - dpCount + j + 1]) + triangle[i][j];
 
                     min = Math.Min(min, dp[steps - dpCount + j]);
-                    //Console.WriteLine($"{min}");
                 }
-                //Console.WriteLine(string.Join(",", dp[i]));
             }
             return min;
         }
