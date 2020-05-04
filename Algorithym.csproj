@@ -132,6 +132,7 @@
     <Compile Include="LeetCode\00268_missing-number.cs" />
     <Compile Include="LeetCode\00283_move-zeroes.cs" />
     <Compile Include="LeetCode\00287_find-the-duplicate-number.cs" />
+    <Compile Include="LeetCode\00338_counting-bits.cs" />
     <Compile Include="LeetCode\00344_reverse-string.cs" />
     <Compile Include="LeetCode\00345_reverse-vowels-of-a-string.cs" />
     <Compile Include="LeetCode\00349_intersection-of-two-arrays.cs" />
@@ -161,6 +162,7 @@
     <Compile Include="LeetCode\LCCI\按摩师.cs" />
     <Compile Include="LeetCode\LCCI\连续数列.cs" />
     <Compile Include="LeetCode\LCOF\00985_sum-of-even-numbers-after-queries.cs" />
+    <Compile Include="LeetCode\LCOF\042_连续子数组的最大和.cs" />
     <Compile Include="LeetCode\LCOF\bao-han-minhan-shu-de-zhan-lcof.cs" />
     <Compile Include="LeetCode\LCOF\cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.cs" />
     <Compile Include="LeetCode\LCOF\cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof.cs" />
