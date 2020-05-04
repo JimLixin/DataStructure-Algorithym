@@ -155,6 +155,7 @@
     <Compile Include="LeetCode\Dynamic Progamming\Problem2.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\Problem3.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\Problem4.cs" />
+    <Compile Include="LeetCode\Dynamic Progamming\迷路的机器人.cs" />
     <Compile Include="LeetCode\LCCI\kth-node-from-end-of-list-lcci.cs" />
     <Compile Include="LeetCode\LCCI\T9键盘.cs" />
     <Compile Include="LeetCode\LCCI\三步问题.cs" />
@@ -162,6 +163,7 @@
     <Compile Include="LeetCode\LCCI\合并排序的数组.cs" />
     <Compile Include="LeetCode\LCCI\按摩师.cs" />
     <Compile Include="LeetCode\LCCI\连续数列.cs" />
+    <Compile Include="LeetCode\LCCI\迷路的机器人.cs" />
     <Compile Include="LeetCode\LCOF\00985_sum-of-even-numbers-after-queries.cs" />
     <Compile Include="LeetCode\LCOF\042_连续子数组的最大和.cs" />
     <Compile Include="LeetCode\LCOF\bao-han-minhan-shu-de-zhan-lcof.cs" />
