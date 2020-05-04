@@ -218,6 +218,7 @@
     <Compile Include="LeetCode\LCOF\股票的最大利润.cs" />
     <Compile Include="LeetCode\LCOF\重建二叉树.cs" />
     <Compile Include="LeetCode\LCOF\队列的最大值.cs" />
+    <Compile Include="LeetCode\00221_maximal-square.cs" />
     <Compile Include="LeetCode\Shared\ListNode.cs" />
     <Compile Include="LeetCode\Topics\Bit Twiddling Hacks.cs" />
     <Compile Include="LeetCode\Topics\Counts the number of times a given int occurs in a Linked List.cs" />

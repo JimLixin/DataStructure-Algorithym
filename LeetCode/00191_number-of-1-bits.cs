@@ -22,5 +22,16 @@ namespace Algorithym.LeetCode
             }
             return count;
         }
+
+        public int HammingWeightV2(uint n)
+        {
+            int count = 0;
+            while (n != 0)
+            {
+                count++;
+                n &= n - 1;
+            }
+            return count;
+        }
     }
 }
