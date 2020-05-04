@@ -155,6 +155,7 @@
     <Compile Include="LeetCode\Dynamic Progamming\Problem2.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\Problem3.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\Problem4.cs" />
+    <Compile Include="LeetCode\Dynamic Progamming\最大正方形.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\迷路的机器人.cs" />
     <Compile Include="LeetCode\LCCI\kth-node-from-end-of-list-lcci.cs" />
     <Compile Include="LeetCode\LCCI\T9键盘.cs" />
