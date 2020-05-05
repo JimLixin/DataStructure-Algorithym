@@ -96,6 +96,7 @@
     <Compile Include="LeetCode\00088_merge-sorted-array.cs" />
     <Compile Include="LeetCode\00090_subsets-ii.cs" />
     <Compile Include="LeetCode\00094_binary-tree-inorder-traversal.cs" />
+    <Compile Include="LeetCode\00098_validate-binary-search-tree.cs" />
     <Compile Include="LeetCode\00100_same-tree.cs" />
     <Compile Include="LeetCode\00101_symmetric-tree.cs" />
     <Compile Include="LeetCode\00102_binary-tree-level-order-traversal.cs" />
@@ -156,6 +157,7 @@
     <Compile Include="LeetCode\Dynamic Progamming\Problem3.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\Problem4.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\最大正方形.cs" />
+    <Compile Include="LeetCode\Dynamic Progamming\比特位计数.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\迷路的机器人.cs" />
     <Compile Include="LeetCode\LCCI\kth-node-from-end-of-list-lcci.cs" />
     <Compile Include="LeetCode\LCCI\T9键盘.cs" />

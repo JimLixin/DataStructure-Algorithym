@@ -30,4 +30,29 @@ namespace Algorithym.LeetCode
             }
         }
     }
+
+    /// <summary>
+    /// 迭代法
+    /// </summary>
+    public class binary_tree_inorder_traversal_V2
+    {
+        public IList<int> InorderTraversal(TreeNode root)
+        {
+            Stack<TreeNode> s = new Stack<TreeNode>();
+            IList<int> result = new List<int>();
+            TreeNode cur = root;
+            while (cur != null || s.Count > 0)
+            {
+                while (cur != null)
+                {
+                    s.Push(cur);
+                    cur = cur.left;
+                }
+                cur = s.Pop();
+                result.Add(cur.val);
+                cur = cur.right;
+            }
+            return result;
+        }
+    }
 }
