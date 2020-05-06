@@ -150,6 +150,7 @@
     <Compile Include="LeetCode\00746_min-cost-climbing-stairs.cs" />
     <Compile Include="LeetCode\00844_backspace-string-compare.cs" />
     <Compile Include="LeetCode\00977_squares-of-a-sorted-array.cs" />
+    <Compile Include="LeetCode\00983_minimum-cost-for-tickets.cs" />
     <Compile Include="LeetCode\01137_n-th-tribonacci-number.cs" />
     <Compile Include="LeetCode\00051_n-queens.cs" />
     <Compile Include="LeetCode\00052_n-queens-ii.cs" />
@@ -161,6 +162,7 @@
     <Compile Include="LeetCode\Dynamic Progamming\Problem2.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\Problem3.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\Problem4.cs" />
+    <Compile Include="LeetCode\Dynamic Progamming\最低票价.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\最大正方形.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\比特位计数.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\迷路的机器人.cs" />
