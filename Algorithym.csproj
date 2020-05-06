@@ -138,6 +138,7 @@
     <Compile Include="LeetCode\00268_missing-number.cs" />
     <Compile Include="LeetCode\00283_move-zeroes.cs" />
     <Compile Include="LeetCode\00287_find-the-duplicate-number.cs" />
+    <Compile Include="LeetCode\00322_coin-change.cs" />
     <Compile Include="LeetCode\00338_counting-bits.cs" />
     <Compile Include="LeetCode\00344_reverse-string.cs" />
     <Compile Include="LeetCode\00345_reverse-vowels-of-a-string.cs" />
