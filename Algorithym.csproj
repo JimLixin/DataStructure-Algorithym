@@ -66,6 +66,7 @@
     <Compile Include="LeetCode\00026_remove-duplicates-from-sorted-array.cs" />
     <Compile Include="LeetCode\00027_remove-element.cs" />
     <Compile Include="LeetCode\00028_implement-strstr.cs" />
+    <Compile Include="LeetCode\00033_search-in-rotated-sorted-array.cs" />
     <Compile Include="LeetCode\00034_find-first-and-last-position-of-element-in-sorted-array.cs" />
     <Compile Include="LeetCode\00035_search-insert-position.cs" />
     <Compile Include="LeetCode\00036_valid-sudoku.cs" />
