@@ -140,6 +140,7 @@
     <Compile Include="LeetCode\00287_find-the-duplicate-number.cs" />
     <Compile Include="LeetCode\00300_longest-increasing-subsequence.cs" />
     <Compile Include="LeetCode\00322_coin-change.cs" />
+    <Compile Include="LeetCode\00334_increasing-triplet-subsequence.cs" />
     <Compile Include="LeetCode\00338_counting-bits.cs" />
     <Compile Include="LeetCode\00344_reverse-string.cs" />
     <Compile Include="LeetCode\00345_reverse-vowels-of-a-string.cs" />
@@ -167,8 +168,10 @@
     <Compile Include="LeetCode\Dynamic Progamming\Problem4.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\最低票价.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\最大正方形.cs" />
+    <Compile Include="LeetCode\Dynamic Progamming\最长上升子序列.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\比特位计数.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\迷路的机器人.cs" />
+    <Compile Include="LeetCode\Dynamic Progamming\递增的三元子序列.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\零钱兑换.cs" />
     <Compile Include="LeetCode\LCCI\kth-node-from-end-of-list-lcci.cs" />
     <Compile Include="LeetCode\LCCI\T9键盘.cs" />
