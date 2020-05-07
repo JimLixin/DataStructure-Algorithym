@@ -146,6 +146,7 @@
     <Compile Include="LeetCode\00350_intersection-of-two-arrays-ii.cs" />
     <Compile Include="LeetCode\00437_path-sum-iii.cs" />
     <Compile Include="LeetCode\00509_fibonacci-number.cs" />
+    <Compile Include="LeetCode\00572_subtree-of-another-tree.cs" />
     <Compile Include="LeetCode\00645_set-mismatch.cs" />
     <Compile Include="LeetCode\00671_second-minimum-node-in-a-binary-tree.cs" />
     <Compile Include="LeetCode\00746_min-cost-climbing-stairs.cs" />
@@ -167,6 +168,7 @@
     <Compile Include="LeetCode\Dynamic Progamming\最大正方形.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\比特位计数.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\迷路的机器人.cs" />
+    <Compile Include="LeetCode\Dynamic Progamming\零钱兑换.cs" />
     <Compile Include="LeetCode\LCCI\kth-node-from-end-of-list-lcci.cs" />
     <Compile Include="LeetCode\LCCI\T9键盘.cs" />
     <Compile Include="LeetCode\LCCI\三步问题.cs" />
