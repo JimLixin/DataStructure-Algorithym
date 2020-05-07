@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 /// <summary>
-/// 33. Search in Rotated Sorted Array
+/// 33. 搜索旋转排序数组
 /// https://leetcode-cn.com/problems/search-in-rotated-sorted-array/
 /// </summary>
 namespace Algorithym.LeetCode
