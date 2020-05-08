@@ -89,6 +89,7 @@
     <Compile Include="LeetCode\00069_sqrtx.cs" />
     <Compile Include="LeetCode\00070_climbing-stairs.cs" />
     <Content Include="LeetCode\00083_remove-duplicates-from-sorted-list.cpp" />
+    <Compile Include="LeetCode\00074_search-a-2d-matrix.cs" />
     <Compile Include="LeetCode\00077_combinations.cs" />
     <Compile Include="LeetCode\00078_subsets.cs" />
     <Compile Include="LeetCode\00080_remove-duplicates-from-sorted-array-ii.cs" />
