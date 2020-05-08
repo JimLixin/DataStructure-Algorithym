@@ -47,13 +47,15 @@ namespace Algorithym.LeetCode
             if (matrix == null || matrix.Length == 0 || matrix[0].Length == 0)
                 return false;
             int rows = matrix.Length, cols = matrix[0].Length;
-            int start = 0, end = rows * cols - 1, mid = 0;
+            int start = 0, end = rows * cols - 1, mid = 0, i = 0, j = 0;
             while (start <= end)
             {
                 mid = (start + end) / 2;
-                if (matrix[mid / cols][mid % cols] == target)
+                i = mid / cols;
+                j = mid % cols;
+                if (matrix[i][j] == target)
                     return true;
-                if (matrix[mid / cols][mid % cols] > target)
+                if (matrix[i][j] > target)
                     end = mid - 1;
                 else
                     start = mid + 1;
