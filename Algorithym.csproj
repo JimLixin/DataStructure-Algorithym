@@ -126,6 +126,7 @@
     <Compile Include="LeetCode\00129_sum-root-to-leaf-numbers.cs" />
     <Compile Include="LeetCode\00136_single-number.cs" />
     <Compile Include="LeetCode\00141_linked-list-cycle.cs" />
+    <Compile Include="LeetCode\00143_reorder-list.cs" />
     <Compile Include="LeetCode\00144_binary-tree-preorder-traversal.cs" />
     <Compile Include="LeetCode\00145_binary-tree-postorder-traversal.cs" />
     <Compile Include="LeetCode\00152_乘积最大子数组.cs" />
