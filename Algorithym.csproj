@@ -97,6 +97,7 @@
     <Compile Include="LeetCode\00086_partition-list.cs" />
     <Compile Include="LeetCode\00088_merge-sorted-array.cs" />
     <Compile Include="LeetCode\00090_subsets-ii.cs" />
+    <Compile Include="LeetCode\00092_reverse-linked-list-ii.cs" />
     <Compile Include="LeetCode\00094_binary-tree-inorder-traversal.cs" />
     <Compile Include="LeetCode\00098_validate-binary-search-tree.cs" />
     <Compile Include="LeetCode\00100_same-tree.cs" />
