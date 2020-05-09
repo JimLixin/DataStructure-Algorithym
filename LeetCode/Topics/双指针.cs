@@ -363,7 +363,7 @@ namespace Algorithym.LeetCode.Topics
     }
 
     /// <summary>
-    /// /// 142. 环形链表 II
+    /// 142. 环形链表 II
     /// https://leetcode-cn.com/problems/linked-list-cycle-ii/
     /// 双指针
     /// fast,slow 第一次相遇之后设置fast为head节点并继续，当第二次相遇时fast(或slow)所在位置即为环形入口节点。 

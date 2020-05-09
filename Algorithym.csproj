@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -238,6 +239,7 @@
     <Compile Include="LeetCode\LCOF\数组中数字出现的次数.cs" />
     <Compile Include="LeetCode\LCOF\构建乘积数组.cs" />
     <Compile Include="LeetCode\LCOF\求1+2+…+n.cs" />
+    <Compile Include="LeetCode\LCOF\滑动窗口的最大值.cs" />
     <Compile Include="LeetCode\LCOF\礼物的最大价值.cs" />
     <Compile Include="LeetCode\LCOF\第一个只出现一次的字符.cs" />
     <Compile Include="LeetCode\LCOF\翻转单词顺序.cs" />
