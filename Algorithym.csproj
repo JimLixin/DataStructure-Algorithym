@@ -250,6 +250,7 @@
     <Compile Include="LeetCode\LCOF\重建二叉树.cs" />
     <Compile Include="LeetCode\LCOF\队列的最大值.cs" />
     <Compile Include="LeetCode\00221_maximal-square.cs" />
+    <Compile Include="LeetCode\LCOF\顺时针打印矩阵.cs" />
     <Compile Include="LeetCode\Shared\ListNode.cs" />
     <Compile Include="LeetCode\Topics\Bit Twiddling Hacks.cs" />
     <Compile Include="LeetCode\Topics\Counts the number of times a given int occurs in a Linked List.cs" />
@@ -261,6 +262,7 @@
     <Compile Include="LeetCode\Topics\Swapping two integer variables without an intermediary variable.cs" />
     <Compile Include="LeetCode\Topics\位运算实现整数加减乘除.cs" />
     <Compile Include="LeetCode\Topics\双指针.cs" />
+    <Compile Include="LeetCode\快速幂算法\powx_n.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BinaryHeap.cs" />
@@ -286,7 +288,7 @@
     <Content Include="readme.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="LeetCode\快速幂算法\" />
+    <Folder Include="LeetCode\LRU Cache\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
