@@ -77,6 +77,7 @@
     <Compile Include="LeetCode\00046_permutations.cs" />
     <Compile Include="LeetCode\00047_permutations-ii.cs" />
     <Compile Include="LeetCode\00049_group-anagrams.cs" />
+    <Compile Include="LeetCode\00050_powx-n.cs" />
     <Compile Include="LeetCode\00053_maximum-subarray.cs" />
     <Compile Include="LeetCode\00054_spiral-matrix.cs" />
     <Compile Include="LeetCode\00055_jump-game.cs" />
@@ -284,6 +285,8 @@
     <Content Include="LeetCode\Greedy\readme.txt" />
     <Content Include="readme.txt" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="LeetCode\快速幂算法\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
