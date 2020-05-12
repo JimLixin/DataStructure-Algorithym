@@ -127,6 +127,7 @@
     <Compile Include="LeetCode\00126_word-ladder-ii.cs" />
     <Compile Include="LeetCode\00127_word-ladder.cs" />
     <Compile Include="LeetCode\00129_sum-root-to-leaf-numbers.cs" />
+    <Compile Include="LeetCode\00134_gas-station.cs" />
     <Compile Include="LeetCode\00136_single-number.cs" />
     <Compile Include="LeetCode\00141_linked-list-cycle.cs" />
     <Compile Include="LeetCode\00142_linked-list-cycle-ii.cs" />
