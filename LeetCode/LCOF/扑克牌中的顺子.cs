@@ -32,5 +32,30 @@ namespace Algorithym.LeetCode.LCOF
             }
             return true;
         }
+
+        /// <summary>
+        /// 优化过的版本
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <returns></returns>
+        public bool IsStraightV2(int[] nums)
+        {
+            if (nums == null || nums.Length == 0)
+                return false;
+            Array.Sort(nums);
+            int zeroCnt = 0;
+            for (int i = 0; i < nums.Length - 1; i++)
+            {
+                if (nums[i] == 0)
+                {
+                    zeroCnt++;
+                    continue;
+                }
+                if (nums[i] == nums[i + 1]) return false;
+                zeroCnt -= nums[i + 1] - nums[i] - 1;
+                if (zeroCnt < 0) return false;
+            }
+            return true;
+        }
     }
 }
