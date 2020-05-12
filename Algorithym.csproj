@@ -144,6 +144,7 @@
     <Compile Include="LeetCode\00234_palindrome-linked-list.cs" />
     <Compile Include="LeetCode\00235_lowest-common-ancestor-of-a-binary-search-tree.cs" />
     <Compile Include="LeetCode\00236_lowest-common-ancestor-of-a-binary-tree.cs" />
+    <Compile Include="LeetCode\00239_sliding-window-maximum.cs" />
     <Compile Include="LeetCode\00240_search-a-2d-matrix-ii.cs" />
     <Compile Include="LeetCode\00242_valid-anagram.cs" />
     <Compile Include="LeetCode\00268_missing-number.cs" />
