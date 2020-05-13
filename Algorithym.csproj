@@ -159,6 +159,7 @@
     <Compile Include="LeetCode\00345_reverse-vowels-of-a-string.cs" />
     <Compile Include="LeetCode\00349_intersection-of-two-arrays.cs" />
     <Compile Include="LeetCode\00350_intersection-of-two-arrays-ii.cs" />
+    <Compile Include="LeetCode\00429_n-ary-tree-level-order-traversal.cs" />
     <Compile Include="LeetCode\00437_path-sum-iii.cs" />
     <Compile Include="LeetCode\00509_fibonacci-number.cs" />
     <Compile Include="LeetCode\00572_subtree-of-another-tree.cs" />
