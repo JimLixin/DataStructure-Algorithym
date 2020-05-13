@@ -38,5 +38,49 @@ namespace Algorithym.LeetCode
             }
             return false;
         }
+
+        /// <summary>
+        /// Need to understanding!!!
+        /// </summary>
+        /// <param name="root"></param>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
+        public bool IsCousinsV2(TreeNode root, int x, int y)
+        {
+            Queue<TreeNode> queue = new Queue<TreeNode>();
+            Queue<TreeNode> parentqueue = new Queue<TreeNode>();
+
+            queue.Enqueue(root);
+            parentqueue.Enqueue(null);
+
+            while (queue.Count > 0)
+            {
+                int count = queue.Count;
+
+                TreeNode xparent = null;
+                TreeNode yparent = null;
+
+                for (int i = 0; i < count; i++)
+                {
+                    var n = queue.Dequeue();
+                    var p = parentqueue.Dequeue();
+                    if (n == null)
+                        continue;
+                    if (n.val == x)
+                        xparent = p;
+                    else if (n.val == y)
+                        yparent = p;
+                    queue.Enqueue(n.left);
+                    queue.Enqueue(n.right);
+                    parentqueue.Enqueue(n);
+                    parentqueue.Enqueue(n);
+                }
+
+                if (xparent != null && yparent != null && xparent != yparent)
+                    return true;
+            }
+            return false;
+        }
     }
 }

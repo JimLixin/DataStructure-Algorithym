@@ -149,6 +149,7 @@
     <Compile Include="LeetCode\00240_search-a-2d-matrix-ii.cs" />
     <Compile Include="LeetCode\00242_valid-anagram.cs" />
     <Compile Include="LeetCode\00268_missing-number.cs" />
+    <Compile Include="LeetCode\00279_perfect-squares.cs" />
     <Compile Include="LeetCode\00283_move-zeroes.cs" />
     <Compile Include="LeetCode\00287_find-the-duplicate-number.cs" />
     <Compile Include="LeetCode\00300_longest-increasing-subsequence.cs" />
