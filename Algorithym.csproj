@@ -170,6 +170,7 @@
     <Compile Include="LeetCode\00844_backspace-string-compare.cs" />
     <Compile Include="LeetCode\00977_squares-of-a-sorted-array.cs" />
     <Compile Include="LeetCode\00983_minimum-cost-for-tickets.cs" />
+    <Compile Include="LeetCode\00993_cousins-in-binary-tree.cs" />
     <Compile Include="LeetCode\01137_n-th-tribonacci-number.cs" />
     <Compile Include="LeetCode\00051_n-queens.cs" />
     <Compile Include="LeetCode\00052_n-queens-ii.cs" />
