@@ -129,6 +129,7 @@
     <Compile Include="LeetCode\00129_sum-root-to-leaf-numbers.cs" />
     <Compile Include="LeetCode\00134_gas-station.cs" />
     <Compile Include="LeetCode\00136_single-number.cs" />
+    <Compile Include="LeetCode\00137_single-number-ii.cs" />
     <Compile Include="LeetCode\00141_linked-list-cycle.cs" />
     <Compile Include="LeetCode\00142_linked-list-cycle-ii.cs" />
     <Compile Include="LeetCode\00143_reorder-list.cs" />
@@ -148,6 +149,7 @@
     <Compile Include="LeetCode\00239_sliding-window-maximum.cs" />
     <Compile Include="LeetCode\00240_search-a-2d-matrix-ii.cs" />
     <Compile Include="LeetCode\00242_valid-anagram.cs" />
+    <Compile Include="LeetCode\00260_single-number-iii.cs" />
     <Compile Include="LeetCode\00268_missing-number.cs" />
     <Compile Include="LeetCode\00279_perfect-squares.cs" />
     <Compile Include="LeetCode\00283_move-zeroes.cs" />
@@ -270,6 +272,7 @@
     <Compile Include="LeetCode\Topics\Swapping two integer variables without an intermediary variable.cs" />
     <Compile Include="LeetCode\Topics\位运算实现整数加减乘除.cs" />
     <Compile Include="LeetCode\Topics\双指针.cs" />
+    <Compile Include="LeetCode\位运算\只出现一次的数字 III.cs" />
     <Compile Include="LeetCode\快速幂算法\powx_n.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
