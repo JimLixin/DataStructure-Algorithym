@@ -174,6 +174,7 @@
     <Compile Include="LeetCode\00977_squares-of-a-sorted-array.cs" />
     <Compile Include="LeetCode\00983_minimum-cost-for-tickets.cs" />
     <Compile Include="LeetCode\00993_cousins-in-binary-tree.cs" />
+    <Compile Include="LeetCode\01021_remove-outermost-parentheses.cs" />
     <Compile Include="LeetCode\01137_n-th-tribonacci-number.cs" />
     <Compile Include="LeetCode\00051_n-queens.cs" />
     <Compile Include="LeetCode\00052_n-queens-ii.cs" />
@@ -296,6 +297,7 @@
     <Content Include="LeetCode\00237_delete-node-in-a-linked-list.cpp" />
     <Content Include="LeetCode\Dynamic Progamming\readme.txt" />
     <Content Include="LeetCode\Greedy\readme.txt" />
+    <Content Include="LeetCode\位运算\readme.txt" />
     <Content Include="readme.txt" />
   </ItemGroup>
   <ItemGroup>
