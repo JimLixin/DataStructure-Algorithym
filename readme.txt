@@ -26,3 +26,6 @@ https://www.lintcode.com/problem/?tag=microsoft
 
 位运算：
 http://graphics.stanford.edu/~seander/bithacks.html#OperationCounting
+
+Another good article!
+https://learnku.com/articles/43045
