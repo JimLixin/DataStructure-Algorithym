@@ -173,6 +173,7 @@
     <Compile Include="LeetCode\00671_second-minimum-node-in-a-binary-tree.cs" />
     <Compile Include="LeetCode\00713_subarray-product-less-than-k.cs" />
     <Compile Include="LeetCode\00746_min-cost-climbing-stairs.cs" />
+    <Compile Include="LeetCode\00771_jewels-and-stones.cs" />
     <Compile Include="LeetCode\00844_backspace-string-compare.cs" />
     <Compile Include="LeetCode\00977_squares-of-a-sorted-array.cs" />
     <Compile Include="LeetCode\00983_minimum-cost-for-tickets.cs" />
