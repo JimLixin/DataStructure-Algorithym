@@ -142,6 +142,7 @@
     <Compile Include="LeetCode\00191_number-of-1-bits.cs" />
     <Compile Include="LeetCode\00198_house-robber.cs" />
     <Compile Include="LeetCode\00213_house-robber-ii.cs" />
+    <Compile Include="LeetCode\00226_invert-binary-tree.cs" />
     <Compile Include="LeetCode\00230_kth-smallest-element-in-a-bst.cs" />
     <Compile Include="LeetCode\00234_palindrome-linked-list.cs" />
     <Compile Include="LeetCode\00235_lowest-common-ancestor-of-a-binary-search-tree.cs" />
