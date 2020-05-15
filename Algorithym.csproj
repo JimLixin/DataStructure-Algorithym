@@ -201,6 +201,7 @@
     <Compile Include="LeetCode\LCCI\T9键盘.cs" />
     <Compile Include="LeetCode\LCCI\三步问题.cs" />
     <Compile Include="LeetCode\LCCI\不用加号的加法.cs" />
+    <Compile Include="LeetCode\LCCI\删除中间节点.cs" />
     <Compile Include="LeetCode\LCCI\合并排序的数组.cs" />
     <Compile Include="LeetCode\LCCI\按摩师.cs" />
     <Compile Include="LeetCode\LCCI\连续数列.cs" />
