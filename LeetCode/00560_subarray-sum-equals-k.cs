@@ -13,7 +13,7 @@ namespace Algorithym.LeetCode
     public class _00560_subarray_sum_equals_k
     {
         /// <summary>
-        /// 原始版本
+        /// 原始版本(即前缀和)
         /// 执行用时 :1872 ms, 在所有 C# 提交中击败了6.06%的用户
         /// 内存消耗 :28.6 MB, 在所有 C# 提交中击败了100.00%的用户
         /// </summary>
@@ -44,7 +44,7 @@ namespace Algorithym.LeetCode
         }
 
         /// <summary>
-        /// 前缀和
+        /// 前缀和 + 哈希表优化
         /// 执行用时 :136 ms, 在所有 C# 提交中击败了63.64%的用户
         /// 内存消耗 :33.2 MB, 在所有 C# 提交中击败了100.00%的用户
         /// </summary>

@@ -165,6 +165,7 @@
     <Compile Include="LeetCode\00429_n-ary-tree-level-order-traversal.cs" />
     <Compile Include="LeetCode\00437_path-sum-iii.cs" />
     <Compile Include="LeetCode\00509_fibonacci-number.cs" />
+    <Compile Include="LeetCode\00523_continuous-subarray-sum.cs" />
     <Compile Include="LeetCode\00560_subarray-sum-equals-k.cs" />
     <Compile Include="LeetCode\00572_subtree-of-another-tree.cs" />
     <Compile Include="LeetCode\00637_average-of-levels-in-binary-tree.cs" />
@@ -275,6 +276,8 @@
     <Compile Include="LeetCode\Topics\位运算实现整数加减乘除.cs" />
     <Compile Include="LeetCode\Topics\双指针.cs" />
     <Compile Include="LeetCode\位运算\只出现一次的数字 III.cs" />
+    <Compile Include="LeetCode\前缀和\和为K的子数组.cs" />
+    <Compile Include="LeetCode\前缀和\连续的子数组和.cs" />
     <Compile Include="LeetCode\快速幂算法\powx_n.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
