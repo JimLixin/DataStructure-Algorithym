@@ -190,6 +190,7 @@
     <Compile Include="LeetCode\01137_n-th-tribonacci-number.cs" />
     <Compile Include="LeetCode\00051_n-queens.cs" />
     <Compile Include="LeetCode\00052_n-queens-ii.cs" />
+    <Compile Include="LeetCode\01295_find-numbers-with-even-number-of-digits.cs" />
     <Compile Include="LeetCode\01304_find-n-unique-integers-sum-up-to-zero.cs" />
     <Compile Include="LeetCode\01342_number-of-steps-to-reduce-a-number-to-zero.cs" />
     <Compile Include="LeetCode\01431_kids-with-the-greatest-number-of-candies.cs" />
