@@ -162,6 +162,7 @@
     <Compile Include="LeetCode\00326_power-of-threeClass1.cs" />
     <Compile Include="LeetCode\00334_increasing-triplet-subsequence.cs" />
     <Compile Include="LeetCode\00338_counting-bits.cs" />
+    <Compile Include="LeetCode\00342_power-of-four.cs" />
     <Compile Include="LeetCode\00344_reverse-string.cs" />
     <Compile Include="LeetCode\00345_reverse-vowels-of-a-string.cs" />
     <Compile Include="LeetCode\00349_intersection-of-two-arrays.cs" />
@@ -290,6 +291,7 @@
     <Compile Include="LeetCode\Topics\双指针.cs" />
     <Compile Include="LeetCode\位运算\2的幂.cs" />
     <Compile Include="LeetCode\位运算\3的幂.cs" />
+    <Compile Include="LeetCode\位运算\4的幂.cs" />
     <Compile Include="LeetCode\位运算\只出现一次的数字 III.cs" />
     <Compile Include="LeetCode\位运算\将数字变成 0 的操作次数.cs" />
     <Compile Include="LeetCode\位运算\数字的补数.cs" />

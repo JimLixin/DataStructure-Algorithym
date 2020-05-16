@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 /// 326. 3的幂
 /// https://leetcode-cn.com/problems/power-of-three/
 /// </summary>
-namespace Algorithym.LeetCode
+namespace Algorithym.LeetCode.位运算
 {
     public class _00326_power_of_three
     {
