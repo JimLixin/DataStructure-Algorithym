@@ -11,6 +11,12 @@ namespace Algorithym.LeetCode
     /// </summary>
     public static class reverse_nodes_in_k_group
     {
+        /// <summary>
+        /// 第一次做的答案
+        /// </summary>
+        /// <param name="head"></param>
+        /// <param name="k"></param>
+        /// <returns></returns>
         public static ListNode ReverseKGroup(ListNode head, int k)
         {
             if (k == 1)
@@ -52,6 +58,56 @@ namespace Algorithym.LeetCode
                 counter--;
             }
             return dummyHead.next;
+        }
+
+        /// <summary>
+        /// 第二次做的答案
+        /// </summary>
+        /// <param name="head"></param>
+        /// <param name="k"></param>
+        /// <returns></returns>
+        public static ListNode ReverseKGroupV2(ListNode head, int k)
+        {
+            if (head == null) return null;
+            ListNode fast = head, slow = head, dumHead = new ListNode(0), tail = null;
+            while (fast != null)
+            {
+                int count = 0;
+                while (++count < k && fast.next != null) fast = fast.next;
+                ListNode tmp = fast.next;
+                if (count < k)
+                {
+                    if (tail == null)
+                        dumHead.next = slow;
+                    else
+                        tail.next = slow;
+                }
+                else
+                {
+                    fast.next = null;
+                    ListNode pre = null, cur = slow;
+                    while (cur != null)
+                    {
+                        ListNode temp = cur.next;
+                        cur.next = pre;
+                        pre = cur;
+                        cur = temp;
+                    }
+                    if (dumHead.next == null)
+                    {
+                        dumHead.next = fast;
+                        tail = slow;
+                    }
+                    else
+                    {
+                        tail.next = fast;
+                        tail = slow;
+                    }
+                }
+                fast = tmp;
+                slow = tmp;
+            }
+            return dumHead.next;
         }
     }
 }
