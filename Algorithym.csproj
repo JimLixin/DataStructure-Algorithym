@@ -167,6 +167,7 @@
     <Compile Include="LeetCode\00345_reverse-vowels-of-a-string.cs" />
     <Compile Include="LeetCode\00349_intersection-of-two-arrays.cs" />
     <Compile Include="LeetCode\00350_intersection-of-two-arrays-ii.cs" />
+    <Compile Include="LeetCode\00397_integer-replacement.cs" />
     <Compile Include="LeetCode\00429_n-ary-tree-level-order-traversal.cs" />
     <Compile Include="LeetCode\00437_path-sum-iii.cs" />
     <Compile Include="LeetCode\00476_number-complement.cs" />
@@ -295,6 +296,7 @@
     <Compile Include="LeetCode\位运算\只出现一次的数字 III.cs" />
     <Compile Include="LeetCode\位运算\将数字变成 0 的操作次数.cs" />
     <Compile Include="LeetCode\位运算\数字的补数.cs" />
+    <Compile Include="LeetCode\位运算\整数替换.cs" />
     <Compile Include="LeetCode\位运算\颠倒二进制位.cs" />
     <Compile Include="LeetCode\前缀和\和为K的子数组.cs" />
     <Compile Include="LeetCode\前缀和\连续的子数组和.cs" />
