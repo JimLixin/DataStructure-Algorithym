@@ -45,22 +45,22 @@ namespace Algorithym.LeetCode
     /// </summary>
     public class _00199_binary_tree_right_side_view2
     {
+        IList<int> result;
+        int depth;
         public IList<int> RightSideView(TreeNode root)
         {
-            List<int> result = new List<int>();
-            dfs(root, 0, result);
+            result = new List<int>();
+            dfs(root, 0);
             return result;
         }
 
-        public void dfs(TreeNode t, int depth, List<int> result)
+        private void dfs(TreeNode node, int depth)
         {
-            if (t == null)
-                return;
+            if (node == null) return;
             if (depth == result.Count)
-                result.Add(t.val);
-            depth++;
-            dfs(t.right, depth, result);
-            dfs(t.left, depth, result);
+                result.Add(node.val);
+            dfs(node.right, depth + 1);
+            dfs(node.left, depth + 1);
         }
     }
 }
