@@ -146,6 +146,7 @@
     <Compile Include="LeetCode\00199_binary-tree-right-side-view.cs" />
     <Compile Include="LeetCode\00213_house-robber-ii.cs" />
     <Compile Include="LeetCode\00217_contains-duplicate.cs" />
+    <Compile Include="LeetCode\00219_contains-duplicate-ii.cs" />
     <Compile Include="LeetCode\00226_invert-binary-tree.cs" />
     <Compile Include="LeetCode\00230_kth-smallest-element-in-a-bst.cs" />
     <Compile Include="LeetCode\00231_power-of-two.cs" />
