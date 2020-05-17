@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 /// 278. 第一个错误的版本
 /// https://leetcode-cn.com/problems/first-bad-version/
 /// </summary>
-namespace Algorithym.LeetCode
+namespace Algorithym.LeetCode.二分查找
 {
     public class _00278_first_bad_version
     {
@@ -28,7 +28,7 @@ namespace Algorithym.LeetCode
             long start = 1, end = n, mid = -1;
             while (start < end)
             {
-                mid = (start+end)>>1;
+                mid = (start + end) >> 1;
                 if (IsBadVersion((int)mid))
                     end = mid;
                 else

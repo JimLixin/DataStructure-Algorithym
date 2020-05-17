@@ -169,6 +169,7 @@
     <Compile Include="LeetCode\00345_reverse-vowels-of-a-string.cs" />
     <Compile Include="LeetCode\00349_intersection-of-two-arrays.cs" />
     <Compile Include="LeetCode\00350_intersection-of-two-arrays-ii.cs" />
+    <Compile Include="LeetCode\00374_guess-number-higher-or-lower.cs" />
     <Compile Include="LeetCode\00397_integer-replacement.cs" />
     <Compile Include="LeetCode\00429_n-ary-tree-level-order-traversal.cs" />
     <Compile Include="LeetCode\00437_path-sum-iii.cs" />
@@ -296,6 +297,8 @@
     <Compile Include="LeetCode\Topics\Swapping two integer variables without an intermediary variable.cs" />
     <Compile Include="LeetCode\Topics\位运算实现整数加减乘除.cs" />
     <Compile Include="LeetCode\Topics\双指针.cs" />
+    <Compile Include="LeetCode\二分查找\猜数字大小.cs" />
+    <Compile Include="LeetCode\二分查找\第一个错误的版本.cs" />
     <Compile Include="LeetCode\位运算\2的幂.cs" />
     <Compile Include="LeetCode\位运算\3的幂.cs" />
     <Compile Include="LeetCode\位运算\4的幂.cs" />
