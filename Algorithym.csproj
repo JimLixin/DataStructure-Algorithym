@@ -169,6 +169,7 @@
     <Compile Include="LeetCode\00345_reverse-vowels-of-a-string.cs" />
     <Compile Include="LeetCode\00349_intersection-of-two-arrays.cs" />
     <Compile Include="LeetCode\00350_intersection-of-two-arrays-ii.cs" />
+    <Compile Include="LeetCode\00367_valid-perfect-square.cs" />
     <Compile Include="LeetCode\00374_guess-number-higher-or-lower.cs" />
     <Compile Include="LeetCode\00397_integer-replacement.cs" />
     <Compile Include="LeetCode\00429_n-ary-tree-level-order-traversal.cs" />
@@ -337,6 +338,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="LeetCode\LRU Cache\" />
+    <Folder Include="LeetCode\极小化极大\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
