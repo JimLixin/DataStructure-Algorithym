@@ -29,3 +29,8 @@ http://graphics.stanford.edu/~seander/bithacks.html#OperationCounting
 
 Another good article!
 https://learnku.com/articles/43045
+
+https://atcoder.jp/home
+
+How to make blog:
+https://vuepress-theme-reco.recoluan.com/categories/blog/

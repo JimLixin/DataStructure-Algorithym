@@ -193,6 +193,8 @@
     <Compile Include="LeetCode\01295_find-numbers-with-even-number-of-digits.cs" />
     <Compile Include="LeetCode\01304_find-n-unique-integers-sum-up-to-zero.cs" />
     <Compile Include="LeetCode\01342_number-of-steps-to-reduce-a-number-to-zero.cs" />
+    <Compile Include="LeetCode\01365_how-many-numbers-are-smaller-than-the-current-number.cs" />
+    <Compile Include="LeetCode\01379_find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree.cs" />
     <Compile Include="LeetCode\01431_kids-with-the-greatest-number-of-candies.cs" />
     <Compile Include="LeetCode\303_区域和检索 - 数组不可变.cs" />
     <Compile Include="LeetCode\DFS.cs" />
