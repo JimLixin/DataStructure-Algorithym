@@ -183,6 +183,7 @@
     <Compile Include="LeetCode\00645_set-mismatch.cs" />
     <Compile Include="LeetCode\00671_second-minimum-node-in-a-binary-tree.cs" />
     <Compile Include="LeetCode\00700_search-in-a-binary-search-tree.cs" />
+    <Compile Include="LeetCode\00704_binary-search.cs" />
     <Compile Include="LeetCode\00713_subarray-product-less-than-k.cs" />
     <Compile Include="LeetCode\00746_min-cost-climbing-stairs.cs" />
     <Compile Include="LeetCode\00771_jewels-and-stones.cs" />
@@ -298,6 +299,7 @@
     <Compile Include="LeetCode\Topics\Swapping two integer variables without an intermediary variable.cs" />
     <Compile Include="LeetCode\Topics\位运算实现整数加减乘除.cs" />
     <Compile Include="LeetCode\Topics\双指针.cs" />
+    <Compile Include="LeetCode\二分查找\二分查找.cs" />
     <Compile Include="LeetCode\二分查找\猜数字大小.cs" />
     <Compile Include="LeetCode\二分查找\第一个错误的版本.cs" />
     <Compile Include="LeetCode\位运算\2的幂.cs" />
