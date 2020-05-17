@@ -197,6 +197,7 @@
     <Compile Include="LeetCode\01379_find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree.cs" />
     <Compile Include="LeetCode\01431_kids-with-the-greatest-number-of-candies.cs" />
     <Compile Include="LeetCode\303_区域和检索 - 数组不可变.cs" />
+    <Compile Include="LeetCode\3sum.cs" />
     <Compile Include="LeetCode\DFS.cs" />
     <Compile Include="LeetCode\Double pointers\搜索二维矩阵 II.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\00091_解码方法.cs" />
