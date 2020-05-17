@@ -155,6 +155,7 @@
     <Compile Include="LeetCode\00242_valid-anagram.cs" />
     <Compile Include="LeetCode\00260_single-number-iii.cs" />
     <Compile Include="LeetCode\00268_missing-number.cs" />
+    <Compile Include="LeetCode\00278_first-bad-version.cs" />
     <Compile Include="LeetCode\00279_perfect-squares.cs" />
     <Compile Include="LeetCode\00283_move-zeroes.cs" />
     <Compile Include="LeetCode\00287_find-the-duplicate-number.cs" />

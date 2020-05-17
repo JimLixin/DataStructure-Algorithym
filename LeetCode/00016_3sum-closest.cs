@@ -24,7 +24,6 @@ namespace Algorithym.LeetCode
                 while (left < right)
                 {
                     int sum = nums[i] + nums[left] + nums[right];
-                    if (sum == target) return sum;
                     if (min > Math.Abs(sum - target))
                     {
                         min = Math.Abs(sum - target);
@@ -33,8 +32,10 @@ namespace Algorithym.LeetCode
 
                     if (sum < target)
                         left++;
-                    else
+                    else if (sum > target)
                         right--;
+                    else
+                        return sum;
                 }
             }
             return result;
