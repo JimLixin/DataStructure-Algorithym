@@ -178,6 +178,7 @@
     <Compile Include="LeetCode\00476_number-complement.cs" />
     <Compile Include="LeetCode\00509_fibonacci-number.cs" />
     <Compile Include="LeetCode\00513_find-bottom-left-tree-value.cs" />
+    <Compile Include="LeetCode\00515_find-largest-value-in-each-tree-row.cs" />
     <Compile Include="LeetCode\00523_continuous-subarray-sum.cs" />
     <Compile Include="LeetCode\00560_subarray-sum-equals-k.cs" />
     <Compile Include="LeetCode\00572_subtree-of-another-tree.cs" />
