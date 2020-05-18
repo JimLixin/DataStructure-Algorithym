@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Algorithym.LeetCode.Dynamic_Progamming;
 using Algorithym.LeetCode.Topics;
+using Algorithym.Sorting;
 
 namespace Algorithym
 {
@@ -31,6 +32,8 @@ namespace Algorithym
 
         static void Main(string[] args)
         {
+            int[] arrayForSort = new int[] { -10, 2, 1, 9, -6, 44, 0, 3, -17, 8 };
+            BubleSort.Sort(arrayForSort);
             int[] nums2 = new int[] { 0, 1, 2 ,4, 5, 6, 7,9};
             var binRes = binarySearch(nums2, 0 , nums2.Length - 1, 0);
 
