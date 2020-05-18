@@ -62,6 +62,7 @@
     <Compile Include="LeetCode\00019_remove-nth-node-from-end-of-list.cs" />
     <Compile Include="LeetCode\00020_valid-parentheses.cs" />
     <Compile Include="LeetCode\00021_merge-two-sorted-lists.cs" />
+    <Compile Include="LeetCode\01047_remove-all-adjacent-duplicates-in-string.cs" />
     <Compile Include="LeetCode\LCCI\化栈为队.cs" />
     <Compile Include="Sorting\冒泡排序.cs" />
     <Compile Include="Sorting\桶排序.cs" />
