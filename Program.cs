@@ -32,6 +32,12 @@ namespace Algorithym
 
         static void Main(string[] args)
         {
+            StringBuilder sb = new StringBuilder("Hello");
+            for (int i = 0; i < sb.Length; i++)
+            {
+                if (sb[i] >= 65 && sb[i] <= 90)
+                    sb[i] = (char)(sb[i] + 32);
+            }
             int[] arrayForSort = new int[] { -10, 2, 1, 9, -6, 44, 0, 3, -17, 8 };
             BubleSort.Sort(arrayForSort, false);
             int[] nums2 = new int[] { 0, 1, 2 ,4, 5, 6, 7,9};
