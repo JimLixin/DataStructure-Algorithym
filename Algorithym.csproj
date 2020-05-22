@@ -59,6 +59,7 @@
     <Compile Include="LeetCode\00015_ThreeSum.cs" />
     <Compile Include="LeetCode\00016_3sum-closest.cs" />
     <Compile Include="LeetCode\00017_LetterCombinationsOfAPhoneNumber.cs" />
+    <Compile Include="LeetCode\00018_4sum.cs" />
     <Compile Include="LeetCode\00019_remove-nth-node-from-end-of-list.cs" />
     <Compile Include="LeetCode\00020_valid-parentheses.cs" />
     <Compile Include="LeetCode\00021_merge-two-sorted-lists.cs" />
