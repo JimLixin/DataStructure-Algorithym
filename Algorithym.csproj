@@ -64,12 +64,14 @@
     <Compile Include="LeetCode\00020_valid-parentheses.cs" />
     <Compile Include="LeetCode\00021_merge-two-sorted-lists.cs" />
     <Compile Include="LeetCode\00048_rotate-image.cs" />
+    <Compile Include="LeetCode\00139_word-break.cs" />
     <Compile Include="LeetCode\00225_implement-stack-using-queues.cs" />
     <Compile Include="LeetCode\00232_implement-queue-using-stacks.cs" />
     <Compile Include="LeetCode\00566_reshape-the-matrix.cs" />
     <Compile Include="LeetCode\00680_valid-palindrome-ii.cs" />
     <Compile Include="LeetCode\00709_to-lower-case.cs" />
     <Compile Include="LeetCode\01047_remove-all-adjacent-duplicates-in-string.cs" />
+    <Compile Include="LeetCode\Dynamic Progamming\单词拆分.cs" />
     <Compile Include="LeetCode\LCCI\交换数字.cs" />
     <Compile Include="LeetCode\LCCI\化栈为队.cs" />
     <Compile Include="LeetCode\LCCI\栈的最小值.cs" />
@@ -356,6 +358,7 @@
     <Content Include="LeetCode\Dynamic Progamming\readme.txt" />
     <Content Include="LeetCode\Greedy\readme.txt" />
     <Content Include="LeetCode\位运算\readme.txt" />
+    <Content Include="labuladong的算法博客.txt" />
     <Content Include="啊哈算法.txt" />
     <Content Include="readme.txt" />
   </ItemGroup>
