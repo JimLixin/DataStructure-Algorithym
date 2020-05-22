@@ -34,3 +34,7 @@ https://atcoder.jp/home
 
 How to make blog:
 https://vuepress-theme-reco.recoluan.com/categories/blog/
+
+Weakness:
+1.数组/矩阵的旋转
+2.数组区间求最值时通常会用到前缀和, 还可能会结合哈希表或者位运算进行优化

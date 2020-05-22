@@ -70,4 +70,31 @@ namespace Algorithym.LeetCode
             return rootNode;
         }
     }
+
+    /// <summary>
+    /// 第三遍做的代码
+    /// </summary>
+    public class construct_binary_tree_from_preorder_and_inorder_traversalV3
+    {
+        int[] _preorder;
+        Dictionary<int, int> inOrderMap;
+        int preIndex;
+        public TreeNode BuildTree(int[] preorder, int[] inorder)
+        {
+            _preorder = preorder;
+            inOrderMap = new Dictionary<int, int>();
+            for (int i = 0; i < inorder.Length; i++) inOrderMap.Add(inorder[i], i);
+            return build(0, inorder.Length - 1);
+        }
+
+        public TreeNode build(int start, int end)
+        {
+            if (start > end) return null;
+            int val = _preorder[preIndex++], mid = inOrderMap[val];
+            TreeNode node = new TreeNode(val);
+            node.left = build(start, mid - 1);
+            node.right = build(mid + 1, end);
+            return node;
+        }
+    }
 }

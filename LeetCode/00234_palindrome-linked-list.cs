@@ -12,6 +12,12 @@ namespace Algorithym.LeetCode
     /// </summary>
     public class palindrome_linked_list
     {
+        /// <summary>
+        /// 时间复杂度: O(N)
+        /// 空间复杂度: O(N)
+        /// </summary>
+        /// <param name="head"></param>
+        /// <returns></returns>
         public bool IsPalindrome(ListNode head)
         {
             if (head == null) return true;
@@ -34,6 +40,42 @@ namespace Algorithym.LeetCode
                 if (s.Pop() != slow.val)
                     return false;
                 slow = slow.next;
+            }
+            return true;
+        }
+
+        /// <summary>
+        /// 时间复杂度: O(N)
+        /// 空间复杂度: O(1)
+        /// </summary>
+        /// <param name="head"></param>
+        /// <returns></returns>
+        public bool IsPalindromeV2(ListNode head)
+        {
+            ListNode dumHead1 = new ListNode(0), fast = dumHead1, slow = dumHead1, dumHead2 = new ListNode(0), pre = null, cur = null;
+            dumHead1.next = head;
+            while (fast != null && fast.next != null)
+            {
+                fast = fast.next.next;
+                slow = slow.next;
+            }
+            dumHead2.next = slow.next;
+            cur = dumHead2.next;
+            slow.next = null;
+            while (cur != null)
+            {
+                ListNode temp = cur.next;
+                cur.next = pre;
+                pre = cur;
+                cur = temp;
+            }
+            dumHead1 = dumHead1.next;
+            while (dumHead1 != null && pre != null)
+            {
+                if (dumHead1.val != pre.val)
+                    return false;
+                dumHead1 = dumHead1.next;
+                pre = pre.next;
             }
             return true;
         }
