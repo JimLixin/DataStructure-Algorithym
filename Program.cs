@@ -45,7 +45,7 @@ namespace Algorithym
             var binRes = binarySearch(nums2, 0 , nums2.Length - 1, 0);
 
             List<int> list = new List<int>(new int[] { 1,3,5,7,9});
-            var biRes = list.BinarySearch(4);
+             var biRes = list.BinarySearch(4);
             int[] nums = new int[] {3,0,1};
             (new missing_number()).MissingNumber(nums);
 
