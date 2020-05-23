@@ -73,6 +73,7 @@
     <Compile Include="LeetCode\01047_remove-all-adjacent-duplicates-in-string.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\单词拆分.cs" />
     <Compile Include="LeetCode\LCCI\交换数字.cs" />
+    <Compile Include="LeetCode\LCCI\判定是否互为字符重排.cs" />
     <Compile Include="LeetCode\LCCI\化栈为队.cs" />
     <Compile Include="LeetCode\LCCI\栈的最小值.cs" />
     <Compile Include="Sorting\冒泡排序.cs" />
