@@ -84,6 +84,7 @@
     <Compile Include="LeetCode\LCCI\旋转矩阵.cs" />
     <Compile Include="LeetCode\LCCI\栈的最小值.cs" />
     <Compile Include="LeetCode\LCCI\移除重复节点.cs" />
+    <Compile Include="LeetCode\LCCI\链表求和.cs" />
     <Compile Include="LeetCode\LCCI\零矩阵.cs" />
     <Compile Include="Sorting\冒泡排序.cs" />
     <Compile Include="Sorting\桶排序.cs" />
