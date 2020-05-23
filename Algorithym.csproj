@@ -81,6 +81,7 @@
     <Compile Include="LeetCode\LCCI\字符串压缩.cs" />
     <Compile Include="LeetCode\LCCI\旋转矩阵.cs" />
     <Compile Include="LeetCode\LCCI\栈的最小值.cs" />
+    <Compile Include="LeetCode\LCCI\零矩阵.cs" />
     <Compile Include="Sorting\冒泡排序.cs" />
     <Compile Include="Sorting\桶排序.cs" />
     <Content Include="LeetCode\00024_swap-nodes-in-pairs.cpp" />
