@@ -85,6 +85,7 @@
     <Compile Include="LeetCode\LCCI\最小高度树.cs" />
     <Compile Include="LeetCode\LCCI\栈排序.cs" />
     <Compile Include="LeetCode\LCCI\栈的最小值.cs" />
+    <Compile Include="LeetCode\LCCI\特定深度节点链表.cs" />
     <Compile Include="LeetCode\LCCI\移除重复节点.cs" />
     <Compile Include="LeetCode\LCCI\链表求和.cs" />
     <Compile Include="LeetCode\LCCI\零矩阵.cs" />
