@@ -32,6 +32,7 @@ namespace Algorithym
 
         static void Main(string[] args)
         {
+            HashSet<int> map = new HashSet<int>();
             StringBuilder sb = new StringBuilder("Hello");
             for (int i = 0; i < sb.Length; i++)
             {
