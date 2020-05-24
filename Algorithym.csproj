@@ -47,6 +47,7 @@
     <Compile Include="BinarySearchTree.cs" />
     <Compile Include="BTree.cs" />
     <Compile Include="LeetCode\00003_LengthOfLongestSubstring.cs" />
+    <Compile Include="LeetCode\00004_median-of-two-sorted-arrays.cs" />
     <Compile Include="LeetCode\00005_LongestPalindrome.cs" />
     <Compile Include="LeetCode\00006_ZigZagConvertcs.cs" />
     <Compile Include="LeetCode\00007_ReverseInteger.cs" />

@@ -10,6 +10,12 @@ using System.Threading.Tasks;
 /// </summary>
 namespace Algorithym.LeetCode.LCCI
 {
+    public class ListNode
+    {
+        public int val;
+        public ListNode next;
+        public ListNode(int x) { val = x; }
+    }
     public class 特定深度节点链表
     {
         public ListNode[] ListOfDepth(TreeNode tree)
@@ -22,7 +28,7 @@ namespace Algorithym.LeetCode.LCCI
             while (q.Count > 0)
             {
                 int cnt = q.Count;
-                ListNode head = new ListNode(), tail = null;
+                ListNode head = new ListNode(0), tail = null;
                 for (int i = 0; i < cnt; i++)
                 {
                     TreeNode node = q.Dequeue();
