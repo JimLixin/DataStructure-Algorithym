@@ -71,6 +71,7 @@
     <Compile Include="LeetCode\00225_implement-stack-using-queues.cs" />
     <Compile Include="LeetCode\00232_implement-queue-using-stacks.cs" />
     <Compile Include="LeetCode\00566_reshape-the-matrix.cs" />
+    <Compile Include="LeetCode\00653_two-sum-iv-input-is-a-bst.cs" />
     <Compile Include="LeetCode\00680_valid-palindrome-ii.cs" />
     <Compile Include="LeetCode\00709_to-lower-case.cs" />
     <Compile Include="LeetCode\01047_remove-all-adjacent-duplicates-in-string.cs" />
