@@ -81,6 +81,7 @@
     <Compile Include="LeetCode\LCCI\判定是否互为字符重排.cs" />
     <Compile Include="LeetCode\LCCI\化栈为队.cs" />
     <Compile Include="LeetCode\goat-latin.cs" />
+    <Compile Include="LeetCode\LCCI\合法二叉搜索树.cs" />
     <Compile Include="LeetCode\LCCI\字符串压缩.cs" />
     <Compile Include="LeetCode\LCCI\字符串轮转.cs" />
     <Compile Include="LeetCode\LCCI\旋转矩阵.cs" />
