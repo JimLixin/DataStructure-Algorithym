@@ -72,6 +72,7 @@
     <Compile Include="LeetCode\00222_count-complete-tree-nodes.cs" />
     <Compile Include="LeetCode\00225_implement-stack-using-queues.cs" />
     <Compile Include="LeetCode\00232_implement-queue-using-stacks.cs" />
+    <Compile Include="LeetCode\00258_add-digits.cs" />
     <Compile Include="LeetCode\00566_reshape-the-matrix.cs" />
     <Compile Include="LeetCode\00653_two-sum-iv-input-is-a-bst.cs" />
     <Compile Include="LeetCode\00680_valid-palindrome-ii.cs" />
