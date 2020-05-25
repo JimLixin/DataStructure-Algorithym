@@ -69,6 +69,7 @@
     <Compile Include="LeetCode\00073_set-matrix-zeroes.cs" />
     <Compile Include="LeetCode\00076_minimum-window-substring.cs" />
     <Compile Include="LeetCode\00139_word-break.cs" />
+    <Compile Include="LeetCode\00222_count-complete-tree-nodes.cs" />
     <Compile Include="LeetCode\00225_implement-stack-using-queues.cs" />
     <Compile Include="LeetCode\00232_implement-queue-using-stacks.cs" />
     <Compile Include="LeetCode\00566_reshape-the-matrix.cs" />
