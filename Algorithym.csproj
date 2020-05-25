@@ -64,6 +64,7 @@
     <Compile Include="LeetCode\00019_remove-nth-node-from-end-of-list.cs" />
     <Compile Include="LeetCode\00020_valid-parentheses.cs" />
     <Compile Include="LeetCode\00021_merge-two-sorted-lists.cs" />
+    <Compile Include="LeetCode\00023_merge-k-sorted-lists.cs" />
     <Compile Include="LeetCode\00048_rotate-image.cs" />
     <Compile Include="LeetCode\00073_set-matrix-zeroes.cs" />
     <Compile Include="LeetCode\00076_minimum-window-substring.cs" />
