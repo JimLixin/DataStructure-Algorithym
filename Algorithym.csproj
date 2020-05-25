@@ -88,6 +88,7 @@
     <Compile Include="LeetCode\LCCI\旋转矩阵.cs" />
     <Compile Include="LeetCode\LCCI\无重复字符串的排列组合.cs" />
     <Compile Include="LeetCode\LCCI\最小高度树.cs" />
+    <Compile Include="LeetCode\LCCI\有重复字符串的排列组合.cs" />
     <Compile Include="LeetCode\LCCI\栈排序.cs" />
     <Compile Include="LeetCode\LCCI\栈的最小值.cs" />
     <Compile Include="LeetCode\LCCI\检查子树.cs" />
