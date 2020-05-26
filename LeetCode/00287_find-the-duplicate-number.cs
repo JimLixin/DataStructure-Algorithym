@@ -23,6 +23,33 @@ namespace Algorithym.LeetCode
         }
 
         /// <summary>
+        /// 二分法+抽屉原理
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <returns></returns>
+        public int FindDuplicateV3(int[] nums)
+        {
+            if (nums == null || nums.Length == 0)
+                return -1;
+            int left = 1, right = nums.Length - 1;
+            while (left < right)
+            {
+                int cnt = 0;
+                int mid = left + (right - left) / 2;
+                for (int i = 0; i <= nums.Length - 1; i++)
+                {
+                    if (nums[i] <= mid)
+                        cnt++;
+                }
+                if (cnt > mid)
+                    right = mid;
+                else
+                    left = mid + 1;
+            }
+            return left;
+        }
+
+        /// <summary>
         /// Fast solution !!! need to understanding.
         /// Note: So, here is an approach that is based on Floyd’s cycle finding algorithm. We use this to detect loop in a linked list.
         ///https://www.geeksforgeeks.org/find-duplicates-constant-array-elements-0-n-1-o1-space/
