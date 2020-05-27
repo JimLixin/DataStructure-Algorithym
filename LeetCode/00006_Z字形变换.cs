@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace Algorithym.LeetCode
 {
     /// <summary>
-    /// https://leetcode.com/problems/zigzag-conversion/
+    /// 6. Z 字形变换
+    /// https://leetcode-cn.com/problems/zigzag-conversion/
     /// </summary>
     public static class ZigZagConvert
     {

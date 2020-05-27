@@ -46,11 +46,11 @@
   <ItemGroup>
     <Compile Include="BinarySearchTree.cs" />
     <Compile Include="BTree.cs" />
-    <Compile Include="LeetCode\00003_LengthOfLongestSubstring.cs" />
-    <Compile Include="LeetCode\00004_median-of-two-sorted-arrays.cs" />
-    <Compile Include="LeetCode\00005_LongestPalindrome.cs" />
-    <Compile Include="LeetCode\00006_ZigZagConvertcs.cs" />
-    <Compile Include="LeetCode\00007_ReverseInteger.cs" />
+    <Compile Include="LeetCode\00003_无重复字符的最长子串.cs" />
+    <Compile Include="LeetCode\00004_寻找两个正序数组的中位数.cs" />
+    <Compile Include="LeetCode\00005_最长回文子串.cs" />
+    <Compile Include="LeetCode\00006_Z字形变换.cs" />
+    <Compile Include="LeetCode\00007_整数反转.cs" />
     <Compile Include="LeetCode\00008_StringtoInteger.cs" />
     <Compile Include="LeetCode\00009_PalindromeNumber.cs" />
     <Compile Include="LeetCode\00011_ContainerWithMostWater.cs" />

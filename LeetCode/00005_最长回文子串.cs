@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace Algorithym.LeetCode
 {
     /// <summary>
-    /// https://leetcode.com/problems/longest-palindromic-substring/
+    /// 5. 最长回文子串
+    /// https://leetcode-cn.com/problems/longest-palindromic-substring/
     /// </summary>
     public static class LongestPalindrome
     {

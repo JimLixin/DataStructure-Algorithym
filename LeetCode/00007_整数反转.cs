@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace Algorithym.LeetCode
 {
     /// <summary>
-    /// https://leetcode.com/problems/reverse-integer/
+    /// 7. 整数反转
+    /// https://leetcode-cn.com/problems/reverse-integer/
     /// </summary>
     public static class ReverseInteger
     {
