@@ -107,6 +107,7 @@
     <Compile Include="LeetCode\LCCI\零矩阵.cs" />
     <Compile Include="LeetCode\LCCI\首个共同祖先.cs" />
     <Compile Include="LeetCode\LCOF\数值的整数次方.cs" />
+    <Compile Include="LeetCode\LCOF\树的子结构.cs" />
     <Compile Include="LeetCode\前缀和\和可被 K 整除的子数组.cs" />
     <Compile Include="Sorting\冒泡排序.cs" />
     <Compile Include="Sorting\桶排序.cs" />
