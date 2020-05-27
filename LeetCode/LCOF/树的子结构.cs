@@ -15,11 +15,7 @@ namespace Algorithym.LeetCode.LCOF
         {
             if (B == null) return false;
             if (A == null) return B == null;
-            if (A.val == B.val)
-            {
-                if (helper(A, B)) return true;
-            }
-            return IsSubStructure(A.left, B) || IsSubStructure(A.right, B);
+            return A.val == B.val && helper(A, B) || IsSubStructure(A.left, B) || IsSubStructure(A.right, B);
         }
 
         public bool helper(TreeNode A, TreeNode B)
