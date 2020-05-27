@@ -106,6 +106,7 @@
     <Compile Include="LeetCode\LCCI\链表求和.cs" />
     <Compile Include="LeetCode\LCCI\零矩阵.cs" />
     <Compile Include="LeetCode\LCCI\首个共同祖先.cs" />
+    <Compile Include="LeetCode\LCOF\序列化二叉树.cs" />
     <Compile Include="LeetCode\LCOF\数值的整数次方.cs" />
     <Compile Include="LeetCode\LCOF\栈的压入弹出序列.cs" />
     <Compile Include="LeetCode\LCOF\树的子结构.cs" />

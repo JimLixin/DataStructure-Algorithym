@@ -21,6 +21,9 @@ namespace Algorithym.LeetCode.LCOF
         }
 
     }
+    /// <summary>
+    /// 递归
+    /// </summary>
     public class 二叉搜索树与双向链表
     {
         Node head, pre;
@@ -48,6 +51,37 @@ namespace Algorithym.LeetCode.LCOF
                 pre = node;
             }
             travel(node.right);
+        }
+    }
+
+    /// <summary>
+    /// 迭代: 需要验证！LeetCode issue which cause this solution cannot be tested online for time being!
+    /// </summary>
+    public class 二叉搜索树与双向链表V2
+    {
+        public Node TreeToDoublyList(Node root)
+        {
+            if (root == null) return null;
+            Stack<Node> s = new Stack<Node>();
+            Node node = root, head = null, pre = null;
+            while (node != null)
+            {
+                while (node != null)
+                {
+                    s.Push(node);
+                    node = node.left;
+                }
+                node = s.Pop();
+                if (pre != null) pre.right = node;
+                pre = node;
+                if (head == null) head = node;
+                if (node.right != null) node.right.left = node;
+                node = node.right;
+                pre = node;
+            }
+            pre.right = head;
+            head.left = pre;
+            return head;
         }
     }
 }
