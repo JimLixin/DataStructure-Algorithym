@@ -76,6 +76,7 @@
     <Compile Include="LeetCode\00225_implement-stack-using-queues.cs" />
     <Compile Include="LeetCode\00232_implement-queue-using-stacks.cs" />
     <Compile Include="LeetCode\00258_add-digits.cs" />
+    <Compile Include="LeetCode\00297_二叉树的序列化与反序列化.cs" />
     <Compile Include="LeetCode\00496_下一个更大元素_I.cs" />
     <Compile Include="LeetCode\00566_reshape-the-matrix.cs" />
     <Compile Include="LeetCode\00653_two-sum-iv-input-is-a-bst.cs" />
