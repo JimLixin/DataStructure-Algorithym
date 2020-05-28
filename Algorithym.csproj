@@ -83,6 +83,7 @@
     <Compile Include="LeetCode\00709_to-lower-case.cs" />
     <Compile Include="LeetCode\00974_和可被 K 整除的子数组.cs" />
     <Compile Include="LeetCode\01047_remove-all-adjacent-duplicates-in-string.cs" />
+    <Compile Include="LeetCode\Dynamic Progamming\丑数.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\单词拆分.cs" />
     <Compile Include="LeetCode\LCCI\URL化.cs" />
     <Compile Include="LeetCode\LCCI\交换数字.cs" />
@@ -106,6 +107,7 @@
     <Compile Include="LeetCode\LCCI\链表求和.cs" />
     <Compile Include="LeetCode\LCCI\零矩阵.cs" />
     <Compile Include="LeetCode\LCCI\首个共同祖先.cs" />
+    <Compile Include="LeetCode\LCOF\丑数.cs" />
     <Compile Include="LeetCode\LCOF\序列化二叉树.cs" />
     <Compile Include="LeetCode\LCOF\数值的整数次方.cs" />
     <Compile Include="LeetCode\LCOF\栈的压入弹出序列.cs" />
