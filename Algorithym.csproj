@@ -79,6 +79,7 @@
     <Compile Include="LeetCode\00297_二叉树的序列化与反序列化.cs" />
     <Compile Include="LeetCode\00331_验证二叉树的前序序列化.cs" />
     <Compile Include="LeetCode\00341_扁平化嵌套列表迭代器.cs" />
+    <Compile Include="LeetCode\00392_判断子序列.cs" />
     <Compile Include="LeetCode\00496_下一个更大元素_I.cs" />
     <Compile Include="LeetCode\00566_reshape-the-matrix.cs" />
     <Compile Include="LeetCode\00653_two-sum-iv-input-is-a-bst.cs" />
@@ -116,6 +117,7 @@
     <Compile Include="LeetCode\LCOF\栈的压入弹出序列.cs" />
     <Compile Include="LeetCode\LCOF\树的子结构.cs" />
     <Compile Include="LeetCode\前缀和\和可被 K 整除的子数组.cs" />
+    <Compile Include="LeetCode\贪心算法\判断子序列.cs" />
     <Compile Include="Sorting\冒泡排序.cs" />
     <Compile Include="Sorting\桶排序.cs" />
     <Content Include="jwasham coding-interview-university.txt" />
@@ -398,7 +400,7 @@
     <Content Include="LeetCode\00203_remove-linked-list-elements.cpp" />
     <Content Include="LeetCode\00237_delete-node-in-a-linked-list.cpp" />
     <Content Include="LeetCode\Dynamic Progamming\readme.txt" />
-    <Content Include="LeetCode\Greedy\readme.txt" />
+    <Content Include="LeetCode\贪心算法\readme.txt" />
     <Content Include="LeetCode\位运算\readme.txt" />
     <Content Include="labuladong的算法博客.txt" />
     <Content Include="啊哈算法.txt" />
