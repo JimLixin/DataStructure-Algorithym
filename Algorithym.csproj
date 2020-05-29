@@ -86,6 +86,7 @@
     <Compile Include="LeetCode\00653_two-sum-iv-input-is-a-bst.cs" />
     <Compile Include="LeetCode\00680_valid-palindrome-ii.cs" />
     <Compile Include="LeetCode\00709_to-lower-case.cs" />
+    <Compile Include="LeetCode\00860_柠檬水找零.cs" />
     <Compile Include="LeetCode\00974_和可被 K 整除的子数组.cs" />
     <Compile Include="LeetCode\01047_remove-all-adjacent-duplicates-in-string.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\丑数.cs" />
@@ -120,6 +121,7 @@
     <Compile Include="LeetCode\前缀和\和可被 K 整除的子数组.cs" />
     <Compile Include="LeetCode\贪心算法\分发饼干.cs" />
     <Compile Include="LeetCode\贪心算法\判断子序列.cs" />
+    <Compile Include="LeetCode\贪心算法\柠檬水找零.cs" />
     <Compile Include="Sorting\冒泡排序.cs" />
     <Compile Include="Sorting\桶排序.cs" />
     <Content Include="jwasham coding-interview-university.txt" />
