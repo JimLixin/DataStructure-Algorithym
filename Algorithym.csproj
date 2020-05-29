@@ -91,7 +91,9 @@
     <Compile Include="LeetCode\00944_删列造序.cs" />
     <Compile Include="LeetCode\00974_和可被 K 整除的子数组.cs" />
     <Compile Include="LeetCode\01029_两地调度.cs" />
+    <Compile Include="LeetCode\01046_最后一块石头的重量.cs" />
     <Compile Include="LeetCode\01047_remove-all-adjacent-duplicates-in-string.cs" />
+    <Compile Include="LeetCode\01221_分割平衡字符串.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\丑数.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\单词拆分.cs" />
     <Compile Include="LeetCode\LCCI\URL化.cs" />
@@ -123,8 +125,10 @@
     <Compile Include="LeetCode\LCOF\树的子结构.cs" />
     <Compile Include="LeetCode\前缀和\和可被 K 整除的子数组.cs" />
     <Compile Include="LeetCode\贪心算法\两地调度.cs" />
+    <Compile Include="LeetCode\贪心算法\分割平衡字符串.cs" />
     <Compile Include="LeetCode\贪心算法\分发饼干.cs" />
     <Compile Include="LeetCode\贪心算法\判断子序列.cs" />
+    <Compile Include="LeetCode\贪心算法\最后一块石头的重量.cs" />
     <Compile Include="LeetCode\贪心算法\柠檬水找零.cs" />
     <Compile Include="Sorting\冒泡排序.cs" />
     <Compile Include="Sorting\桶排序.cs" />
