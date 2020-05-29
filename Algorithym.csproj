@@ -80,6 +80,7 @@
     <Compile Include="LeetCode\00331_验证二叉树的前序序列化.cs" />
     <Compile Include="LeetCode\00341_扁平化嵌套列表迭代器.cs" />
     <Compile Include="LeetCode\00392_判断子序列.cs" />
+    <Compile Include="LeetCode\00455_分发饼干.cs" />
     <Compile Include="LeetCode\00496_下一个更大元素_I.cs" />
     <Compile Include="LeetCode\00566_reshape-the-matrix.cs" />
     <Compile Include="LeetCode\00653_two-sum-iv-input-is-a-bst.cs" />
@@ -117,6 +118,7 @@
     <Compile Include="LeetCode\LCOF\栈的压入弹出序列.cs" />
     <Compile Include="LeetCode\LCOF\树的子结构.cs" />
     <Compile Include="LeetCode\前缀和\和可被 K 整除的子数组.cs" />
+    <Compile Include="LeetCode\贪心算法\分发饼干.cs" />
     <Compile Include="LeetCode\贪心算法\判断子序列.cs" />
     <Compile Include="Sorting\冒泡排序.cs" />
     <Compile Include="Sorting\桶排序.cs" />
