@@ -88,6 +88,7 @@
     <Compile Include="LeetCode\00709_to-lower-case.cs" />
     <Compile Include="LeetCode\00860_柠檬水找零.cs" />
     <Compile Include="LeetCode\00874_模拟行走机器人.cs" />
+    <Compile Include="LeetCode\00944_删列造序.cs" />
     <Compile Include="LeetCode\00974_和可被 K 整除的子数组.cs" />
     <Compile Include="LeetCode\01047_remove-all-adjacent-duplicates-in-string.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\丑数.cs" />
