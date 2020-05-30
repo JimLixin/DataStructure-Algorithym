@@ -32,6 +32,10 @@ namespace Algorithym
 
         static void Main(string[] args)
         {
+            int[][] people = new int[][] { new int[] { 7,0}, new int[] { 4, 4 }, new int[] { 7, 1 }, 
+                new int[] { 5, 0 }, new int[] { 6, 1 },new int[] { 5,2} };
+
+            var sorted = people.OrderByDescending(i => i[0]).ThenBy(i => i[1]).ToArray();
             SortedList<int, int> sortedList = new SortedList<int, int>();
             HashSet<int> map = new HashSet<int>();
             StringBuilder sb = new StringBuilder("Hello");
