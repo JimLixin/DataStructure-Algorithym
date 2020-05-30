@@ -91,6 +91,7 @@
     <Compile Include="LeetCode\00874_模拟行走机器人.cs" />
     <Compile Include="LeetCode\00944_删列造序.cs" />
     <Compile Include="LeetCode\00974_和可被 K 整除的子数组.cs" />
+    <Compile Include="LeetCode\01005_K 次取反后最大化的数组和.cs" />
     <Compile Include="LeetCode\01029_两地调度.cs" />
     <Compile Include="LeetCode\01046_最后一块石头的重量.cs" />
     <Compile Include="LeetCode\01047_remove-all-adjacent-duplicates-in-string.cs" />
@@ -125,6 +126,7 @@
     <Compile Include="LeetCode\LCOF\栈的压入弹出序列.cs" />
     <Compile Include="LeetCode\LCOF\树的子结构.cs" />
     <Compile Include="LeetCode\前缀和\和可被 K 整除的子数组.cs" />
+    <Compile Include="LeetCode\贪心算法\K次取反后最大化的数组和.cs" />
     <Compile Include="LeetCode\贪心算法\两地调度.cs" />
     <Compile Include="LeetCode\贪心算法\分割平衡字符串.cs" />
     <Compile Include="LeetCode\贪心算法\分发饼干.cs" />
