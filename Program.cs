@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using Algorithym.LeetCode.Dynamic_Progamming;
 using Algorithym.LeetCode.Topics;
 using Algorithym.Sorting;
+using Algorithym.LeetCode.设计模式;
 
 namespace Algorithym
 {
