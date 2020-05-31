@@ -101,6 +101,7 @@
     <Compile Include="LeetCode\01122_数组的相对排序.cs" />
     <Compile Include="LeetCode\01217_玩筹码.cs" />
     <Compile Include="LeetCode\01221_分割平衡字符串.cs" />
+    <Compile Include="LeetCode\01356_根据数字二进制下 1 的数目排序.cs" />
     <Compile Include="LeetCode\01370_上升下降字符串.cs" />
     <Compile Include="LeetCode\01403_非递增顺序的最小子序列.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\丑数.cs" />
