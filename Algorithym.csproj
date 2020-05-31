@@ -91,6 +91,7 @@
     <Compile Include="LeetCode\00709_to-lower-case.cs" />
     <Compile Include="LeetCode\00860_柠檬水找零.cs" />
     <Compile Include="LeetCode\00874_模拟行走机器人.cs" />
+    <Compile Include="LeetCode\00922_按奇偶排序数组_II.cs" />
     <Compile Include="LeetCode\00944_删列造序.cs" />
     <Compile Include="LeetCode\00974_和可被 K 整除的子数组.cs" />
     <Compile Include="LeetCode\01005_K 次取反后最大化的数组和.cs" />
