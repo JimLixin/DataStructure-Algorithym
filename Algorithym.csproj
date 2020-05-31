@@ -73,6 +73,7 @@
     <Compile Include="LeetCode\00076_minimum-window-substring.cs" />
     <Compile Include="LeetCode\00084_柱状图中最大的矩形.cs" />
     <Compile Include="LeetCode\00139_word-break.cs" />
+    <Compile Include="LeetCode\00209_长度最小的子数组.cs" />
     <Compile Include="LeetCode\00222_count-complete-tree-nodes.cs" />
     <Compile Include="LeetCode\00225_implement-stack-using-queues.cs" />
     <Compile Include="LeetCode\00232_implement-queue-using-stacks.cs" />
@@ -104,6 +105,7 @@
     <Compile Include="LeetCode\01356_根据数字二进制下 1 的数目排序.cs" />
     <Compile Include="LeetCode\01370_上升下降字符串.cs" />
     <Compile Include="LeetCode\01403_非递增顺序的最小子序列.cs" />
+    <Compile Include="LeetCode\Double pointers\长度最小的子数组.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\丑数.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\单词拆分.cs" />
     <Compile Include="LeetCode\LCCI\URL化.cs" />
@@ -148,7 +150,9 @@
     <Compile Include="LeetCode\贪心算法\根据身高重建队列.cs" />
     <Compile Include="LeetCode\贪心算法\非递增顺序的最小子序列.cs" />
     <Compile Include="Sorting\冒泡排序.cs" />
+    <Compile Include="Sorting\并归排序.cs" />
     <Compile Include="Sorting\桶排序.cs" />
+    <Compile Include="Sorting\选择排序.cs" />
     <Content Include="jwasham coding-interview-university.txt" />
     <Content Include="LeetCode\00024_swap-nodes-in-pairs.cpp" />
     <Compile Include="LeetCode\00025_reverse-nodes-in-k-group.cs" />
