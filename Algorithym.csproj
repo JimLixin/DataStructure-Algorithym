@@ -155,6 +155,7 @@
     <Compile Include="LeetCode\贪心算法\非递增顺序的最小子序列.cs" />
     <Compile Include="Sorting\冒泡排序.cs" />
     <Compile Include="Sorting\并归排序.cs" />
+    <Compile Include="Sorting\快速选择.cs" />
     <Compile Include="Sorting\桶排序.cs" />
     <Compile Include="Sorting\选择排序.cs" />
     <Content Include="jwasham coding-interview-university.txt" />

@@ -33,6 +33,7 @@ namespace Algorithym
 
         static void Main(string[] args)
         {
+            var fourthLargest = QuickSelect.FindKthLargest(new int[] { -10, 2, 1, 9, -6, 44, 0, 3, -17, 8 }, 4);
             int[][] people = new int[][] { new int[] { 7,0}, new int[] { 4, 4 }, new int[] { 7, 1 }, 
                 new int[] { 5, 0 }, new int[] { 6, 1 },new int[] { 5,2} };
 

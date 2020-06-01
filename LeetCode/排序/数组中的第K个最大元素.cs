@@ -9,14 +9,15 @@ using System.Threading.Tasks;
 /// </summary>
 namespace Algorithym.LeetCode.排序
 {
+    /// <summary>
+     /// 堆排序
+     /// </summary>
+     /// <param name="nums"></param>
+     /// <param name="k"></param>
+     /// <returns></returns>
     public class _00215_数组中的第K个最大元素
     {
-        /// <summary>
-        /// 堆排序
-        /// </summary>
-        /// <param name="nums"></param>
-        /// <param name="k"></param>
-        /// <returns></returns>
+        
         public int FindKthLargest(int[] nums, int k)
         {
             if (nums == null || nums.Length == 0) return -1;
@@ -29,6 +30,43 @@ namespace Algorithym.LeetCode.排序
                     heap.Insert(nums[i]);
             }
             return heap.Populate();
+        }
+    }
+
+    /// <summary>
+    /// 快速选择
+    /// </summary>
+    public class _00215_数组中的第K个最大元素V2
+    {
+        public int FindKthLargest(int[] nums, int k)
+        {
+            if (nums == null || nums.Length == 0) return -1;
+            return quickSelect(nums, k, 0, nums.Length - 1);
+        }
+
+        public int quickSelect(int[] nums, int k, int left, int right)
+        {
+            int pivot = (new Random()).Next(left, right), i = left, j = left;
+            swap(nums, pivot, right);
+            while (j < right)
+            {
+                if (nums[j] <= nums[right]) swap(nums, i++, j);
+                j++;
+            }
+            swap(nums, right, i);
+            if (i + k - 1 == right)
+                return nums[i];
+            else if (i + k - 1 > right)
+                return quickSelect(nums, k - (right - i + 1), left, i - 1);
+            else
+                return quickSelect(nums, k, i + 1, right);
+        }
+
+        private void swap(int[] nums, int a, int b)
+        {
+            int tmp = nums[a];
+            nums[a] = nums[b];
+            nums[b] = tmp;
         }
     }
 
