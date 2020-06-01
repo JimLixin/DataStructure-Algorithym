@@ -74,6 +74,7 @@
     <Compile Include="LeetCode\00084_柱状图中最大的矩形.cs" />
     <Compile Include="LeetCode\00139_word-break.cs" />
     <Compile Include="LeetCode\00209_长度最小的子数组.cs" />
+    <Compile Include="LeetCode\00215_数组中的第K个最大元素.cs" />
     <Compile Include="LeetCode\00222_count-complete-tree-nodes.cs" />
     <Compile Include="LeetCode\00225_implement-stack-using-queues.cs" />
     <Compile Include="LeetCode\00232_implement-queue-using-stacks.cs" />
@@ -137,6 +138,8 @@
     <Compile Include="LeetCode\LCOF\栈的压入弹出序列.cs" />
     <Compile Include="LeetCode\LCOF\树的子结构.cs" />
     <Compile Include="LeetCode\前缀和\和可被 K 整除的子数组.cs" />
+    <Compile Include="LeetCode\排序\摆动排序_II.cs" />
+    <Compile Include="LeetCode\排序\数组中的第K个最大元素.cs" />
     <Compile Include="LeetCode\数学\生成素数序列.cs" />
     <Compile Include="LeetCode\设计模式\单例模式%28Singleton%29.cs" />
     <Compile Include="LeetCode\设计模式\工厂方法%28Factory Method%29.cs" />
