@@ -69,6 +69,7 @@
     <Compile Include="LeetCode\00031_下一个排列.cs" />
     <Compile Include="LeetCode\00037_sudoku-solver.cs" />
     <Compile Include="LeetCode\00038_count-and-say.cs" />
+    <Compile Include="LeetCode\00043_字符串相乘.cs" />
     <Compile Include="LeetCode\00048_rotate-image.cs" />
     <Compile Include="LeetCode\00073_set-matrix-zeroes.cs" />
     <Compile Include="LeetCode\00076_minimum-window-substring.cs" />
