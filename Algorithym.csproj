@@ -73,6 +73,7 @@
     <Compile Include="LeetCode\00048_rotate-image.cs" />
     <Compile Include="LeetCode\00056_合并区间.cs" />
     <Compile Include="LeetCode\00061_旋转链表.cs" />
+    <Compile Include="LeetCode\00071_简化路径.cs" />
     <Compile Include="LeetCode\00073_set-matrix-zeroes.cs" />
     <Compile Include="LeetCode\00076_minimum-window-substring.cs" />
     <Compile Include="LeetCode\00084_柱状图中最大的矩形.cs" />
