@@ -66,6 +66,7 @@
     <Compile Include="LeetCode\00021_merge-two-sorted-lists.cs" />
     <Compile Include="LeetCode\00023_merge-k-sorted-lists.cs" />
     <Compile Include="LeetCode\00029_divide-two-integers.cs" />
+    <Compile Include="LeetCode\00031_下一个排列.cs" />
     <Compile Include="LeetCode\00037_sudoku-solver.cs" />
     <Compile Include="LeetCode\00038_count-and-say.cs" />
     <Compile Include="LeetCode\00048_rotate-image.cs" />
