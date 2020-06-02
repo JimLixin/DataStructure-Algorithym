@@ -129,6 +129,7 @@
     <Compile Include="LeetCode\LCCI\栈的最小值.cs" />
     <Compile Include="LeetCode\LCCI\检查子树.cs" />
     <Compile Include="LeetCode\LCCI\检查平衡性.cs" />
+    <Compile Include="LeetCode\LCCI\求1+2+…+n.cs" />
     <Compile Include="LeetCode\LCCI\特定深度节点链表.cs" />
     <Compile Include="LeetCode\LCCI\移除重复节点.cs" />
     <Compile Include="LeetCode\LCCI\链表求和.cs" />
