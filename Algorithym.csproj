@@ -71,6 +71,7 @@
     <Compile Include="LeetCode\00038_count-and-say.cs" />
     <Compile Include="LeetCode\00043_字符串相乘.cs" />
     <Compile Include="LeetCode\00048_rotate-image.cs" />
+    <Compile Include="LeetCode\00056_合并区间.cs" />
     <Compile Include="LeetCode\00073_set-matrix-zeroes.cs" />
     <Compile Include="LeetCode\00076_minimum-window-substring.cs" />
     <Compile Include="LeetCode\00084_柱状图中最大的矩形.cs" />
@@ -154,6 +155,7 @@
     <Compile Include="LeetCode\贪心算法\分割平衡字符串.cs" />
     <Compile Include="LeetCode\贪心算法\分发饼干.cs" />
     <Compile Include="LeetCode\贪心算法\判断子序列.cs" />
+    <Compile Include="LeetCode\贪心算法\合并区间.cs" />
     <Compile Include="LeetCode\贪心算法\摆动序列.cs" />
     <Compile Include="LeetCode\贪心算法\最后一块石头的重量.cs" />
     <Compile Include="LeetCode\贪心算法\柠檬水找零.cs" />
