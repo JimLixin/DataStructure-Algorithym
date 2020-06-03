@@ -79,6 +79,7 @@
     <Compile Include="LeetCode\00076_minimum-window-substring.cs" />
     <Compile Include="LeetCode\00079_单词搜索.cs" />
     <Compile Include="LeetCode\00084_柱状图中最大的矩形.cs" />
+    <Compile Include="LeetCode\00089_格雷编码.cs" />
     <Compile Include="LeetCode\00139_word-break.cs" />
     <Compile Include="LeetCode\00148_排序链表.cs" />
     <Compile Include="LeetCode\00209_长度最小的子数组.cs" />
@@ -168,6 +169,7 @@
     <Compile Include="LeetCode\贪心算法\柠檬水找零.cs" />
     <Compile Include="LeetCode\贪心算法\根据身高重建队列.cs" />
     <Compile Include="LeetCode\贪心算法\非递增顺序的最小子序列.cs" />
+    <Compile Include="LeetCode\递归+回溯\单词搜索.cs" />
     <Compile Include="Sorting\冒泡排序.cs" />
     <Compile Include="Sorting\并归排序.cs" />
     <Compile Include="Sorting\快速选择.cs" />
