@@ -35,5 +35,23 @@ namespace Algorithym.LeetCode
             result.Reverse();
             return result;
         }
+
+        /// <summary>
+        /// 用链表实现
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        public IList<int> GrayCodeV2(int n)
+        {
+            List<int> list = new List<int>() { 0 };
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = list.Count - 1; j >= 0; j--)
+                {
+                    list.Add(list[j] + (int)Math.Pow(2, i));
+                }
+            }
+            return list;
+        }
     }
 }
