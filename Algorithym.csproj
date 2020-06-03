@@ -79,6 +79,7 @@
     <Compile Include="LeetCode\00076_minimum-window-substring.cs" />
     <Compile Include="LeetCode\00084_柱状图中最大的矩形.cs" />
     <Compile Include="LeetCode\00139_word-break.cs" />
+    <Compile Include="LeetCode\00148_排序链表.cs" />
     <Compile Include="LeetCode\00209_长度最小的子数组.cs" />
     <Compile Include="LeetCode\00215_数组中的第K个最大元素.cs" />
     <Compile Include="LeetCode\00222_count-complete-tree-nodes.cs" />
