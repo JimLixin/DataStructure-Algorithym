@@ -81,6 +81,7 @@
     <Compile Include="LeetCode\00084_柱状图中最大的矩形.cs" />
     <Compile Include="LeetCode\00089_格雷编码.cs" />
     <Compile Include="LeetCode\00093_复原IP地址.cs" />
+    <Compile Include="LeetCode\00096_不同的二叉搜索树.cs" />
     <Compile Include="LeetCode\00139_word-break.cs" />
     <Compile Include="LeetCode\00148_排序链表.cs" />
     <Compile Include="LeetCode\00209_长度最小的子数组.cs" />
@@ -121,6 +122,7 @@
     <Compile Include="LeetCode\01403_非递增顺序的最小子序列.cs" />
     <Compile Include="LeetCode\Double pointers\长度最小的子数组.cs" />
     <Compile Include="LeetCode\Double pointers\颜色分类.cs" />
+    <Compile Include="LeetCode\Dynamic Progamming\不同的二叉搜索树.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\丑数.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\单词拆分.cs" />
     <Compile Include="LeetCode\LCCI\URL化.cs" />
