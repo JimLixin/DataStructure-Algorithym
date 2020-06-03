@@ -75,6 +75,7 @@
     <Compile Include="LeetCode\00061_旋转链表.cs" />
     <Compile Include="LeetCode\00071_简化路径.cs" />
     <Compile Include="LeetCode\00073_set-matrix-zeroes.cs" />
+    <Compile Include="LeetCode\00075_颜色分类.cs" />
     <Compile Include="LeetCode\00076_minimum-window-substring.cs" />
     <Compile Include="LeetCode\00084_柱状图中最大的矩形.cs" />
     <Compile Include="LeetCode\00139_word-break.cs" />
@@ -115,6 +116,7 @@
     <Compile Include="LeetCode\01370_上升下降字符串.cs" />
     <Compile Include="LeetCode\01403_非递增顺序的最小子序列.cs" />
     <Compile Include="LeetCode\Double pointers\长度最小的子数组.cs" />
+    <Compile Include="LeetCode\Double pointers\颜色分类.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\丑数.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\单词拆分.cs" />
     <Compile Include="LeetCode\LCCI\URL化.cs" />
@@ -149,6 +151,7 @@
     <Compile Include="LeetCode\前缀和\和可被 K 整除的子数组.cs" />
     <Compile Include="LeetCode\排序\摆动排序_II.cs" />
     <Compile Include="LeetCode\排序\数组中的第K个最大元素.cs" />
+    <Compile Include="LeetCode\排序\颜色分类.cs" />
     <Compile Include="LeetCode\数学\生成素数序列.cs" />
     <Compile Include="LeetCode\设计模式\单例模式%28Singleton%29.cs" />
     <Compile Include="LeetCode\设计模式\工厂方法%28Factory Method%29.cs" />
