@@ -89,6 +89,7 @@
     <Compile Include="LeetCode\00222_count-complete-tree-nodes.cs" />
     <Compile Include="LeetCode\00225_implement-stack-using-queues.cs" />
     <Compile Include="LeetCode\00232_implement-queue-using-stacks.cs" />
+    <Compile Include="LeetCode\00238_除自身以外数组的乘积.cs" />
     <Compile Include="LeetCode\00258_add-digits.cs" />
     <Compile Include="LeetCode\00297_二叉树的序列化与反序列化.cs" />
     <Compile Include="LeetCode\00324_摆动排序_II.cs" />
