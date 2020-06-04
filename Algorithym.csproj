@@ -81,6 +81,7 @@
     <Compile Include="LeetCode\00084_柱状图中最大的矩形.cs" />
     <Compile Include="LeetCode\00089_格雷编码.cs" />
     <Compile Include="LeetCode\00093_复原IP地址.cs" />
+    <Compile Include="LeetCode\00095_不同的二叉搜索树_II.cs" />
     <Compile Include="LeetCode\00096_不同的二叉搜索树.cs" />
     <Compile Include="LeetCode\00139_word-break.cs" />
     <Compile Include="LeetCode\00148_排序链表.cs" />
@@ -155,6 +156,7 @@
     <Compile Include="LeetCode\LCOF\数值的整数次方.cs" />
     <Compile Include="LeetCode\LCOF\栈的压入弹出序列.cs" />
     <Compile Include="LeetCode\LCOF\树的子结构.cs" />
+    <Compile Include="LeetCode\Topics\二叉树遍历.cs" />
     <Compile Include="LeetCode\前缀和\和可被 K 整除的子数组.cs" />
     <Compile Include="LeetCode\排序\摆动排序_II.cs" />
     <Compile Include="LeetCode\排序\数组中的第K个最大元素.cs" />
@@ -173,6 +175,7 @@
     <Compile Include="LeetCode\贪心算法\柠檬水找零.cs" />
     <Compile Include="LeetCode\贪心算法\根据身高重建队列.cs" />
     <Compile Include="LeetCode\贪心算法\非递增顺序的最小子序列.cs" />
+    <Compile Include="LeetCode\递归+回溯\不同的二叉搜索树_II.cs" />
     <Compile Include="LeetCode\递归+回溯\单词搜索.cs" />
     <Compile Include="LeetCode\递归+回溯\复原IP地址.cs" />
     <Compile Include="Sorting\冒泡排序.cs" />
