@@ -53,6 +53,7 @@
     <Compile Include="LeetCode\00007_整数反转.cs" />
     <Compile Include="LeetCode\00008_StringtoInteger.cs" />
     <Compile Include="LeetCode\00009_PalindromeNumber.cs" />
+    <Compile Include="LeetCode\00010_正则表达式匹配.cs" />
     <Compile Include="LeetCode\00011_ContainerWithMostWater.cs" />
     <Compile Include="LeetCode\00012_IntegerToRoman.cs" />
     <Compile Include="LeetCode\00013_RomanToInteger.cs" />
