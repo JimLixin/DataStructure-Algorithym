@@ -87,6 +87,7 @@
     <Compile Include="LeetCode\00096_不同的二叉搜索树.cs" />
     <Compile Include="LeetCode\00139_word-break.cs" />
     <Compile Include="LeetCode\00148_排序链表.cs" />
+    <Compile Include="LeetCode\00169_多数元素.cs" />
     <Compile Include="LeetCode\00209_长度最小的子数组.cs" />
     <Compile Include="LeetCode\00215_数组中的第K个最大元素.cs" />
     <Compile Include="LeetCode\00222_count-complete-tree-nodes.cs" />
