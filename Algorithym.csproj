@@ -86,6 +86,7 @@
     <Compile Include="LeetCode\00095_不同的二叉搜索树_II.cs" />
     <Compile Include="LeetCode\00096_不同的二叉搜索树.cs" />
     <Compile Include="LeetCode\00128_最长连续序列.cs" />
+    <Compile Include="LeetCode\00130_被围绕的区域.cs" />
     <Compile Include="LeetCode\00139_word-break.cs" />
     <Compile Include="LeetCode\00148_排序链表.cs" />
     <Compile Include="LeetCode\00168_Excel表列名称.cs" />
@@ -477,6 +478,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="LeetCode\LRU Cache\" />
+    <Folder Include="LeetCode\并查集\" />
     <Folder Include="LeetCode\极小化极大\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
