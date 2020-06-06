@@ -85,6 +85,7 @@
     <Compile Include="LeetCode\00093_复原IP地址.cs" />
     <Compile Include="LeetCode\00095_不同的二叉搜索树_II.cs" />
     <Compile Include="LeetCode\00096_不同的二叉搜索树.cs" />
+    <Compile Include="LeetCode\00128_最长连续序列.cs" />
     <Compile Include="LeetCode\00139_word-break.cs" />
     <Compile Include="LeetCode\00148_排序链表.cs" />
     <Compile Include="LeetCode\00168_Excel表列名称.cs" />
