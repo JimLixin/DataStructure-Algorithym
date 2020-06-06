@@ -90,6 +90,7 @@
     <Compile Include="LeetCode\00131_分割回文串.cs" />
     <Compile Include="LeetCode\00138_复制带随机指针的链表.cs" />
     <Compile Include="LeetCode\00139_word-break.cs" />
+    <Compile Include="LeetCode\00147_对链表进行插入排序.cs" />
     <Compile Include="LeetCode\00148_排序链表.cs" />
     <Compile Include="LeetCode\00168_Excel表列名称.cs" />
     <Compile Include="LeetCode\00169_多数元素.cs" />
