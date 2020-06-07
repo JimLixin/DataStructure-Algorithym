@@ -69,6 +69,7 @@
     <Compile Include="LeetCode\00029_divide-two-integers.cs" />
     <Compile Include="LeetCode\00030_串联所有单词的子串.cs" />
     <Compile Include="LeetCode\00031_下一个排列.cs" />
+    <Compile Include="LeetCode\00032_最长有效括号.cs" />
     <Compile Include="LeetCode\00037_sudoku-solver.cs" />
     <Compile Include="LeetCode\00038_count-and-say.cs" />
     <Compile Include="LeetCode\00043_字符串相乘.cs" />
@@ -144,6 +145,7 @@
     <Compile Include="LeetCode\Dynamic Progamming\不同的二叉搜索树.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\丑数.cs" />
     <Compile Include="LeetCode\Dynamic Progamming\单词拆分.cs" />
+    <Compile Include="LeetCode\Dynamic Progamming\最长有效括号.cs" />
     <Compile Include="LeetCode\LCCI\URL化.cs" />
     <Compile Include="LeetCode\LCCI\交换数字.cs" />
     <Compile Include="LeetCode\LCCI\分割链表.cs" />
