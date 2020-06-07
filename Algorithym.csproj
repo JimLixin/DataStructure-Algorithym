@@ -114,6 +114,7 @@
     <Compile Include="LeetCode\00406_根据身高重建队列.cs" />
     <Compile Include="LeetCode\00415_字符串相加.cs" />
     <Compile Include="LeetCode\00455_分发饼干.cs" />
+    <Compile Include="LeetCode\00461_汉明距离.cs" />
     <Compile Include="LeetCode\00496_下一个更大元素_I.cs" />
     <Compile Include="LeetCode\00566_reshape-the-matrix.cs" />
     <Compile Include="LeetCode\00653_two-sum-iv-input-is-a-bst.cs" />
@@ -171,6 +172,7 @@
     <Compile Include="LeetCode\LCOF\树的子结构.cs" />
     <Compile Include="LeetCode\Topics\二叉树遍历.cs" />
     <Compile Include="LeetCode\位运算\两整数之和.cs" />
+    <Compile Include="LeetCode\位运算\汉明距离.cs" />
     <Compile Include="LeetCode\前缀和\和可被 K 整除的子数组.cs" />
     <Compile Include="LeetCode\排序\摆动排序_II.cs" />
     <Compile Include="LeetCode\排序\数组中的第K个最大元素.cs" />
