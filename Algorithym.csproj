@@ -137,6 +137,7 @@
     <Compile Include="LeetCode\01329_将矩阵按对角线排序.cs" />
     <Compile Include="LeetCode\01356_根据数字二进制下 1 的数目排序.cs" />
     <Compile Include="LeetCode\01370_上升下降字符串.cs" />
+    <Compile Include="LeetCode\01387_将整数按权重排序.cs" />
     <Compile Include="LeetCode\01403_非递增顺序的最小子序列.cs" />
     <Compile Include="LeetCode\Double pointers\长度最小的子数组.cs" />
     <Compile Include="LeetCode\Double pointers\颜色分类.cs" />
@@ -178,6 +179,7 @@
     <Compile Include="LeetCode\位运算\汉明距离.cs" />
     <Compile Include="LeetCode\位运算\消失的数字.cs" />
     <Compile Include="LeetCode\前缀和\和可被 K 整除的子数组.cs" />
+    <Compile Include="LeetCode\排序\将整数按权重排序.cs" />
     <Compile Include="LeetCode\排序\将矩阵按对角线排序.cs" />
     <Compile Include="LeetCode\排序\摆动排序_II.cs" />
     <Compile Include="LeetCode\排序\数组中的第K个最大元素.cs" />
