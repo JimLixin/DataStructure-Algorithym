@@ -108,6 +108,7 @@
     <Compile Include="LeetCode\00324_摆动排序_II.cs" />
     <Compile Include="LeetCode\00331_验证二叉树的前序序列化.cs" />
     <Compile Include="LeetCode\00341_扁平化嵌套列表迭代器.cs" />
+    <Compile Include="LeetCode\00371_两整数之和.cs" />
     <Compile Include="LeetCode\00376_摆动序列.cs" />
     <Compile Include="LeetCode\00392_判断子序列.cs" />
     <Compile Include="LeetCode\00406_根据身高重建队列.cs" />
@@ -169,6 +170,7 @@
     <Compile Include="LeetCode\LCOF\栈的压入弹出序列.cs" />
     <Compile Include="LeetCode\LCOF\树的子结构.cs" />
     <Compile Include="LeetCode\Topics\二叉树遍历.cs" />
+    <Compile Include="LeetCode\位运算\两整数之和.cs" />
     <Compile Include="LeetCode\前缀和\和可被 K 整除的子数组.cs" />
     <Compile Include="LeetCode\排序\摆动排序_II.cs" />
     <Compile Include="LeetCode\排序\数组中的第K个最大元素.cs" />
