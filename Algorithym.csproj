@@ -125,6 +125,7 @@
     <Compile Include="LeetCode\00922_按奇偶排序数组_II.cs" />
     <Compile Include="LeetCode\00944_删列造序.cs" />
     <Compile Include="LeetCode\00974_和可被 K 整除的子数组.cs" />
+    <Compile Include="LeetCode\00976_三角形的最大周长.cs" />
     <Compile Include="LeetCode\01005_K 次取反后最大化的数组和.cs" />
     <Compile Include="LeetCode\01029_两地调度.cs" />
     <Compile Include="LeetCode\01046_最后一块石头的重量.cs" />
