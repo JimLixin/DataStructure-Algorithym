@@ -160,6 +160,7 @@
     <Compile Include="LeetCode\LCCI\检查子树.cs" />
     <Compile Include="LeetCode\LCCI\检查平衡性.cs" />
     <Compile Include="LeetCode\LCCI\求1+2+…+n.cs" />
+    <Compile Include="LeetCode\LCCI\消失的数字.cs" />
     <Compile Include="LeetCode\LCCI\特定深度节点链表.cs" />
     <Compile Include="LeetCode\LCCI\移除重复节点.cs" />
     <Compile Include="LeetCode\LCCI\链表求和.cs" />
@@ -173,6 +174,7 @@
     <Compile Include="LeetCode\Topics\二叉树遍历.cs" />
     <Compile Include="LeetCode\位运算\两整数之和.cs" />
     <Compile Include="LeetCode\位运算\汉明距离.cs" />
+    <Compile Include="LeetCode\位运算\消失的数字.cs" />
     <Compile Include="LeetCode\前缀和\和可被 K 整除的子数组.cs" />
     <Compile Include="LeetCode\排序\摆动排序_II.cs" />
     <Compile Include="LeetCode\排序\数组中的第K个最大元素.cs" />
