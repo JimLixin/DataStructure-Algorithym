@@ -107,6 +107,7 @@
     <Compile Include="LeetCode\00238_除自身以外数组的乘积.cs" />
     <Compile Include="LeetCode\00258_add-digits.cs" />
     <Compile Include="LeetCode\00297_二叉树的序列化与反序列化.cs" />
+    <Content Include="LeetCode\00204_计数质数.cpp" />
     <Content Include="LeetCode\00313_超级丑数.cpp" />
     <Compile Include="LeetCode\00324_摆动排序_II.cs" />
     <Compile Include="LeetCode\00331_验证二叉树的前序序列化.cs" />
@@ -499,6 +500,10 @@
     <Content Include="LeetCode\00203_remove-linked-list-elements.cpp" />
     <Content Include="LeetCode\00237_delete-node-in-a-linked-list.cpp" />
     <Content Include="LeetCode\动态规划\readme.txt" />
+    <Content Include="LeetCode\数学\丑数.cpp" />
+    <Content Include="LeetCode\数学\丑数_II.cpp" />
+    <Content Include="LeetCode\数学\计数质数.cpp" />
+    <Content Include="LeetCode\数学\超级丑数.cpp" />
     <Content Include="LeetCode\贪心算法\readme.txt" />
     <Content Include="LeetCode\位运算\readme.txt" />
     <Content Include="labuladong的算法博客.txt" />
