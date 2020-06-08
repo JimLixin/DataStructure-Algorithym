@@ -72,6 +72,7 @@
     <Compile Include="LeetCode\00032_最长有效括号.cs" />
     <Compile Include="LeetCode\00037_sudoku-solver.cs" />
     <Compile Include="LeetCode\00038_count-and-say.cs" />
+    <Compile Include="LeetCode\00042_接雨水.cs" />
     <Compile Include="LeetCode\00043_字符串相乘.cs" />
     <Compile Include="LeetCode\00048_rotate-image.cs" />
     <Compile Include="LeetCode\00056_合并区间.cs" />
