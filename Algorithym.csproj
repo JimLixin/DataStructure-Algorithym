@@ -129,6 +129,7 @@
     <Compile Include="LeetCode\00944_删列造序.cs" />
     <Compile Include="LeetCode\00974_和可被 K 整除的子数组.cs" />
     <Compile Include="LeetCode\00976_三角形的最大周长.cs" />
+    <Compile Include="LeetCode\00990_等式方程的可满足性.cs" />
     <Compile Include="LeetCode\01005_K 次取反后最大化的数组和.cs" />
     <Compile Include="LeetCode\01029_两地调度.cs" />
     <Compile Include="LeetCode\01046_最后一块石头的重量.cs" />
@@ -183,6 +184,7 @@
     <Compile Include="LeetCode\位运算\汉明距离.cs" />
     <Compile Include="LeetCode\位运算\消失的数字.cs" />
     <Compile Include="LeetCode\前缀和\和可被 K 整除的子数组.cs" />
+    <Compile Include="LeetCode\并查集\等式方程的可满足性.cs" />
     <Compile Include="LeetCode\排序\将整数按权重排序.cs" />
     <Compile Include="LeetCode\排序\将矩阵按对角线排序.cs" />
     <Compile Include="LeetCode\排序\摆动排序_II.cs" />
@@ -500,7 +502,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="LeetCode\LRU Cache\" />
-    <Folder Include="LeetCode\并查集\" />
     <Folder Include="LeetCode\极小化极大\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
