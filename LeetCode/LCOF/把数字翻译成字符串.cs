@@ -98,6 +98,50 @@ namespace Algorithym.LeetCode.LCOF
     }
 
     /// <summary>
+    /// 第二次尝试DFS(不太一样的思路)
+    /// 执行用时 :36 ms, 在所有 C# 提交中击败了100.00%的用户
+    /// 内存消耗 :14.5 MB, 在所有 C# 提交中击败了100.00%的用户
+    /// </summary>
+    public class SolutionV4
+    {
+        int count, len;
+        string s;
+        List<char> data;
+        bool[] vis;
+        public int TranslateNum(int num)
+        {
+            count = 0;
+            s = num.ToString();
+            len = s.Length;
+            data = new List<char>();
+            vis = new bool[len + 1];
+            dfs(s, 0, 0);
+            return count;
+        }
+
+        public void dfs(string s, int start, int step)
+        {
+            if (start >= len)
+            {
+                count++;
+                return;
+            }
+            for (int i = 0; i < 2; i++)
+            {
+                if (start + i >= len) break;
+                if (!vis[step] && (i == 0 || i == 1 && (s[start] == '1' || s[start] == '2' && s[start + 1] < '6')))
+                {
+                    vis[step] = true;
+                    data.Add(i == 0 ? (char)(s[start] + 'a') : (char)(s[start] * 10 + s[start + 1] + 'a'));
+                    dfs(s, start + i + 1, step + 1);
+                    data.RemoveAt(data.Count - 1);
+                    vis[step] = false;
+                }
+            }
+        }
+    }
+
+    /// <summary>
     /// 动态规划
     /// </summary>
     public class SolutionV3
