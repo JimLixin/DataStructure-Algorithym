@@ -112,6 +112,7 @@
     <Compile Include="LeetCode\00324_摆动排序_II.cs" />
     <Compile Include="LeetCode\00331_验证二叉树的前序序列化.cs" />
     <Compile Include="LeetCode\00341_扁平化嵌套列表迭代器.cs" />
+    <Compile Include="LeetCode\00368_最大整除子集.cs" />
     <Compile Include="LeetCode\00371_两整数之和.cs" />
     <Compile Include="LeetCode\00376_摆动序列.cs" />
     <Compile Include="LeetCode\00392_判断子序列.cs" />
@@ -150,6 +151,7 @@
     <Compile Include="LeetCode\01387_将整数按权重排序.cs" />
     <Compile Include="LeetCode\01403_非递增顺序的最小子序列.cs" />
     <Compile Include="LeetCode\动态规划\回文子串.cs" />
+    <Compile Include="LeetCode\动态规划\最大整除子集.cs" />
     <Compile Include="LeetCode\动态规划\最长回文子串.cs" />
     <Compile Include="LeetCode\动态规划\最长回文子序列.cs" />
     <Compile Include="LeetCode\动态规划\最长的斐波那契子序列的长度.cs" />
