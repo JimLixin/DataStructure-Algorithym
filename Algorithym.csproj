@@ -128,6 +128,7 @@
     <Compile Include="LeetCode\00709_to-lower-case.cs" />
     <Compile Include="LeetCode\00738_单调递增的数字.cs" />
     <Compile Include="LeetCode\00860_柠檬水找零.cs" />
+    <Compile Include="LeetCode\00873_最长的斐波那契子序列的长度.cs" />
     <Compile Include="LeetCode\00874_模拟行走机器人.cs" />
     <Compile Include="LeetCode\00922_按奇偶排序数组_II.cs" />
     <Compile Include="LeetCode\00944_删列造序.cs" />
@@ -149,6 +150,7 @@
     <Compile Include="LeetCode\01403_非递增顺序的最小子序列.cs" />
     <Compile Include="LeetCode\动态规划\回文子串.cs" />
     <Compile Include="LeetCode\动态规划\最长回文子串.cs" />
+    <Compile Include="LeetCode\动态规划\最长的斐波那契子序列的长度.cs" />
     <Compile Include="LeetCode\双指针\长度最小的子数组.cs" />
     <Compile Include="LeetCode\双指针\颜色分类.cs" />
     <Compile Include="LeetCode\动态规划\不同的二叉搜索树.cs" />
