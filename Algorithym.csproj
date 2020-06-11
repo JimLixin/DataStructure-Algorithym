@@ -122,6 +122,7 @@
     <Compile Include="LeetCode\00455_分发饼干.cs" />
     <Compile Include="LeetCode\00461_汉明距离.cs" />
     <Compile Include="LeetCode\00496_下一个更大元素_I.cs" />
+    <Content Include="LeetCode\00503_下一个更大元素_II.cpp" />
     <Compile Include="LeetCode\00516_最长回文子序列.cs" />
     <Compile Include="LeetCode\00566_reshape-the-matrix.cs" />
     <Compile Include="LeetCode\00647_回文子串.cs" />
@@ -160,6 +161,7 @@
     <Compile Include="LeetCode\动态规划\最长的斐波那契子序列的长度.cs" />
     <Compile Include="LeetCode\动态规划\最长连续递增序列.cs" />
     <Compile Include="LeetCode\动态规划\最长递增子序列的个数.cs" />
+    <Compile Include="LeetCode\单调栈\下一个更大元素_I.cs" />
     <Compile Include="LeetCode\双指针\长度最小的子数组.cs" />
     <Compile Include="LeetCode\双指针\颜色分类.cs" />
     <Compile Include="LeetCode\动态规划\不同的二叉搜索树.cs" />
@@ -208,7 +210,7 @@
     <Compile Include="LeetCode\排序\数组中的第K个最大元素.cs" />
     <Compile Include="LeetCode\排序\颜色分类.cs" />
     <Compile Include="LeetCode\数学\生成素数序列.cs" />
-    <Compile Include="LeetCode\栈\每日温度.cs" />
+    <Compile Include="LeetCode\单调栈\每日温度.cs" />
     <Compile Include="LeetCode\设计模式\单例模式%28Singleton%29.cs" />
     <Compile Include="LeetCode\设计模式\工厂方法%28Factory Method%29.cs" />
     <Compile Include="LeetCode\贪心算法\K次取反后最大化的数组和.cs" />
@@ -515,6 +517,7 @@
     <Content Include="LeetCode\00203_remove-linked-list-elements.cpp" />
     <Content Include="LeetCode\00237_delete-node-in-a-linked-list.cpp" />
     <Content Include="LeetCode\动态规划\readme.txt" />
+    <Content Include="LeetCode\单调栈\下一个更大元素_II.cpp" />
     <Content Include="LeetCode\数学\丑数.cpp" />
     <Content Include="LeetCode\数学\丑数_II.cpp" />
     <Content Include="LeetCode\数学\计数质数.cpp" />
