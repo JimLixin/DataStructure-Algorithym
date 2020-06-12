@@ -103,6 +103,7 @@
     <Compile Include="LeetCode\00168_Excel表列名称.cs" />
     <Compile Include="LeetCode\00169_多数元素.cs" />
     <Compile Include="LeetCode\00171_Excel表列序号.cs" />
+    <Compile Include="LeetCode\00179_最大数.cs" />
     <Compile Include="LeetCode\00209_长度最小的子数组.cs" />
     <Compile Include="LeetCode\00215_数组中的第K个最大元素.cs" />
     <Compile Include="LeetCode\00222_count-complete-tree-nodes.cs" />
