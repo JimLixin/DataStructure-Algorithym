@@ -97,6 +97,7 @@
     <Compile Include="LeetCode\00148_排序链表.cs" />
     <Content Include="LeetCode\00150_逆波兰表达式求值.cpp" />
     <Compile Include="LeetCode\00151_翻转字符串里的单词.cs" />
+    <Content Include="LeetCode\00153_寻找旋转排序数组中的最小值.cpp" />
     <Compile Include="LeetCode\00168_Excel表列名称.cs" />
     <Compile Include="LeetCode\00169_多数元素.cs" />
     <Compile Include="LeetCode\00171_Excel表列序号.cs" />
