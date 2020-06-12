@@ -113,6 +113,7 @@
     <Compile Include="LeetCode\00258_add-digits.cs" />
     <Compile Include="LeetCode\00297_二叉树的序列化与反序列化.cs" />
     <Content Include="LeetCode\00204_计数质数.cpp" />
+    <Content Include="LeetCode\00216_组合总和_III.cpp" />
     <Content Include="LeetCode\00313_超级丑数.cpp" />
     <Compile Include="LeetCode\00324_摆动排序_II.cs" />
     <Compile Include="LeetCode\00331_验证二叉树的前序序列化.cs" />
@@ -535,6 +536,7 @@
     <Content Include="LeetCode\贪心算法\readme.txt" />
     <Content Include="LeetCode\位运算\readme.txt" />
     <Content Include="labuladong的算法博客.txt" />
+    <Content Include="LeetCode\递归+回溯\组合总和_III.cpp" />
     <Content Include="啊哈算法.txt" />
     <Content Include="readme.txt" />
   </ItemGroup>
