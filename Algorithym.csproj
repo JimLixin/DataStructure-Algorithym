@@ -163,6 +163,7 @@
     <Compile Include="LeetCode\01370_上升下降字符串.cs" />
     <Compile Include="LeetCode\01387_将整数按权重排序.cs" />
     <Compile Include="LeetCode\01403_非递增顺序的最小子序列.cs" />
+    <Content Include="LeetCode\LCCI\整数转换.cpp" />
     <Content Include="LeetCode\LCCI\第 k 个数.cpp" />
     <Compile Include="LeetCode\动态规划\回文子串.cs" />
     <Compile Include="LeetCode\动态规划\最大整除子集.cs" />
@@ -529,6 +530,7 @@
     <Content Include="LeetCode\00203_remove-linked-list-elements.cpp" />
     <Content Include="LeetCode\00237_delete-node-in-a-linked-list.cpp" />
     <Content Include="LeetCode\二分查找\寻找峰值.cpp" />
+    <Content Include="LeetCode\位运算\整数转换.cpp" />
     <Content Include="LeetCode\位运算\最大单词长度乘积.cpp" />
     <Content Include="LeetCode\动态规划\readme.txt" />
     <Content Include="LeetCode\单调栈\下一个更大元素_II.cpp" />
