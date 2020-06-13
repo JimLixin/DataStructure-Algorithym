@@ -116,6 +116,7 @@
     <Content Include="LeetCode\00216_组合总和_III.cpp" />
     <Content Include="LeetCode\00313_超级丑数.cpp" />
     <Compile Include="LeetCode\00324_摆动排序_II.cs" />
+    <Content Include="LeetCode\00318_最大单词长度乘积.cpp" />
     <Content Include="LeetCode\00328_奇偶链表.cpp" />
     <Compile Include="LeetCode\00331_验证二叉树的前序序列化.cs" />
     <Compile Include="LeetCode\00341_扁平化嵌套列表迭代器.cs" />
@@ -528,6 +529,7 @@
     <Content Include="LeetCode\00203_remove-linked-list-elements.cpp" />
     <Content Include="LeetCode\00237_delete-node-in-a-linked-list.cpp" />
     <Content Include="LeetCode\二分查找\寻找峰值.cpp" />
+    <Content Include="LeetCode\位运算\最大单词长度乘积.cpp" />
     <Content Include="LeetCode\动态规划\readme.txt" />
     <Content Include="LeetCode\单调栈\下一个更大元素_II.cpp" />
     <Content Include="LeetCode\数学\丑数.cpp" />
