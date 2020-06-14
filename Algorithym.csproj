@@ -165,6 +165,7 @@
     <Compile Include="LeetCode\01370_上升下降字符串.cs" />
     <Compile Include="LeetCode\01387_将整数按权重排序.cs" />
     <Compile Include="LeetCode\01403_非递增顺序的最小子序列.cs" />
+    <Content Include="LeetCode\00617_合并二叉树.cpp" />
     <Content Include="LeetCode\LCCI\整数转换.cpp" />
     <Content Include="LeetCode\LCCI\第 k 个数.cpp" />
     <Compile Include="LeetCode\动态规划\回文子串.cs" />
