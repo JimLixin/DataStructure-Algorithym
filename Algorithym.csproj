@@ -128,6 +128,7 @@
     <Compile Include="LeetCode\00402_移掉K位数字.cs" />
     <Compile Include="LeetCode\00406_根据身高重建队列.cs" />
     <Compile Include="LeetCode\00415_字符串相加.cs" />
+    <Content Include="LeetCode\00448_找到所有数组中消失的数字.cpp" />
     <Compile Include="LeetCode\00455_分发饼干.cs" />
     <Compile Include="LeetCode\00461_汉明距离.cs" />
     <Compile Include="LeetCode\00496_下一个更大元素_I.cs" />
