@@ -173,6 +173,7 @@
     <Content Include="LeetCode\00684_冗余连接.cpp" />
     <Content Include="LeetCode\00947_移除最多的同行或同列石头.cpp" />
     <Content Include="LeetCode\01319_连通网络的操作次数.cpp" />
+    <Content Include="LeetCode\LCCI\单词频率.cpp" />
     <Content Include="LeetCode\LCCI\整数转换.cpp" />
     <Content Include="LeetCode\LCCI\第 k 个数.cpp" />
     <Compile Include="LeetCode\动态规划\回文子串.cs" />
