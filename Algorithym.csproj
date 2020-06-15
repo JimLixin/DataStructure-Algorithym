@@ -168,6 +168,7 @@
     <Compile Include="LeetCode\01387_将整数按权重排序.cs" />
     <Compile Include="LeetCode\01403_非递增顺序的最小子序列.cs" />
     <Content Include="LeetCode\00538_把二叉搜索树转换为累加树.cpp" />
+    <Content Include="LeetCode\00547_朋友圈.cpp" />
     <Content Include="LeetCode\00617_合并二叉树.cpp" />
     <Content Include="LeetCode\LCCI\整数转换.cpp" />
     <Content Include="LeetCode\LCCI\第 k 个数.cpp" />
@@ -542,6 +543,7 @@
     <Content Include="LeetCode\动态规划\整数拆分.cpp" />
     <Content Include="LeetCode\动态规划\目标和.cpp" />
     <Content Include="LeetCode\单调栈\下一个更大元素_II.cpp" />
+    <Content Include="LeetCode\并查集\朋友圈.cpp" />
     <Content Include="LeetCode\数学\丑数.cpp" />
     <Content Include="LeetCode\数学\丑数_II.cpp" />
     <Content Include="LeetCode\数学\计数质数.cpp" />
