@@ -171,6 +171,7 @@
     <Content Include="LeetCode\00547_朋友圈.cpp" />
     <Content Include="LeetCode\00617_合并二叉树.cpp" />
     <Content Include="LeetCode\00684_冗余连接.cpp" />
+    <Content Include="LeetCode\00947_移除最多的同行或同列石头.cpp" />
     <Content Include="LeetCode\LCCI\整数转换.cpp" />
     <Content Include="LeetCode\LCCI\第 k 个数.cpp" />
     <Compile Include="LeetCode\动态规划\回文子串.cs" />
@@ -546,6 +547,7 @@
     <Content Include="LeetCode\单调栈\下一个更大元素_II.cpp" />
     <Content Include="LeetCode\并查集\冗余连接.cpp" />
     <Content Include="LeetCode\并查集\朋友圈.cpp" />
+    <Content Include="LeetCode\并查集\移除最多的同行或同列石头.cpp" />
     <Content Include="LeetCode\数学\丑数.cpp" />
     <Content Include="LeetCode\数学\丑数_II.cpp" />
     <Content Include="LeetCode\数学\计数质数.cpp" />
