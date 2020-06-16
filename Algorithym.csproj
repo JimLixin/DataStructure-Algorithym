@@ -143,6 +143,7 @@
     <Compile Include="LeetCode\00653_two-sum-iv-input-is-a-bst.cs" />
     <Compile Include="LeetCode\00673_最长递增子序列的个数.cs" />
     <Compile Include="LeetCode\00674_最长连续递增序列.cs" />
+    <Content Include="LeetCode\00676_实现一个魔法字典.cpp" />
     <Compile Include="LeetCode\00680_valid-palindrome-ii.cs" />
     <Compile Include="LeetCode\00709_to-lower-case.cs" />
     <Compile Include="LeetCode\00738_单调递增的数字.cs" />
@@ -548,6 +549,7 @@
     <Content Include="LeetCode\位运算\最大单词长度乘积.cpp" />
     <Content Include="LeetCode\前缀树%28Trie%29\单词替换.cpp" />
     <Content Include="LeetCode\前缀树%28Trie%29\实现Trie前缀树.cpp" />
+    <Content Include="LeetCode\前缀树%28Trie%29\实现一个魔法字典.cpp" />
     <Content Include="LeetCode\前缀树%28Trie%29\添加与搜索单词 - 数据结构设计.cpp" />
     <Content Include="LeetCode\动态规划\readme.txt" />
     <Content Include="LeetCode\动态规划\整数拆分.cpp" />
