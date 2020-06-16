@@ -114,6 +114,7 @@
     <Compile Include="LeetCode\00297_二叉树的序列化与反序列化.cs" />
     <Content Include="LeetCode\00200_岛屿数量.cpp" />
     <Content Include="LeetCode\00204_计数质数.cpp" />
+    <Content Include="LeetCode\00208_实现Trie前缀树.cpp" />
     <Content Include="LeetCode\00216_组合总和_III.cpp" />
     <Content Include="LeetCode\00313_超级丑数.cpp" />
     <Compile Include="LeetCode\00324_摆动排序_II.cs" />
@@ -543,6 +544,7 @@
     <Content Include="LeetCode\二分查找\寻找峰值.cpp" />
     <Content Include="LeetCode\位运算\整数转换.cpp" />
     <Content Include="LeetCode\位运算\最大单词长度乘积.cpp" />
+    <Content Include="LeetCode\前缀树%28Trie%29\实现Trie前缀树.cpp" />
     <Content Include="LeetCode\动态规划\readme.txt" />
     <Content Include="LeetCode\动态规划\整数拆分.cpp" />
     <Content Include="LeetCode\动态规划\目标和.cpp" />
