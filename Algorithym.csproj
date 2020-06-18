@@ -181,6 +181,7 @@
     <Content Include="LeetCode\01028_从先序遍历还原二叉树.cpp" />
     <Content Include="LeetCode\01281_整数的各位积和之差.cpp" />
     <Content Include="LeetCode\01319_连通网络的操作次数.cpp" />
+    <Content Include="LeetCode\01470_重新排列数组.cpp" />
     <Content Include="LeetCode\LCCI\单词频率.cpp" />
     <Content Include="LeetCode\LCCI\整数转换.cpp" />
     <Content Include="LeetCode\LCCI\第 k 个数.cpp" />
