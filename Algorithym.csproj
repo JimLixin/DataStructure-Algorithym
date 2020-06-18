@@ -178,6 +178,7 @@
     <Content Include="LeetCode\00684_冗余连接.cpp" />
     <Content Include="LeetCode\00947_移除最多的同行或同列石头.cpp" />
     <Content Include="LeetCode\01014_最佳观光组合.cpp" />
+    <Content Include="LeetCode\01028_从先序遍历还原二叉树.cpp" />
     <Content Include="LeetCode\01281_整数的各位积和之差.cpp" />
     <Content Include="LeetCode\01319_连通网络的操作次数.cpp" />
     <Content Include="LeetCode\LCCI\单词频率.cpp" />
