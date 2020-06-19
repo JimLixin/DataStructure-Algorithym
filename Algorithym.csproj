@@ -96,6 +96,7 @@
     <Compile Include="LeetCode\00147_对链表进行插入排序.cs" />
     <Compile Include="LeetCode\00148_排序链表.cs" />
     <Content Include="LeetCode\00072_编辑距离.cpp" />
+    <Content Include="LeetCode\00087_扰乱字符串.cpp" />
     <Content Include="LeetCode\00150_逆波兰表达式求值.cpp" />
     <Compile Include="LeetCode\00151_翻转字符串里的单词.cs" />
     <Content Include="LeetCode\00153_寻找旋转排序数组中的最小值.cpp" />
@@ -564,6 +565,7 @@
     <Content Include="LeetCode\前缀树%28Trie%29\实现一个魔法字典.cpp" />
     <Content Include="LeetCode\前缀树%28Trie%29\添加与搜索单词 - 数据结构设计.cpp" />
     <Content Include="LeetCode\前缀树%28Trie%29\键值映射.cpp" />
+    <Content Include="LeetCode\动态规划\扰乱字符串.cpp" />
     <Content Include="LeetCode\动态规划\readme.txt" />
     <Content Include="LeetCode\动态规划\整数拆分.cpp" />
     <Content Include="LeetCode\动态规划\最长公共子序列.cpp" />
