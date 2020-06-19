@@ -115,6 +115,7 @@
     <Compile Include="LeetCode\00238_除自身以外数组的乘积.cs" />
     <Compile Include="LeetCode\00258_add-digits.cs" />
     <Compile Include="LeetCode\00297_二叉树的序列化与反序列化.cs" />
+    <Content Include="LeetCode\00188_买卖股票的最佳时机_IV.cpp" />
     <Content Include="LeetCode\00200_岛屿数量.cpp" />
     <Content Include="LeetCode\00204_计数质数.cpp" />
     <Content Include="LeetCode\00208_实现Trie前缀树.cpp" />
@@ -568,6 +569,7 @@
     <Content Include="LeetCode\前缀树%28Trie%29\添加与搜索单词 - 数据结构设计.cpp" />
     <Content Include="LeetCode\前缀树%28Trie%29\键值映射.cpp" />
     <Content Include="LeetCode\动态规划\买卖股票的最佳时机_III.cpp" />
+    <Content Include="LeetCode\动态规划\买卖股票的最佳时机_IV.cpp" />
     <Content Include="LeetCode\动态规划\扰乱字符串.cpp" />
     <Content Include="LeetCode\动态规划\readme.txt" />
     <Content Include="LeetCode\动态规划\整数拆分.cpp" />
