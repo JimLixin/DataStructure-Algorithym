@@ -95,6 +95,7 @@
     <Compile Include="LeetCode\00139_word-break.cs" />
     <Compile Include="LeetCode\00147_对链表进行插入排序.cs" />
     <Compile Include="LeetCode\00148_排序链表.cs" />
+    <Content Include="LeetCode\00072_编辑距离.cpp" />
     <Content Include="LeetCode\00150_逆波兰表达式求值.cpp" />
     <Compile Include="LeetCode\00151_翻转字符串里的单词.cs" />
     <Content Include="LeetCode\00153_寻找旋转排序数组中的最小值.cpp" />
@@ -567,6 +568,7 @@
     <Content Include="LeetCode\动态规划\整数拆分.cpp" />
     <Content Include="LeetCode\动态规划\最长公共子序列.cpp" />
     <Content Include="LeetCode\动态规划\目标和.cpp" />
+    <Content Include="LeetCode\动态规划\编辑距离.cpp" />
     <Content Include="LeetCode\单调栈\下一个更大元素_II.cpp" />
     <Content Include="LeetCode\并查集\冗余连接.cpp" />
     <Content Include="LeetCode\并查集\朋友圈.cpp" />
