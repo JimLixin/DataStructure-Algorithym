@@ -28,3 +28,41 @@ namespace Algorithym.LeetCode
         }
     }
 }
+
+//动态规划思想 C++实现
+/*
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int n = prices.size();
+        if(n < 2) return 0;
+        vector<vector<int>> dp(n, vector<int>(2));
+        dp[0][0] = 0;
+        dp[0][1] = -prices[0];
+        for(int i = 1; i < n; i++)
+        {
+            dp[i][0] = max(dp[i-1][0], dp[i-1][1] + prices[i]);
+            dp[i][1] = max(dp[i-1][1], - prices[i]);
+        }
+        return dp[n-1][0];
+    }
+}; 
+*/
+
+//动态规划思想 优化空间复杂度O(1)
+/*
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int n = prices.size();
+        if(n < 2) return 0;
+        int dp00 = 0, dp01 = -prices[0];
+        for(int i = 1; i < n; i++)
+        {
+            dp00 = max(dp00, dp01 + prices[i]);
+            dp01 = max(dp01, - prices[i]);
+        }
+        return dp00;
+    }
+}; 
+*/
