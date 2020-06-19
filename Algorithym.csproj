@@ -119,6 +119,7 @@
     <Content Include="LeetCode\00208_实现Trie前缀树.cpp" />
     <Content Include="LeetCode\00211_添加与搜索单词 - 数据结构设计.cpp" />
     <Content Include="LeetCode\00216_组合总和_III.cpp" />
+    <Content Include="LeetCode\00309_最佳买卖股票时机含冷冻期.cpp" />
     <Content Include="LeetCode\00313_超级丑数.cpp" />
     <Compile Include="LeetCode\00324_摆动排序_II.cs" />
     <Content Include="LeetCode\00318_最大单词长度乘积.cpp" />
@@ -568,6 +569,7 @@
     <Content Include="LeetCode\动态规划\扰乱字符串.cpp" />
     <Content Include="LeetCode\动态规划\readme.txt" />
     <Content Include="LeetCode\动态规划\整数拆分.cpp" />
+    <Content Include="LeetCode\动态规划\最佳买卖股票时机含冷冻期.cpp" />
     <Content Include="LeetCode\动态规划\最长公共子序列.cpp" />
     <Content Include="LeetCode\动态规划\目标和.cpp" />
     <Content Include="LeetCode\动态规划\编辑距离.cpp" />
