@@ -136,6 +136,7 @@
     <Compile Include="LeetCode\00402_移掉K位数字.cs" />
     <Compile Include="LeetCode\00406_根据身高重建队列.cs" />
     <Compile Include="LeetCode\00415_字符串相加.cs" />
+    <Content Include="LeetCode\00413_等差数列划分.cpp" />
     <Content Include="LeetCode\00448_找到所有数组中消失的数字.cpp" />
     <Compile Include="LeetCode\00455_分发饼干.cs" />
     <Compile Include="LeetCode\00461_汉明距离.cs" />
@@ -578,6 +579,7 @@
     <Content Include="LeetCode\动态规划\最佳买卖股票时机含冷冻期.cpp" />
     <Content Include="LeetCode\动态规划\最长公共子序列.cpp" />
     <Content Include="LeetCode\动态规划\目标和.cpp" />
+    <Content Include="LeetCode\动态规划\等差数列划分.cpp" />
     <Content Include="LeetCode\动态规划\编辑距离.cpp" />
     <Content Include="LeetCode\单调栈\下一个更大元素_II.cpp" />
     <Content Include="LeetCode\并查集\冗余连接.cpp" />
