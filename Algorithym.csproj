@@ -137,6 +137,7 @@
     <Compile Include="LeetCode\00406_根据身高重建队列.cs" />
     <Compile Include="LeetCode\00415_字符串相加.cs" />
     <Content Include="LeetCode\00413_等差数列划分.cpp" />
+    <Content Include="LeetCode\00416_分割等和子集.cpp" />
     <Content Include="LeetCode\00448_找到所有数组中消失的数字.cpp" />
     <Compile Include="LeetCode\00455_分发饼干.cs" />
     <Compile Include="LeetCode\00461_汉明距离.cs" />
@@ -573,6 +574,7 @@
     <Content Include="LeetCode\动态规划\买卖股票的最佳时机_III.cpp" />
     <Content Include="LeetCode\动态规划\买卖股票的最佳时机_IV.cpp" />
     <Content Include="LeetCode\动态规划\买卖股票的最佳时机含手续费.cpp" />
+    <Content Include="LeetCode\动态规划\分割等和子集.cpp" />
     <Content Include="LeetCode\动态规划\扰乱字符串.cpp" />
     <Content Include="LeetCode\动态规划\readme.txt" />
     <Content Include="LeetCode\动态规划\整数拆分.cpp" />
