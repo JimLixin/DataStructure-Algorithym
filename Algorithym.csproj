@@ -122,6 +122,7 @@
     <Content Include="LeetCode\00208_实现Trie前缀树.cpp" />
     <Content Include="LeetCode\00211_添加与搜索单词 - 数据结构设计.cpp" />
     <Content Include="LeetCode\00216_组合总和_III.cpp" />
+    <Content Include="LeetCode\00257_二叉树的所有路径.cpp" />
     <Content Include="LeetCode\00309_最佳买卖股票时机含冷冻期.cpp" />
     <Content Include="LeetCode\00313_超级丑数.cpp" />
     <Compile Include="LeetCode\00324_摆动排序_II.cs" />
