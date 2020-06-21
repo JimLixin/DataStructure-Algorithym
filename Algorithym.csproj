@@ -121,6 +121,7 @@
     <Content Include="LeetCode\00204_计数质数.cpp" />
     <Content Include="LeetCode\00205_同构字符串.cpp" />
     <Content Include="LeetCode\00208_实现Trie前缀树.cpp" />
+    <Content Include="LeetCode\00290_单词规律.cpp" />
     <Content Include="LeetCode\00211_添加与搜索单词 - 数据结构设计.cpp" />
     <Content Include="LeetCode\00216_组合总和_III.cpp" />
     <Content Include="LeetCode\00257_二叉树的所有路径.cpp" />
