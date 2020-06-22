@@ -145,6 +145,7 @@
     <Compile Include="LeetCode\00415_字符串相加.cs" />
     <Content Include="LeetCode\00413_等差数列划分.cpp" />
     <Content Include="LeetCode\00416_分割等和子集.cpp" />
+    <Content Include="LeetCode\00445_两数相加_II.cpp" />
     <Content Include="LeetCode\00448_找到所有数组中消失的数字.cpp" />
     <Compile Include="LeetCode\00455_分发饼干.cs" />
     <Compile Include="LeetCode\00461_汉明距离.cs" />
