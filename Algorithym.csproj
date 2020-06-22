@@ -158,6 +158,7 @@
     <Compile Include="LeetCode\00673_最长递增子序列的个数.cs" />
     <Compile Include="LeetCode\00674_最长连续递增序列.cs" />
     <Content Include="LeetCode\00557_反转字符串中的单词_III.cpp" />
+    <Content Include="LeetCode\00641_设计循环双端队列.cpp" />
     <Content Include="LeetCode\00676_实现一个魔法字典.cpp" />
     <Compile Include="LeetCode\00680_valid-palindrome-ii.cs" />
     <Compile Include="LeetCode\00709_to-lower-case.cs" />
