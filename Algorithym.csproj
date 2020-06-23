@@ -77,6 +77,7 @@
     <Compile Include="LeetCode\00048_rotate-image.cs" />
     <Compile Include="LeetCode\00056_合并区间.cs" />
     <Compile Include="LeetCode\00061_旋转链表.cs" />
+    <Compile Include="LeetCode\00067_二进制求和.cs" />
     <Compile Include="LeetCode\00071_简化路径.cs" />
     <Compile Include="LeetCode\00073_set-matrix-zeroes.cs" />
     <Compile Include="LeetCode\00075_颜色分类.cs" />
@@ -159,6 +160,7 @@
     <Compile Include="LeetCode\00673_最长递增子序列的个数.cs" />
     <Compile Include="LeetCode\00674_最长连续递增序列.cs" />
     <Content Include="LeetCode\00557_反转字符串中的单词_III.cpp" />
+    <Content Include="LeetCode\00589_N叉树的前序遍历.cpp" />
     <Content Include="LeetCode\00641_设计循环双端队列.cpp" />
     <Content Include="LeetCode\00676_实现一个魔法字典.cpp" />
     <Compile Include="LeetCode\00680_valid-palindrome-ii.cs" />
