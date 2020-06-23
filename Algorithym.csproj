@@ -537,6 +537,7 @@
     <Compile Include="LeetCode\LCOF\队列的最大值.cs" />
     <Compile Include="LeetCode\00221_maximal-square.cs" />
     <Compile Include="LeetCode\LCOF\顺时针打印矩阵.cs" />
+    <Content Include="LeetCode\LCOF\最长不含重复字符的子字符串.cpp" />
     <Content Include="LeetCode\LCP\01_猜数字.cpp" />
     <Compile Include="LeetCode\Shared\ListNode.cs" />
     <Compile Include="LeetCode\Topics\Bit Twiddling Hacks.cs" />
@@ -604,6 +605,7 @@
     <Content Include="LeetCode\动态规划\等差数列划分.cpp" />
     <Content Include="LeetCode\动态规划\编辑距离.cpp" />
     <Content Include="LeetCode\单调栈\下一个更大元素_II.cpp" />
+    <Content Include="LeetCode\双指针\最长不含重复字符的子字符串.cpp" />
     <Content Include="LeetCode\并查集\冗余连接.cpp" />
     <Content Include="LeetCode\并查集\朋友圈.cpp" />
     <Content Include="LeetCode\并查集\移除最多的同行或同列石头.cpp" />
