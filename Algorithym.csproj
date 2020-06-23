@@ -162,6 +162,7 @@
     <Compile Include="LeetCode\00673_最长递增子序列的个数.cs" />
     <Compile Include="LeetCode\00674_最长连续递增序列.cs" />
     <Content Include="LeetCode\00557_反转字符串中的单词_III.cpp" />
+    <Content Include="LeetCode\00567_字符串的排列.cpp" />
     <Content Include="LeetCode\00589_N叉树的前序遍历.cpp" />
     <Content Include="LeetCode\00590_N叉树的后序遍历.cpp" />
     <Content Include="LeetCode\00641_设计循环双端队列.cpp" />
@@ -614,6 +615,8 @@
     <Content Include="LeetCode\数学\丑数_II.cpp" />
     <Content Include="LeetCode\数学\计数质数.cpp" />
     <Content Include="LeetCode\数学\超级丑数.cpp" />
+    <Content Include="LeetCode\滑动窗口\字符串的排列.cpp" />
+    <Content Include="LeetCode\滑动窗口\最长不含重复字符的子字符串.cpp" />
     <Content Include="LeetCode\贪心算法\readme.txt" />
     <Content Include="LeetCode\位运算\readme.txt" />
     <Content Include="labuladong的算法博客.txt" />
