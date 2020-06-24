@@ -223,6 +223,7 @@
     <Content Include="LeetCode\01470_重新排列数组.cpp" />
     <Content Include="LeetCode\LCCI\单词频率.cpp" />
     <Content Include="LeetCode\LCCI\整数转换.cpp" />
+    <Content Include="LeetCode\LCCI\最短超串.cpp" />
     <Content Include="LeetCode\LCCI\第 k 个数.cpp" />
     <Compile Include="LeetCode\动态规划\回文子串.cs" />
     <Compile Include="LeetCode\动态规划\最大整除子集.cs" />
@@ -623,6 +624,7 @@
     <Content Include="LeetCode\滑动窗口\定长子串中元音的最大数目.cpp" />
     <Content Include="LeetCode\滑动窗口\替换后的最长重复字符.cpp" />
     <Content Include="LeetCode\滑动窗口\最大连续1的个数_III.cpp" />
+    <Content Include="LeetCode\滑动窗口\最短超串.cpp" />
     <Content Include="LeetCode\滑动窗口\最长不含重复字符的子字符串.cpp" />
     <Content Include="LeetCode\滑动窗口\爱生气的书店老板.cpp" />
     <Content Include="LeetCode\贪心算法\readme.txt" />
