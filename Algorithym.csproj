@@ -205,6 +205,7 @@
     <Content Include="LeetCode\00876_链表的中间结点.cpp" />
     <Content Include="LeetCode\00933_最近的请求次数.cpp" />
     <Content Include="LeetCode\00947_移除最多的同行或同列石头.cpp" />
+    <Content Include="LeetCode\01004_最大连续1的个数_III.cpp" />
     <Content Include="LeetCode\01014_最佳观光组合.cpp" />
     <Content Include="LeetCode\01019_链表中的下一个更大节点.cpp" />
     <Content Include="LeetCode\01028_从先序遍历还原二叉树.cpp" />
@@ -618,6 +619,7 @@
     <Content Include="LeetCode\数学\超级丑数.cpp" />
     <Content Include="LeetCode\滑动窗口\字符串的排列.cpp" />
     <Content Include="LeetCode\滑动窗口\替换后的最长重复字符.cpp" />
+    <Content Include="LeetCode\滑动窗口\最大连续1的个数_III.cpp" />
     <Content Include="LeetCode\滑动窗口\最长不含重复字符的子字符串.cpp" />
     <Content Include="LeetCode\贪心算法\readme.txt" />
     <Content Include="LeetCode\位运算\readme.txt" />
