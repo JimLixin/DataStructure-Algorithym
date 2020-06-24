@@ -209,6 +209,7 @@
     <Content Include="LeetCode\01014_最佳观光组合.cpp" />
     <Content Include="LeetCode\01019_链表中的下一个更大节点.cpp" />
     <Content Include="LeetCode\01028_从先序遍历还原二叉树.cpp" />
+    <Content Include="LeetCode\01052_爱生气的书店老板.cpp" />
     <Content Include="LeetCode\01108_IP 地址无效化.cpp" />
     <Content Include="LeetCode\01143_最长公共子序列.cpp" />
     <Content Include="LeetCode\01281_整数的各位积和之差.cpp" />
@@ -621,6 +622,7 @@
     <Content Include="LeetCode\滑动窗口\替换后的最长重复字符.cpp" />
     <Content Include="LeetCode\滑动窗口\最大连续1的个数_III.cpp" />
     <Content Include="LeetCode\滑动窗口\最长不含重复字符的子字符串.cpp" />
+    <Content Include="LeetCode\滑动窗口\爱生气的书店老板.cpp" />
     <Content Include="LeetCode\贪心算法\readme.txt" />
     <Content Include="LeetCode\位运算\readme.txt" />
     <Content Include="labuladong的算法博客.txt" />
