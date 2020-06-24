@@ -146,6 +146,7 @@
     <Compile Include="LeetCode\00415_字符串相加.cs" />
     <Content Include="LeetCode\00413_等差数列划分.cpp" />
     <Content Include="LeetCode\00416_分割等和子集.cpp" />
+    <Content Include="LeetCode\00424_替换后的最长重复字符.cpp" />
     <Content Include="LeetCode\00429_N叉树的层序遍历.cpp" />
     <Content Include="LeetCode\00445_两数相加_II.cpp" />
     <Content Include="LeetCode\00448_找到所有数组中消失的数字.cpp" />
@@ -616,6 +617,7 @@
     <Content Include="LeetCode\数学\计数质数.cpp" />
     <Content Include="LeetCode\数学\超级丑数.cpp" />
     <Content Include="LeetCode\滑动窗口\字符串的排列.cpp" />
+    <Content Include="LeetCode\滑动窗口\替换后的最长重复字符.cpp" />
     <Content Include="LeetCode\滑动窗口\最长不含重复字符的子字符串.cpp" />
     <Content Include="LeetCode\贪心算法\readme.txt" />
     <Content Include="LeetCode\位运算\readme.txt" />

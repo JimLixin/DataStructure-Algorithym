@@ -42,3 +42,36 @@ namespace Algorithym.LeetCode
         }
     }
 }
+
+
+/*
+ * C++ 版本
+class Solution {
+public:
+    int threeSumClosest(vector<int>& nums, int target) {
+        int n = nums.size(), diff = INT_MAX, res = 0;
+        sort(nums.begin(), nums.end());
+        for(int i = 0; i < n - 2; i++)
+        {
+            if(i > 0 && nums[i] == nums[i-1]) continue;
+            int j = i + 1, k = n - 1;
+            while(j < k)
+            {
+                int sum = nums[i] + nums[j] + nums[k], tmp = abs(sum - target);
+                if(sum == target)
+                    return sum;
+                else if(sum < target)
+                    j++;
+                else
+                    k--;
+                if(tmp < diff)
+                {
+                    diff = tmp;
+                    res = sum;
+                }
+            }
+        }
+        return res;
+    }
+}; 
+*/
