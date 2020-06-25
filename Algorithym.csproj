@@ -100,6 +100,7 @@
     <Content Include="LeetCode\00072_编辑距离.cpp" />
     <Content Include="LeetCode\00087_扰乱字符串.cpp" />
     <Content Include="LeetCode\00123_买卖股票的最佳时机_III.cpp" />
+    <Content Include="LeetCode\00140_单词拆分_II.cpp" />
     <Content Include="LeetCode\00150_逆波兰表达式求值.cpp" />
     <Compile Include="LeetCode\00151_翻转字符串里的单词.cs" />
     <Content Include="LeetCode\00153_寻找旋转排序数组中的最小值.cpp" />
