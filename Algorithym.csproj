@@ -219,6 +219,7 @@
     <Content Include="LeetCode\01313_解压缩编码列表.cpp" />
     <Content Include="LeetCode\01319_连通网络的操作次数.cpp" />
     <Content Include="LeetCode\01389_按既定顺序创建目标数组.cpp" />
+    <Content Include="LeetCode\01423_可获得的最大点数.cpp" />
     <Content Include="LeetCode\01450_在既定时间做作业的学生人数.cpp" />
     <Content Include="LeetCode\01456_定长子串中元音的最大数目.cpp" />
     <Content Include="LeetCode\01470_重新排列数组.cpp" />
@@ -621,6 +622,7 @@
     <Content Include="LeetCode\数学\丑数_II.cpp" />
     <Content Include="LeetCode\数学\计数质数.cpp" />
     <Content Include="LeetCode\数学\超级丑数.cpp" />
+    <Content Include="LeetCode\滑动窗口\可获得的最大点数.cpp" />
     <Content Include="LeetCode\滑动窗口\字符串的排列.cpp" />
     <Content Include="LeetCode\滑动窗口\定长子串中元音的最大数目.cpp" />
     <Content Include="LeetCode\滑动窗口\替换后的最长重复字符.cpp" />
@@ -631,6 +633,7 @@
     <Content Include="LeetCode\贪心算法\readme.txt" />
     <Content Include="LeetCode\位运算\readme.txt" />
     <Content Include="labuladong的算法博客.txt" />
+    <Content Include="LeetCode\贪心算法\可获得的最大点数.cpp" />
     <Content Include="LeetCode\递归+回溯\二叉树中的最大路径和.cpp" />
     <Content Include="LeetCode\递归+回溯\组合总和_III.cpp" />
     <Content Include="啊哈算法.txt" />
