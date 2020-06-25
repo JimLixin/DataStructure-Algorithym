@@ -201,6 +201,7 @@
     <Content Include="LeetCode\00617_合并二叉树.cpp" />
     <Content Include="LeetCode\00648_单词替换.cpp" />
     <Content Include="LeetCode\00677_键值映射.cpp" />
+    <Content Include="LeetCode\00682_棒球比赛.cpp" />
     <Content Include="LeetCode\00684_冗余连接.cpp" />
     <Content Include="LeetCode\00714_买卖股票的最佳时机含手续费.cpp" />
     <Content Include="LeetCode\00876_链表的中间结点.cpp" />
