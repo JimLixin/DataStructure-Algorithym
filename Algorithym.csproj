@@ -206,6 +206,7 @@
     <Content Include="LeetCode\00876_链表的中间结点.cpp" />
     <Content Include="LeetCode\00933_最近的请求次数.cpp" />
     <Content Include="LeetCode\00947_移除最多的同行或同列石头.cpp" />
+    <Content Include="LeetCode\00978_最长湍流子数组.cpp" />
     <Content Include="LeetCode\01004_最大连续1的个数_III.cpp" />
     <Content Include="LeetCode\01014_最佳观光组合.cpp" />
     <Content Include="LeetCode\01019_链表中的下一个更大节点.cpp" />
@@ -609,6 +610,7 @@
     <Content Include="LeetCode\动态规划\整数拆分.cpp" />
     <Content Include="LeetCode\动态规划\最佳买卖股票时机含冷冻期.cpp" />
     <Content Include="LeetCode\动态规划\最长公共子序列.cpp" />
+    <Content Include="LeetCode\动态规划\最长湍流子数组.cpp" />
     <Content Include="LeetCode\动态规划\目标和.cpp" />
     <Content Include="LeetCode\动态规划\等差数列划分.cpp" />
     <Content Include="LeetCode\动态规划\编辑距离.cpp" />
@@ -629,6 +631,7 @@
     <Content Include="LeetCode\滑动窗口\最大连续1的个数_III.cpp" />
     <Content Include="LeetCode\滑动窗口\最短超串.cpp" />
     <Content Include="LeetCode\滑动窗口\最长不含重复字符的子字符串.cpp" />
+    <Content Include="LeetCode\滑动窗口\最长湍流子数组.cpp" />
     <Content Include="LeetCode\滑动窗口\爱生气的书店老板.cpp" />
     <Content Include="LeetCode\贪心算法\readme.txt" />
     <Content Include="LeetCode\位运算\readme.txt" />
