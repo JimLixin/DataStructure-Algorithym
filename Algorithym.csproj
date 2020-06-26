@@ -205,6 +205,7 @@
     <Content Include="LeetCode\00682_棒球比赛.cpp" />
     <Content Include="LeetCode\00684_冗余连接.cpp" />
     <Content Include="LeetCode\00714_买卖股票的最佳时机含手续费.cpp" />
+    <Content Include="LeetCode\00762_二进制表示中质数个计算置位.cpp" />
     <Content Include="LeetCode\00876_链表的中间结点.cpp" />
     <Content Include="LeetCode\00933_最近的请求次数.cpp" />
     <Content Include="LeetCode\00947_移除最多的同行或同列石头.cpp" />
@@ -598,6 +599,7 @@
     <Content Include="LeetCode\00203_remove-linked-list-elements.cpp" />
     <Content Include="LeetCode\00237_delete-node-in-a-linked-list.cpp" />
     <Content Include="LeetCode\二分查找\寻找峰值.cpp" />
+    <Content Include="LeetCode\位运算\二进制表示中质数个计算置位.cpp" />
     <Content Include="LeetCode\位运算\整数转换.cpp" />
     <Content Include="LeetCode\位运算\最大单词长度乘积.cpp" />
     <Content Include="LeetCode\前缀树%28Trie%29\单词替换.cpp" />
