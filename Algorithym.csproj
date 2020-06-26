@@ -141,6 +141,7 @@
     <Compile Include="LeetCode\00368_最大整除子集.cs" />
     <Compile Include="LeetCode\00371_两整数之和.cs" />
     <Compile Include="LeetCode\00376_摆动序列.cs" />
+    <Content Include="LeetCode\00389_找不同.cpp" />
     <Compile Include="LeetCode\00392_判断子序列.cs" />
     <Compile Include="LeetCode\00402_移掉K位数字.cs" />
     <Compile Include="LeetCode\00406_根据身高重建队列.cs" />
@@ -228,6 +229,7 @@
     <Content Include="LeetCode\01470_重新排列数组.cpp" />
     <Content Include="LeetCode\LCCI\单词频率.cpp" />
     <Content Include="LeetCode\LCCI\整数转换.cpp" />
+    <Content Include="LeetCode\LCCI\最大数值.cpp" />
     <Content Include="LeetCode\LCCI\最短超串.cpp" />
     <Content Include="LeetCode\LCCI\第 k 个数.cpp" />
     <Compile Include="LeetCode\动态规划\回文子串.cs" />
