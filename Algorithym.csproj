@@ -217,6 +217,7 @@
     <Content Include="LeetCode\01014_最佳观光组合.cpp" />
     <Content Include="LeetCode\01019_链表中的下一个更大节点.cpp" />
     <Content Include="LeetCode\01028_从先序遍历还原二叉树.cpp" />
+    <Content Include="LeetCode\01038_从二叉搜索树到更大和树.cpp" />
     <Content Include="LeetCode\01052_爱生气的书店老板.cpp" />
     <Content Include="LeetCode\01108_IP 地址无效化.cpp" />
     <Content Include="LeetCode\01143_最长公共子序列.cpp" />
@@ -656,6 +657,7 @@
     <Content Include="labuladong的算法博客.txt" />
     <Content Include="LeetCode\贪心算法\可获得的最大点数.cpp" />
     <Content Include="LeetCode\递归+回溯\二叉树中的最大路径和.cpp" />
+    <Content Include="LeetCode\递归+回溯\从二叉搜索树到更大和树.cpp" />
     <Content Include="LeetCode\递归+回溯\字母大小写全排列.cpp" />
     <Content Include="LeetCode\递归+回溯\所有可能的路径.cpp" />
     <Content Include="LeetCode\递归+回溯\组合总和_III.cpp" />
