@@ -20,6 +20,7 @@ https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/
 */
 class Solution {
 public:
+    //哈希表额外空间
     Node* copyRandomList(Node* head) {
         if (head == nullptr) return nullptr;
         Node* cur = head;
@@ -37,5 +38,35 @@ public:
             cur = cur->next;
         }
         return map[head];
+    }
+
+    //不使用额外空间
+    Node* copyRandomListV2(Node* head) {
+        if (head == nullptr) return nullptr;
+        Node* cur = head;
+        while (cur != nullptr)
+        {
+            Node* tmp = cur->next;
+            cur->next = new Node(cur->val);
+            cur->next->next = tmp;
+            cur = tmp;
+        }
+        Node* newHead = new Node(0), * tail = newHead, * next = nullptr;
+        cur = head;
+        while (cur != nullptr)
+        {
+            cur->next->random = cur->random ? cur->random->next : nullptr;
+            cur = cur->next->next;
+        }
+        cur = head;
+        while (cur != nullptr)
+        {
+            Node* tmp = cur->next;
+            cur->next = tmp->next;
+            tail->next = tmp;
+            tail = tail->next;
+            cur = cur->next;
+        }
+        return newHead->next;
     }
 };
