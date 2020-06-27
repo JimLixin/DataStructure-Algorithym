@@ -208,6 +208,7 @@
     <Content Include="LeetCode\00714_买卖股票的最佳时机含手续费.cpp" />
     <Content Include="LeetCode\00762_二进制表示中质数个计算置位.cpp" />
     <Content Include="LeetCode\00784_字母大小写全排列.cpp" />
+    <Content Include="LeetCode\00797_所有可能的路径.cpp" />
     <Content Include="LeetCode\00876_链表的中间结点.cpp" />
     <Content Include="LeetCode\00933_最近的请求次数.cpp" />
     <Content Include="LeetCode\00947_移除最多的同行或同列石头.cpp" />
@@ -656,6 +657,7 @@
     <Content Include="LeetCode\贪心算法\可获得的最大点数.cpp" />
     <Content Include="LeetCode\递归+回溯\二叉树中的最大路径和.cpp" />
     <Content Include="LeetCode\递归+回溯\字母大小写全排列.cpp" />
+    <Content Include="LeetCode\递归+回溯\所有可能的路径.cpp" />
     <Content Include="LeetCode\递归+回溯\组合总和_III.cpp" />
     <Content Include="啊哈算法.txt" />
     <Content Include="readme.txt" />
