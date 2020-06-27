@@ -555,6 +555,7 @@
     <Compile Include="LeetCode\LCOF\队列的最大值.cs" />
     <Compile Include="LeetCode\00221_maximal-square.cs" />
     <Compile Include="LeetCode\LCOF\顺时针打印矩阵.cs" />
+    <Content Include="LeetCode\LCOF\复杂链表的复制.cpp" />
     <Content Include="LeetCode\LCOF\最长不含重复字符的子字符串.cpp" />
     <Content Include="LeetCode\LCP\01_猜数字.cpp" />
     <Compile Include="LeetCode\Shared\ListNode.cs" />
