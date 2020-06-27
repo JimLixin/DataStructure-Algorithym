@@ -88,6 +88,7 @@
     <Compile Include="LeetCode\00093_复原IP地址.cs" />
     <Compile Include="LeetCode\00095_不同的二叉搜索树_II.cs" />
     <Compile Include="LeetCode\00096_不同的二叉搜索树.cs" />
+    <Content Include="LeetCode\00041_缺失的第一个正数.cpp" />
     <Content Include="LeetCode\00124_二叉树中的最大路径和.cpp" />
     <Compile Include="LeetCode\00126_单词接龙_II.cs" />
     <Compile Include="LeetCode\00128_最长连续序列.cs" />
