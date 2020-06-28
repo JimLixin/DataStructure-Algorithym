@@ -226,6 +226,7 @@
     <Content Include="LeetCode\01282_用户分组.cpp" />
     <Content Include="LeetCode\01290_二进制链表转整数.cpp" />
     <Content Include="LeetCode\01302_层数最深叶子节点的和.cpp" />
+    <Content Include="LeetCode\01309_解码字母到整数映射.cpp" />
     <Content Include="LeetCode\01313_解压缩编码列表.cpp" />
     <Content Include="LeetCode\01315%29祖父节点值为偶数的节点和.cpp" />
     <Content Include="LeetCode\01319_连通网络的操作次数.cpp" />
