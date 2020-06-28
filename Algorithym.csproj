@@ -207,6 +207,7 @@
     <Content Include="LeetCode\00682_棒球比赛.cpp" />
     <Content Include="LeetCode\00684_冗余连接.cpp" />
     <Content Include="LeetCode\00714_买卖股票的最佳时机含手续费.cpp" />
+    <Content Include="LeetCode\00728_自除数.cpp" />
     <Content Include="LeetCode\00762_二进制表示中质数个计算置位.cpp" />
     <Content Include="LeetCode\00784_字母大小写全排列.cpp" />
     <Content Include="LeetCode\00797_所有可能的路径.cpp" />
