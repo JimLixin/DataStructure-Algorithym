@@ -220,6 +220,7 @@
     <Content Include="LeetCode\01019_链表中的下一个更大节点.cpp" />
     <Content Include="LeetCode\01028_从先序遍历还原二叉树.cpp" />
     <Content Include="LeetCode\01038_从二叉搜索树到更大和树.cpp" />
+    <Content Include="LeetCode\01051_高度检查器.cpp" />
     <Content Include="LeetCode\01052_爱生气的书店老板.cpp" />
     <Content Include="LeetCode\01108_IP 地址无效化.cpp" />
     <Content Include="LeetCode\01143_最长公共子序列.cpp" />
