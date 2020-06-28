@@ -652,6 +652,7 @@
     <Content Include="LeetCode\滑动窗口\最长不含重复字符的子字符串.cpp" />
     <Content Include="LeetCode\滑动窗口\最长湍流子数组.cpp" />
     <Content Include="LeetCode\滑动窗口\爱生气的书店老板.cpp" />
+    <Content Include="LeetCode\滑动窗口\长度最小的子数组.cpp" />
     <Content Include="LeetCode\贪心算法\readme.txt" />
     <Content Include="LeetCode\位运算\readme.txt" />
     <Content Include="labuladong的算法博客.txt" />
