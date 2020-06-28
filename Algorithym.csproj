@@ -171,6 +171,7 @@
     <Content Include="LeetCode\00590_N叉树的后序遍历.cpp" />
     <Content Include="LeetCode\00641_设计循环双端队列.cpp" />
     <Content Include="LeetCode\00654_最大二叉树.cpp" />
+    <Content Include="LeetCode\00657_机器人能否返回原点.cpp" />
     <Content Include="LeetCode\00676_实现一个魔法字典.cpp" />
     <Compile Include="LeetCode\00680_valid-palindrome-ii.cs" />
     <Compile Include="LeetCode\00709_to-lower-case.cs" />
