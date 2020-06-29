@@ -217,6 +217,7 @@
     <Content Include="LeetCode\00947_移除最多的同行或同列石头.cpp" />
     <Content Include="LeetCode\00978_最长湍流子数组.cpp" />
     <Content Include="LeetCode\01004_最大连续1的个数_III.cpp" />
+    <Content Include="LeetCode\01008_先序遍历构造二叉树.cpp" />
     <Content Include="LeetCode\01014_最佳观光组合.cpp" />
     <Content Include="LeetCode\01019_链表中的下一个更大节点.cpp" />
     <Content Include="LeetCode\01028_从先序遍历还原二叉树.cpp" />
