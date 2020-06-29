@@ -227,6 +227,7 @@
     <Content Include="LeetCode\01052_爱生气的书店老板.cpp" />
     <Content Include="LeetCode\01108_IP 地址无效化.cpp" />
     <Content Include="LeetCode\01143_最长公共子序列.cpp" />
+    <Content Include="LeetCode\01261_在受污染的二叉树中查找元素.cpp" />
     <Content Include="LeetCode\01281_整数的各位积和之差.cpp" />
     <Content Include="LeetCode\01282_用户分组.cpp" />
     <Content Include="LeetCode\01290_二进制链表转整数.cpp" />
