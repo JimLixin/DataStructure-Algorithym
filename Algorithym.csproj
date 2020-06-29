@@ -240,6 +240,7 @@
     <Content Include="LeetCode\01456_定长子串中元音的最大数目.cpp" />
     <Content Include="LeetCode\01464_数组中两元素的最大乘积.cpp" />
     <Content Include="LeetCode\01470_重新排列数组.cpp" />
+    <Content Include="LeetCode\01476_子矩形查询.cpp" />
     <Content Include="LeetCode\LCCI\单词频率.cpp" />
     <Content Include="LeetCode\LCCI\幂集.cpp" />
     <Content Include="LeetCode\LCCI\括号.cpp" />
