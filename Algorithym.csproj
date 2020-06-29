@@ -127,6 +127,7 @@
     <Content Include="LeetCode\00208_实现Trie前缀树.cpp" />
     <Content Include="LeetCode\00227_基本计算器_II.cpp" />
     <Content Include="LeetCode\00228_汇总区间.cpp" />
+    <Content Include="LeetCode\00289_生命游戏.cpp" />
     <Content Include="LeetCode\00290_单词规律.cpp" />
     <Content Include="LeetCode\00211_添加与搜索单词 - 数据结构设计.cpp" />
     <Content Include="LeetCode\00216_组合总和_III.cpp" />
@@ -613,6 +614,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Content Include="LeetCode\00701_二叉搜索树中的插入操作.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="LeetCode\00021_merge-two-sorted-lists.cpp" />
