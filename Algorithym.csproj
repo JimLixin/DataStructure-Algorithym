@@ -143,6 +143,7 @@
     <Compile Include="LeetCode\00368_最大整除子集.cs" />
     <Compile Include="LeetCode\00371_两整数之和.cs" />
     <Compile Include="LeetCode\00376_摆动序列.cs" />
+    <Content Include="LeetCode\00386_字典序排数.cpp" />
     <Content Include="LeetCode\00389_找不同.cpp" />
     <Compile Include="LeetCode\00392_判断子序列.cs" />
     <Compile Include="LeetCode\00402_移掉K位数字.cs" />
@@ -669,6 +670,7 @@
     <Content Include="LeetCode\贪心算法\可获得的最大点数.cpp" />
     <Content Include="LeetCode\递归+回溯\二叉树中的最大路径和.cpp" />
     <Content Include="LeetCode\递归+回溯\从二叉搜索树到更大和树.cpp" />
+    <Content Include="LeetCode\递归+回溯\字典序排数.cpp" />
     <Content Include="LeetCode\递归+回溯\字母大小写全排列.cpp" />
     <Content Include="LeetCode\递归+回溯\所有可能的路径.cpp" />
     <Content Include="LeetCode\递归+回溯\组合总和_III.cpp" />
