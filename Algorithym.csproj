@@ -144,6 +144,7 @@
     <Compile Include="LeetCode\00368_最大整除子集.cs" />
     <Compile Include="LeetCode\00371_两整数之和.cs" />
     <Compile Include="LeetCode\00376_摆动序列.cs" />
+    <Content Include="LeetCode\00378_有序矩阵中第K小的元素.cpp" />
     <Content Include="LeetCode\00386_字典序排数.cpp" />
     <Content Include="LeetCode\00389_找不同.cpp" />
     <Compile Include="LeetCode\00392_判断子序列.cs" />
