@@ -144,6 +144,7 @@
     <Compile Include="LeetCode\00368_最大整除子集.cs" />
     <Compile Include="LeetCode\00371_两整数之和.cs" />
     <Compile Include="LeetCode\00376_摆动序列.cs" />
+    <Content Include="LeetCode\00357_计算各个位数不同的数字个数.cpp" />
     <Content Include="LeetCode\00378_有序矩阵中第K小的元素.cpp" />
     <Content Include="LeetCode\00386_字典序排数.cpp" />
     <Content Include="LeetCode\00389_找不同.cpp" />
@@ -211,6 +212,7 @@
     <Content Include="LeetCode\00682_棒球比赛.cpp" />
     <Content Include="LeetCode\00684_冗余连接.cpp" />
     <Content Include="LeetCode\00714_买卖股票的最佳时机含手续费.cpp" />
+    <Content Include="LeetCode\00718_最长重复子数组.cpp" />
     <Content Include="LeetCode\00728_自除数.cpp" />
     <Content Include="LeetCode\00762_二进制表示中质数个计算置位.cpp" />
     <Content Include="LeetCode\00784_字母大小写全排列.cpp" />
@@ -236,6 +238,7 @@
     <Content Include="LeetCode\01302_层数最深叶子节点的和.cpp" />
     <Content Include="LeetCode\01309_解码字母到整数映射.cpp" />
     <Content Include="LeetCode\01313_解压缩编码列表.cpp" />
+    <Content Include="LeetCode\01314_矩阵区域和.cpp" />
     <Content Include="LeetCode\01315%29祖父节点值为偶数的节点和.cpp" />
     <Content Include="LeetCode\01319_连通网络的操作次数.cpp" />
     <Content Include="LeetCode\01389_按既定顺序创建目标数组.cpp" />
@@ -645,6 +648,7 @@
     <Content Include="LeetCode\动态规划\最长公共子序列.cpp" />
     <Content Include="LeetCode\动态规划\最长湍流子数组.cpp" />
     <Content Include="LeetCode\动态规划\目标和.cpp" />
+    <Content Include="LeetCode\动态规划\矩阵区域和.cpp" />
     <Content Include="LeetCode\动态规划\等差数列划分.cpp" />
     <Content Include="LeetCode\动态规划\编辑距离.cpp" />
     <Content Include="LeetCode\单调栈\下一个更大元素_II.cpp" />
