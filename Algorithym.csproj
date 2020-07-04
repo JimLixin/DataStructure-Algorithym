@@ -243,6 +243,7 @@
     <Content Include="LeetCode\01319_连通网络的操作次数.cpp" />
     <Content Include="LeetCode\01389_按既定顺序创建目标数组.cpp" />
     <Content Include="LeetCode\01395_统计作战单位数.cpp" />
+    <Content Include="LeetCode\01402_做菜顺序.cpp" />
     <Content Include="LeetCode\01409_查询带键的排列.cpp" />
     <Content Include="LeetCode\01423_可获得的最大点数.cpp" />
     <Content Include="LeetCode\01441_用栈操作构建数组.cpp" />
