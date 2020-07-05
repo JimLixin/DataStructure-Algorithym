@@ -262,6 +262,7 @@
     <Content Include="LeetCode\LCCI\整数转换.cpp" />
     <Content Include="LeetCode\LCCI\最大数值.cpp" />
     <Content Include="LeetCode\LCCI\最短超串.cpp" />
+    <Content Include="LeetCode\LCCI\硬币.cpp" />
     <Content Include="LeetCode\LCCI\第 k 个数.cpp" />
     <Compile Include="LeetCode\动态规划\回文子串.cs" />
     <Compile Include="LeetCode\动态规划\最大整除子集.cs" />
@@ -655,6 +656,7 @@
     <Content Include="LeetCode\动态规划\最长湍流子数组.cpp" />
     <Content Include="LeetCode\动态规划\目标和.cpp" />
     <Content Include="LeetCode\动态规划\矩阵区域和.cpp" />
+    <Content Include="LeetCode\动态规划\硬币.cpp" />
     <Content Include="LeetCode\动态规划\等差数列划分.cpp" />
     <Content Include="LeetCode\动态规划\编辑距离.cpp" />
     <Content Include="LeetCode\动态规划\通配符匹配.cpp" />
