@@ -213,6 +213,7 @@
     <Content Include="LeetCode\00677_键值映射.cpp" />
     <Content Include="LeetCode\00682_棒球比赛.cpp" />
     <Content Include="LeetCode\00684_冗余连接.cpp" />
+    <Content Include="LeetCode\00712_两个字符串的最小ASCII删除和.cpp" />
     <Content Include="LeetCode\00714_买卖股票的最佳时机含手续费.cpp" />
     <Content Include="LeetCode\00718_最长重复子数组.cpp" />
     <Content Include="LeetCode\00728_自除数.cpp" />
@@ -641,6 +642,7 @@
     <Content Include="LeetCode\前缀树%28Trie%29\添加与搜索单词 - 数据结构设计.cpp" />
     <Content Include="LeetCode\前缀树%28Trie%29\键值映射.cpp" />
     <Content Include="LeetCode\动态规划\两个字符串的删除操作.cpp" />
+    <Content Include="LeetCode\动态规划\两个字符串的最小ASCII删除和.cpp" />
     <Content Include="LeetCode\动态规划\买卖股票的最佳时机_III.cpp" />
     <Content Include="LeetCode\动态规划\买卖股票的最佳时机_IV.cpp" />
     <Content Include="LeetCode\动态规划\买卖股票的最佳时机含手续费.cpp" />
