@@ -156,6 +156,7 @@
     <Content Include="LeetCode\00416_分割等和子集.cpp" />
     <Content Include="LeetCode\00424_替换后的最长重复字符.cpp" />
     <Content Include="LeetCode\00429_N叉树的层序遍历.cpp" />
+    <Content Include="LeetCode\00444_通配符匹配.cpp" />
     <Content Include="LeetCode\00445_两数相加_II.cpp" />
     <Content Include="LeetCode\00448_找到所有数组中消失的数字.cpp" />
     <Compile Include="LeetCode\00455_分发饼干.cs" />
@@ -652,6 +653,7 @@
     <Content Include="LeetCode\动态规划\矩阵区域和.cpp" />
     <Content Include="LeetCode\动态规划\等差数列划分.cpp" />
     <Content Include="LeetCode\动态规划\编辑距离.cpp" />
+    <Content Include="LeetCode\动态规划\通配符匹配.cpp" />
     <Content Include="LeetCode\单调栈\下一个更大元素_II.cpp" />
     <Content Include="LeetCode\双指针\最长不含重复字符的子字符串.cpp" />
     <Content Include="LeetCode\并查集\冗余连接.cpp" />
