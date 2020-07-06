@@ -250,6 +250,7 @@
     <Content Include="LeetCode\01402_做菜顺序.cpp" />
     <Content Include="LeetCode\01409_查询带键的排列.cpp" />
     <Content Include="LeetCode\01423_可获得的最大点数.cpp" />
+    <Content Include="LeetCode\01436_旅行终点站.cpp" />
     <Content Include="LeetCode\01441_用栈操作构建数组.cpp" />
     <Content Include="LeetCode\01450_在既定时间做作业的学生人数.cpp" />
     <Content Include="LeetCode\01456_定长子串中元音的最大数目.cpp" />
