@@ -235,6 +235,7 @@
     <Content Include="LeetCode\01108_IP 地址无效化.cpp" />
     <Content Include="LeetCode\01143_最长公共子序列.cpp" />
     <Content Include="LeetCode\01261_在受污染的二叉树中查找元素.cpp" />
+    <Content Include="LeetCode\01266_访问所有点的最小时间.cpp" />
     <Content Include="LeetCode\01281_整数的各位积和之差.cpp" />
     <Content Include="LeetCode\01282_用户分组.cpp" />
     <Content Include="LeetCode\01290_二进制链表转整数.cpp" />
@@ -643,6 +644,7 @@
     <Content Include="LeetCode\前缀树%28Trie%29\实现一个魔法字典.cpp" />
     <Content Include="LeetCode\前缀树%28Trie%29\添加与搜索单词 - 数据结构设计.cpp" />
     <Content Include="LeetCode\前缀树%28Trie%29\键值映射.cpp" />
+    <Content Include="LeetCode\动态规划\一次编辑.cpp" />
     <Content Include="LeetCode\动态规划\两个字符串的删除操作.cpp" />
     <Content Include="LeetCode\动态规划\两个字符串的最小ASCII删除和.cpp" />
     <Content Include="LeetCode\动态规划\买卖股票的最佳时机_III.cpp" />
