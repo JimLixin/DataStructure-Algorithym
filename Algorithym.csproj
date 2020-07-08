@@ -542,6 +542,7 @@
     <Content Include="LeetCode\00202_快乐数.cpp" />
     <Content Include="LeetCode\00263_丑数.cpp" />
     <Content Include="LeetCode\00264_丑数_II.cpp" />
+    <Content Include="LeetCode\LCCI\跳水板.cpp" />
     <Content Include="LeetCode\LCCI\配对交换.cpp" />
     <Content Include="LeetCode\LCOF\二叉搜索树与双向链表.cpp" />
     <Content Include="LeetCode\LCOF\二叉搜索树的最近公共祖先.cpp" />
