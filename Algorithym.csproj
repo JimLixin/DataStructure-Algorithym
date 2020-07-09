@@ -234,6 +234,7 @@
     <Content Include="LeetCode\01052_爱生气的书店老板.cpp" />
     <Content Include="LeetCode\01108_IP 地址无效化.cpp" />
     <Content Include="LeetCode\01143_最长公共子序列.cpp" />
+    <Content Include="LeetCode\01161_最大层内元素和.cpp" />
     <Content Include="LeetCode\01261_在受污染的二叉树中查找元素.cpp" />
     <Content Include="LeetCode\01266_访问所有点的最小时间.cpp" />
     <Content Include="LeetCode\01281_整数的各位积和之差.cpp" />
