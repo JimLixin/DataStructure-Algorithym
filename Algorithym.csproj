@@ -234,6 +234,7 @@
     <Content Include="LeetCode\01051_高度检查器.cpp" />
     <Content Include="LeetCode\01052_爱生气的书店老板.cpp" />
     <Content Include="LeetCode\01108_IP 地址无效化.cpp" />
+    <Content Include="LeetCode\01123_最深叶节点的最近公共祖先.cpp" />
     <Content Include="LeetCode\01143_最长公共子序列.cpp" />
     <Content Include="LeetCode\01161_最大层内元素和.cpp" />
     <Content Include="LeetCode\01261_在受污染的二叉树中查找元素.cpp" />
