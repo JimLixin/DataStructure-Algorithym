@@ -156,6 +156,7 @@
     <Content Include="LeetCode\00416_分割等和子集.cpp" />
     <Content Include="LeetCode\00424_替换后的最长重复字符.cpp" />
     <Content Include="LeetCode\00429_N叉树的层序遍历.cpp" />
+    <Content Include="LeetCode\00442_数组中重复的数据.cpp" />
     <Content Include="LeetCode\00444_通配符匹配.cpp" />
     <Content Include="LeetCode\00445_两数相加_II.cpp" />
     <Content Include="LeetCode\00448_找到所有数组中消失的数字.cpp" />
@@ -259,6 +260,7 @@
     <Content Include="LeetCode\01464_数组中两元素的最大乘积.cpp" />
     <Content Include="LeetCode\01470_重新排列数组.cpp" />
     <Content Include="LeetCode\01476_子矩形查询.cpp" />
+    <Content Include="LeetCode\315_计算右侧小于当前元素的个数.cpp" />
     <Content Include="LeetCode\LCCI\一次编辑.cpp" />
     <Content Include="LeetCode\LCCI\八皇后.cpp" />
     <Content Include="LeetCode\LCCI\单词频率.cpp" />
