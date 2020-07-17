@@ -222,6 +222,7 @@
     <Content Include="LeetCode\00784_字母大小写全排列.cpp" />
     <Content Include="LeetCode\00797_所有可能的路径.cpp" />
     <Content Include="LeetCode\00876_链表的中间结点.cpp" />
+    <Content Include="LeetCode\00905_按奇偶排序数组.cpp" />
     <Content Include="LeetCode\00933_最近的请求次数.cpp" />
     <Content Include="LeetCode\00947_移除最多的同行或同列石头.cpp" />
     <Content Include="LeetCode\00978_最长湍流子数组.cpp" />
