@@ -261,6 +261,7 @@
     <Content Include="LeetCode\01456_定长子串中元音的最大数目.cpp" />
     <Content Include="LeetCode\01464_数组中两元素的最大乘积.cpp" />
     <Content Include="LeetCode\01470_重新排列数组.cpp" />
+    <Content Include="LeetCode\01475_商品折扣后的最终价格.cpp" />
     <Content Include="LeetCode\01476_子矩形查询.cpp" />
     <Content Include="LeetCode\315_计算右侧小于当前元素的个数.cpp" />
     <Content Include="LeetCode\LCCI\一次编辑.cpp" />
@@ -672,6 +673,7 @@
     <Content Include="LeetCode\动态规划\编辑距离.cpp" />
     <Content Include="LeetCode\动态规划\通配符匹配.cpp" />
     <Content Include="LeetCode\单调栈\下一个更大元素_II.cpp" />
+    <Content Include="LeetCode\单调栈\商品折扣后的最终价格.cpp" />
     <Content Include="LeetCode\双指针\最长不含重复字符的子字符串.cpp" />
     <Content Include="LeetCode\并查集\冗余连接.cpp" />
     <Content Include="LeetCode\并查集\朋友圈.cpp" />
